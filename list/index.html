@@ -5,12 +5,24 @@ title:  "Dr. Jekyll's Themes Listing"
 
 <h1>{{ page.title }}</h1>
 
-
-
 <table>
 
- <tr>
-   <td></td>
- </tr>
+{% for theme in site.data.themes %}
+<tr>
+   <td><b>{{ theme.title }}</b></td>
+   <td>{{ theme.author }}</td>
+   <td>{{ theme.license }}</td>
+   <td>{{ theme.thumbnail }}</td>
+</tr>
+<tr>
+  <td colspan='4'>
+    <ul>
+      <li>home:    <a href="{{ theme.homepage }}">{{ theme.homepage }}</a></li>
+      <li>download:<a href="{{ theme.download }}">{{ theme.download }}</a></li>
+      <li>demo:    <a href="{{ theme.demo }}">{{ theme.demo }}</a></li>
+    </ul>
+  </td>
+</tr>
+{% endfor %}
 
 </table>
