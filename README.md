@@ -1,9 +1,9 @@
 # Dr. Jekyll's Themes
 
-(Yet Another) Static Site Theme Directory
+(Yet Another) Static Site Theme Directory - see it live @ [`drjekyllthemes.github.io`](http://drjekyllthemes.github.io)
 
 
-## Add Your Theme!
+## How-To Add Your Theme
 
 * Fork the site on GitHub
 * Add a new entry in the [`_data/themes.yml`](https://github.com/drjekyllthemes/drjekyllthemes.github.io/blob/master/_data/themes.yml) file and fill out all fields.
