@@ -6,7 +6,7 @@
 ## Add Your Theme!
 
 * Fork the site on GitHub
-* Add a new entry in the `_data/themes.yml` file and fill out all fields.
+* Add a new entry in the [`_data/themes.yml`](https://github.com/drjekyllthemes/drjekyllthemes.github.io/blob/master/_data/themes.yml) file and fill out all fields.
   Example:
 
 ~~~
@@ -19,7 +19,7 @@
   license:   MIT License
 ~~~
 
-* Make a 250 x 200 thumbnail and drop it int the thumbnails directory.
+* Make a 250 x 200 thumbnail and drop it in the thumbnails folder.
   Note: Do NOT forget to list its filename in the `themes.yml` entry.
 * Test it out, then push your changes up and open a pull request.
 * Thanks!
