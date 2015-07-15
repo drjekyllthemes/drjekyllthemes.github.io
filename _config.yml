@@ -1,0 +1,28 @@
+###########
+# site.url, site.title
+
+url:   "http://drjekyllthemes.github.io"
+title: "Dr. Jekyll's Themes"
+
+
+########
+# more settings
+
+markdown: kramdown
+
+
+##sass:
+##  sass_dir: css
+##   style:    expanded
+
+
+include:
+- _data
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false
+
