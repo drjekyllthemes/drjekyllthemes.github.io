@@ -6,7 +6,8 @@ title: "Dr. Jekyll's Themes"
 ## note: 
 #  use site.path in your templates to make it work for both protocols e.g. http and https
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
-path:  /
+#    note: for root path use empty string e.g. '' - do NOT include trailing slash e.g. /
+path:   ''
 url:   "http://drjekyllthemes.github.io"
 
 
