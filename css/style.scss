@@ -11,6 +11,7 @@ body {
  
   // background-color: #f4f4f4;
   color: #333333;
+  margin: 0;
 }
 
 
@@ -35,10 +36,13 @@ a:hover {
 
   .big
   {
+    display: inline-block;
     font-family: 'Playball', cursive;
     font-size: 220%;
     font-weight: bold;
     // color: $color-primary;
+    color: white;
+    background-color: $color-primary;
   }
 
   .small
