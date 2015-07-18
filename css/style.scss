@@ -8,6 +8,9 @@
 body {
  // find a better font - why? why not??
  font-family: $font-family;
+ 
+  background-color: #f4f4f4;
+  color: #333333;
 }
 
 
@@ -28,7 +31,7 @@ a:hover {
 
   .big
   {
-    font-size: 200%;
+    font-size: 300%;
     font-weight: bold;
     color: $color-primary;
   }
@@ -36,7 +39,7 @@ a:hover {
   .small
   {
     font-size: 120%;
-    color: gray;
+    // color: gray;
     padding-left: 15px;
   }
 } // # header
