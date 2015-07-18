@@ -37,12 +37,15 @@ a:hover {
   .big
   {
     display: inline-block;
+    text-align: center;
+
     font-family: 'Playball', cursive;
-    font-size: 220%;
-    font-weight: bold;
+    font-size: 240%;
+    // font-weight: bold;
     // color: $color-primary;
     color: white;
     background-color: $color-primary;
+    padding: 12px;
   }
 
   .small
@@ -69,8 +72,8 @@ a:hover {
 
 
 .announce {
-  background-color: $color-primary; // red;
-  color: white;
+  // background-color: $color-primary; // red;
+
   font-size: 18px;
   padding: 8px 8px 4px 8px; /* top right bottom left */
   margin: 6px 0 6px 0; /* top right bottom left */
