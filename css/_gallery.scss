@@ -4,8 +4,8 @@
    background-color: #f4f4f4;
    margin: 0;
 
-   padding-top:    48px; // was: 24px;
-   padding-bottom: 48px; // was: 24px;
+   padding-top:    24px; // was: 24px;
+   padding-bottom: 60px; // was: 24+24+12px;
    padding-left:   48px; // was: 24px;
    // padding-right:  24px;
 
@@ -19,7 +19,7 @@
     background-color: white;
     margin-bottom: 24px;  // was: 15px;
     margin-right: 24px;   // was: 15px;
-    padding: 10px 15px;    
+    padding: 10px 15px;
 
     .theme-info {
       margin-bottom: 10px;
