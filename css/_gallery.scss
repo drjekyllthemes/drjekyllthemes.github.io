@@ -1,0 +1,23 @@
+
+.gallery {
+
+  .theme {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+    width: 345px;   /* note: 330+15px add margin+border */
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    .theme-info {
+      margin-bottom: 10px;
+    }
+
+    .theme-preview img   {
+      border: 1px solid #bbb;
+    }
+ 
+  } // .theme
+} // .gallery
+

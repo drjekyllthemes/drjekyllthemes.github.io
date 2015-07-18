@@ -5,14 +5,19 @@
 @import 'settings';
 
 
+body {
+  font-family: $font-family;
+}
+
+
 a, a:visited {
-  color: red;
+  color: $color-primary;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  background-color: yellow;
+  background-color: $color-link-hover;
 }
 
 
@@ -37,14 +42,26 @@ a:hover {
 
 
 .announce {
-  // background-color: #ff4500;   // OrangeRed (see wikipedia webcolors)
-  background-color: #f0e68c;  // Khaki
-
+  background-color: $color-primary; // red;
+  color: white;
   font-size: 18px;
   padding: 8px 8px 4px 8px; /* top right bottom left */
   margin: 6px 0 6px 0; /* top right bottom left */
-  border: 1px solid red;
-}
+  border: 1px solid $color-primary;
+
+  a {
+   color: white;
+   text-decoration: none;
+   &:visited {
+    color: white;
+   }
+   &:hover {
+    color: $color-primary; // red;
+    background-color: white;
+   }
+  }
+} // .announce
+
 
 
 #nav {
@@ -59,27 +76,5 @@ a:hover {
   }
 }
 
-
-
-.gallery {
-
-  .theme {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-
-    width: 345px;   /* note: 330+15px add margin+border */
-    margin-right: 15px;
-    margin-bottom: 15px;
-
-    .theme-info {
-      margin-bottom: 10px;
-    }
-
-    .theme-preview img   {
-      border: 1px solid #bbb;
-    }
- 
-  } // .theme
-} // .gallery
+@import 'gallery';
 
