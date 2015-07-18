@@ -5,10 +5,63 @@
 @import 'settings';
 
 
+a, a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: yellow;
+}
+
+
+
+#header {
+  padding: 0.25em;
+
+  .big
+  {
+    font-size: 200%;
+    font-weight: bold;
+    color: red;
+  }
+
+  .small
+  {
+    font-size: 120%;
+    color: gray;
+    padding-left: 15px;
+  }
+} // # header
+
+
+.announce {
+  background-color: #dff0d8;
+  font-size: 18px;
+  padding: 8px 8px 4px 8px; /* top right bottom left */
+  margin: 6px 0 6px 0; /* top right bottom left */
+  border: 1px solid red;
+}
+
+
+#nav {
+  padding: 0.5em;
+
+  a, a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+
 
 .gallery {
 
-    .theme {
+  .theme {
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -25,6 +78,6 @@
       border: 1px solid #bbb;
     }
  
-   } // .theme
+  } // .theme
 } // .gallery
 
