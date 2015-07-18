@@ -30,7 +30,7 @@ a:hover {
   {
     font-size: 200%;
     font-weight: bold;
-    // color: red;
+    color: $color-primary;
   }
 
   .small
@@ -52,7 +52,8 @@ a:hover {
 
   a {
    color: white;
-   text-decoration: none;
+   // text-decoration: none;
+   text-decoration: underline;
    &:visited {
     color: white;
    }
