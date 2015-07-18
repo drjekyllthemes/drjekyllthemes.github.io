@@ -7,7 +7,7 @@
 
 body {
  // find a better font - why? why not??
- //  font-family: $font-family;
+ font-family: $font-family;
 }
 
 
@@ -18,7 +18,7 @@ a, a:visited {
 
 a:hover {
   text-decoration: underline;
-  background-color: $color-link-hover;
+  // background-color: $color-link-hover;
 }
 
 
