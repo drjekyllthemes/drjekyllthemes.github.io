@@ -9,7 +9,7 @@ body {
  // find a better font - why? why not??
  font-family: $font-family;
  
-  background-color: #f4f4f4;
+  // background-color: #f4f4f4;
   color: #333333;
 }
 
@@ -26,7 +26,7 @@ a:hover {
 
 
 .box {
-  background-color: white;
+  // background-color: white;
 }
 
 
@@ -35,9 +35,10 @@ a:hover {
 
   .big
   {
+    font-family: 'Playball', cursive;
     font-size: 220%;
     font-weight: bold;
-    color: $color-primary;
+    // color: $color-primary;
   }
 
   .small
