@@ -9,9 +9,26 @@ body {
  // find a better font - why? why not??
  font-family: $font-family;
  
-  // background-color: #f4f4f4;
   color: #333333;
   margin: 0;
+}
+
+// assume this structure:
+//  1) front
+//  2) gallery  (see _gallery.scss)
+//  3) back
+
+#front {
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+}
+
+#back {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
 }
 
 
@@ -22,13 +39,9 @@ a, a:visited {
 
 a:hover {
   text-decoration: underline;
-  // background-color: $color-link-hover;
 }
 
 
-.box {
-  // background-color: white;
-}
 
 
 #header {
@@ -42,7 +55,6 @@ a:hover {
     font-family: 'Playball', cursive;
     font-size: 240%;
     // font-weight: bold;
-    // color: $color-primary;
     color: white;
     background-color: $color-primary;
     padding: 12px;
@@ -72,7 +84,7 @@ a:hover {
 
 
 .announce {
-  // background-color: $color-primary; // red;
+  background-color: #ffc;
 
   font-size: 18px;
   padding: 8px 8px 4px 8px; /* top right bottom left */
@@ -80,15 +92,14 @@ a:hover {
   border: 1px solid $color-primary;
 
   a {
-   color: white;
-   // text-decoration: none;
-   text-decoration: underline;
+   color: $color-primary;
+   text-decoration: none;
    &:visited {
-    color: white;
+    color: $color-primary;
    }
    &:hover {
-    color: $color-primary; // red;
-    background-color: white;
+    color: $color-primary;
+    text-decoration: underline;
    }
   }
 } // .announce
