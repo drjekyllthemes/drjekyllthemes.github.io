@@ -25,13 +25,17 @@ a:hover {
 }
 
 
+.box {
+  background-color: white;
+}
+
 
 #header {
   padding: 0.25em;
 
   .big
   {
-    font-size: 300%;
+    font-size: 220%;
     font-weight: bold;
     color: $color-primary;
   }
@@ -43,6 +47,20 @@ a:hover {
     padding-left: 15px;
   }
 } // # header
+
+
+
+#nav {
+  padding: 0.5em;
+
+  a, a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
 
 
 .announce {
@@ -68,18 +86,6 @@ a:hover {
 } // .announce
 
 
-
-#nav {
-  padding: 0.5em;
-
-  a, a:visited {
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-}
 
 @import 'gallery';
 
