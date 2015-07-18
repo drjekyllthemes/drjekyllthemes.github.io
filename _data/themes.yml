@@ -9,6 +9,70 @@
 #
 #  auto-generate donwload link from github link??
 
+- title:     Minimal
+  homepage:  https://github.com/drjekyllthemes/jekyll-minimal-theme
+  download:  https://github.com/drjekyllthemes/jekyll-minimal-theme/archive/gh-pages.zip
+  demo:      http://drjekyllthemes.github.io/jekyll-minimal-theme/
+  author:    Dr. Henry Jekyll et al
+  thumbnail: drjekyll-minimal.png
+  license:   Public Domain
+
+- title:     Bootstrap
+  homepage:  https://github.com/drjekyllthemes/jekyll-bootstrap-theme
+  download:  https://github.com/drjekyllthemes/jekyll-bootstrap-theme/archive/gh-pages.zip
+  demo:      http://drjekyllthemes.github.io/jekyll-bootstrap-theme/
+  author:    Dr. Henry Jekyll et al
+  thumbnail: drjekyll-bootstrap.png
+  license:   Public Domain
+
+- title:     Classics Book
+  homepage:  https://github.com/drjekyllthemes/jekyll-book-theme
+  download:  https://github.com/drjekyllthemes/jekyll-book-theme/archive/gh-pages.zip
+  demo:      http://drjekyllthemes.github.io/jekyll-book-theme/
+  author:    Dr. Henry Jekyll et al
+  thumbnail: drjekyll-book.png
+  license:   Public Domain
+
+
+- title:     Poole
+  homepage:  https://github.com/poole/poole
+  download:  https://github.com/poole/poole/archive/master.zip
+  demo:      http://demo.getpoole.com/
+  author:    Mark Otto
+  thumbnail: poole.png
+  license:   MIT
+
+- title:     Hyde
+  homepage:  https://github.com/poole/hyde
+  download:  https://github.com/poole/hyde/archive/master.zip
+  demo:      http://hyde.getpoole.com/
+  author:    Mark Otto
+  thumbnail: poole-hyde.png
+  license:   MIT
+
+- title:     Lanyon
+  homepage:  https://github.com/poole/lanyon
+  download:  https://github.com/poole/lanyon/archive/master.zip
+  demo:      http://lanyon.getpoole.com/
+  author:    Mark Otto
+  thumbnail: poole-lanyon.png
+  license:   MIT
+
+- title:     Beautiful Jekyll
+  homepage:  https://github.com/daattali/beautiful-jekyll
+  download:  https://github.com/daattali/beautiful-jekyll/archive/master.zip
+  demo:      http://deanattali.com/beautiful-jekyll/
+  author:    Dean Attali
+  thumbnail: beautiful-jekyll.png
+  license:   MIT
+
+- title:     Jekyll Now
+  homepage:  https://github.com/barryclark/jekyll-now
+  download:  https://github.com/barryclark/jekyll-now/archive/master.zip
+  demo:      http://www.jekyllnow.com/
+  author:    Barry Clark
+  thumbnail: jekyll-now.png
+  license:   MIT
 
 - title: Scribble
   homepage: https://github.com/muan/scribble
