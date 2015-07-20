@@ -3,10 +3,8 @@
 (Yet Another) Static Site Theme Directory - see it live @ [`drjekyllthemes.github.io`](http://drjekyllthemes.github.io)
 
 
-## How-To Add Your Theme
 
-
-#### _See the [`/themes` repo »](https://github.com/drjekyllthemes/themes). Thanks!_
+#### _Add Your Theme! See the [`/themes` repo »](https://github.com/drjekyllthemes/themes). Thanks!_
 
 
 
