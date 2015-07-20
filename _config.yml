@@ -27,6 +27,8 @@ include:
 
 exclude:
 - README.md
+- _data/themes/README.md
+- _data/themes/themes.yml
 
 
 safe: true
