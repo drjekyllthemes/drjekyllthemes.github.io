@@ -21,8 +21,16 @@ title:  "Dr. Jekyll's Themes"
         {{ theme.author }}
         (License: {{ theme.license }})
         <br>
-        <a href="{{ theme.homepage }}">[Home]</a> 
-        <a href="{{ theme.demo }}">[Demo]</a>
+        {% if theme.home %}
+           <a href="{{ theme.homepage }}">[Source]</a>
+        {% else %}
+           [Home]
+        {% endif %}
+        {% if theme.demo %}
+           <a href="{{ theme.demo }}">[Demo]</a>
+        {% else %}
+           [Demo]
+        {% endif }
         <a href="{{ theme.download }}">[Download]</a>
     </div>
   </div>
