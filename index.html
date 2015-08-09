@@ -6,30 +6,41 @@ title:  "Dr. Jekyll's Themes"
 
 <div class='gallery'>
 {% for theme in site.data.themes.themes %}
+  {% if theme.github %}
+    {% capture home_url %}https://github.com/{{theme.github}}{% endcapture %}
+    {% if theme.branch %}
+      {% capture download_url %}https://github.com/{{theme.github}}/archive/{{theme.branch}}.zip{% endcapture %}
+    {% else %}
+      {% capture download_url %}https://github.com/{{theme.github}}/archive/master.zip{% endcapture %}
+    {% endif %}
+  {% else %}
+    {% assign home_url     = theme.home_url %}
+    {% assign download_url = theme.download_url %}
+  {% endif %}
   <div class='theme'>
     <div class='theme-preview'>
         <!-- todo/note: scale image to 200px height
              style="height: 200px; width: auto;   use - why, why not ??
           -->
-       <a href="{{ theme.homepage }}">
+       <a href="{{ home_url }}">
         <img src="{{site.path}}/_data/themes/thumbnails/{{theme.thumbnail}}">
        </a>
     </div>
     <div class='theme-info'>
-        <b>{{ theme.title }}</b>
+        <a href="{{ home_url }}"><b>{{ theme.title }}</b></a>
         by
         {{ theme.author }}
         (License: {{ theme.license }})
         <br>
-        {% if theme.homepage %}
-           <a href="{{ theme.homepage }}">[Home]</a>
-        {% else %}
-           [Home]
+      <!--
+        {% if home_url %}
+           <a href="{{ home_url }}">[More Info]</a>
         {% endif %}
-        {% if theme.demo %}
-           <a href="{{ theme.demo }}">[Demo]</a>
+      -->
+        {% if theme.demo_url %}
+           <a href="{{ theme.demo_url }}">[Live Demo]</a>
         {% endif %}
-        <a href="{{ theme.download }}">[Download]</a>
+        <a href="{{ download_url }}">[Download (.zip)]</a>
     </div>
   </div>
 {% endfor %}
