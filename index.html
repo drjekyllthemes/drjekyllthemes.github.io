@@ -41,6 +41,12 @@ title:  "Dr. Jekyll's Themes"
            <a href="{{ theme.demo_url }}">[Live Demo]</a>
         {% endif %}
         <a href="{{ download_url }}">[Download (.zip)]</a>
+        {% if theme.tags %}
+          <br>
+          {% for tag in theme.tags %}
+            #{{tag}}
+          {% endfor %}
+        {% endif %}
     </div>
   </div>
 {% endfor %}
