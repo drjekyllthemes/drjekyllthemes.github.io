@@ -3,47 +3,38 @@ layout: default
 title:  "Dr. Jekyll's Themes"
 ---
 
+<!-- note:
+      use generated hash (themes.o.themes) for now
+       theme[0]  => was theme.title (now is the theme key)
+       theme[1]  => was theme  (now is the theme hash)
+  -->
 
 <div class='gallery'>
-{% for theme in site.data.themes.themes %}
-  {% if theme.github %}
-    {% capture home_url %}https://github.com/{{theme.github}}{% endcapture %}
-    {% if theme.branch %}
-      {% capture download_url %}https://github.com/{{theme.github}}/archive/{{theme.branch}}.zip{% endcapture %}
-    {% else %}
-      {% capture download_url %}https://github.com/{{theme.github}}/archive/master.zip{% endcapture %}
-    {% endif %}
-  {% else %}
-    {% assign home_url     = theme.home_url %}
-    {% assign download_url = theme.download_url %}
-  {% endif %}
+{% for theme in site.data.themes.o.themes %}
   <div class='theme'>
     <div class='theme-preview'>
-        <!-- todo/note: scale image to 200px height
-             style="height: 200px; width: auto;   use - why, why not ??
-          -->
-       <a href="{{ home_url }}">
-        <img src="{{site.path}}/_data/themes/thumbnails/{{theme.thumbnail}}">
+       <a href="{{ theme[1].home_url }}">
+        <img src="{{site.path}}/_data/themes/thumbnails/{{theme[1].thumbnail}}">
        </a>
     </div>
     <div class='theme-info'>
-        <a href="{{ home_url }}"><b>{{ theme.title }}</b></a>
+        <a href="{{ theme[1].home_url }}"><b>{{ theme[0] }}</b></a>
         by
-        {{ theme.author }}
-        (License: {{ theme.license }})
+        {{ theme[1].author }}
+        (License: {{ theme[1].license }})
         <br>
       <!--
-        {% if home_url %}
-           <a href="{{ home_url }}">[More Info]</a>
+        {% if theme[1].home_url %}
+           <a href="{{ theme[1].home_url }}">[More Info]</a>
         {% endif %}
       -->
-        {% if theme.demo_url %}
-           <a href="{{ theme.demo_url }}">[Live Demo]</a>
+        {% if theme[1].demo_url %}
+           <a href="{{ theme[1].demo_url }}">[Live Demo]</a>
         {% endif %}
-        <a href="{{ download_url }}">[Download (.zip)]</a>
-        {% if theme.tags %}
+        <a href="{{ theme[1].download_url }}">[Download (.zip)]</a>
+        {% if theme[1].tags %}
           <br>
-          {% for tag in theme.tags %}
+          {% for tag in theme[1].tags %}
             #{{tag}}
           {% endfor %}
         {% endif %}

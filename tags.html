@@ -1,0 +1,13 @@
+---
+layout: default
+title:  "Dr. Jekyll's Themes by Tags"
+---
+
+{% for tag in site.data.themes.o.tags %}
+<p>
+  <b>{{ tag.name }}</b> ({{ tag.themes | size }}) <br>
+  {% for theme in tag.themes %}
+    {{ theme }}
+  {% endfor %}
+</p>
+{% endfor %}

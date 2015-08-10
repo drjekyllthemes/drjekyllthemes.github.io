@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Dr. Jekyll's Themes by Author"
+---
+
+{% for author in site.data.themes.o.authors %}
+<p>
+  <b>{{ author.name }}</b> ({{ author.themes | size }}) <br>
+  {% for theme in author.themes %}
+    {{ theme }}
+  {% endfor %}
+</p>
+{% endfor %}
+

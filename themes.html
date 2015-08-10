@@ -1,0 +1,15 @@
+---
+layout: default
+title:  "Dr. Jekyll's Themes"
+---
+
+<!-- for debugging:
+      list o/themes.yml
+  -->
+
+{% for theme in site.data.themes.o.themes %}
+<p>
+  <b>{{ theme[0] }}</b><br>
+  {{ theme[1] }}
+</p>
+{% endfor %}
