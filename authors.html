@@ -5,9 +5,10 @@ title:  "Dr. Jekyll's Themes by Author"
 
 {% for author in site.data.themes.o.authors %}
 <p>
-  <b>{{ author.name }}</b> ({{ author.themes | size }}) <br>
+  <b>{{ author.name }}</b> ({{ author.themes | size }}) -
   {% for theme in author.themes %}
     {{ theme }}
+    {% if forloop.last %} {% else %} • {% endif %}
   {% endfor %}
 </p>
 {% endfor %}
