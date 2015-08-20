@@ -106,6 +106,16 @@ a:hover {
 
 
 
+// note: add some padding for now
+//   post uses same default layout as theme for now
+.post {
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+}
+
+
 /* fix: use javascript?? jquery to add .programlisting class
   to pre tags followed by code e.g. <pre><code> => <pre class='programlisting'><code>
    for now assume all pres are programlistings
