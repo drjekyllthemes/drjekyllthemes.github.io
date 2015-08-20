@@ -115,6 +115,15 @@ a:hover {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 12px;
+
+  h1 {
+    border-bottom: 1px solid black;
+  }
+  
+  h2 {
+    border-bottom: 1px solid black;
+    font-weight: bold; 
+  }
 }
 
 
