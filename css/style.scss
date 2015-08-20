@@ -108,7 +108,9 @@ a:hover {
 
 // note: add some padding for now
 //   post uses same default layout as theme for now
-.post {
+//   use class="posts container" and "post container"
+.posts.container, 
+.post.container {
   padding-top: 12px;
   padding-left: 24px;
   padding-right: 24px;
