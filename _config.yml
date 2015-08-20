@@ -16,6 +16,7 @@ url:   "http://drjekyllthemes.github.io"
 
 markdown: kramdown
 
+permalink:  /news/:title.html
 
 sass:
   sass_dir: css
