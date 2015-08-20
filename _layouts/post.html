@@ -15,4 +15,12 @@ layout: default
     {{ content }}
   </article>
 
+  <div>
+    <b>More News</b>
+    <ul>
+      {% for post in site.posts %}
+        <li><a href="{{site.path}}/{{post.url}}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
