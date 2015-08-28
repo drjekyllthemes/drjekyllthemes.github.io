@@ -3,22 +3,14 @@ layout: default
 title:  "Dr. Jekyll's Themes by Tags"
 ---
 
-{% assign tags =  site.data.themes.themes | map: 'tags' | join: ',' | split: ',' | sort %}
+{% include inverted-relation.html collection=site.data.themes.themes field='tags' %}
 
-{% for tag in tags %}
-  {% ifchanged tag %}
+{% for tag in inverted_keys %}
+  {% assign themes = inverted_values[forloop.index0] %}
 
-    {% assign themes = '' | split: ',' %}
-    {% for theme in site.data.themes.themes %}
-      {% if theme.tags contains tag %}
-        {% assign themes = themes | push: theme %}
-      {% endif %}
-    {% endfor %}
+  <p>
+    <b>#{{ tag }}</b>({{ themes | size }})<br />
+    {{ themes | map: 'title' | join: ' • ' }}
+  </p>
 
-    <p>
-      <b>#{{ tag }}</b>({{ themes | size }})<br />
-      {{ themes | map: 'title' | join: ' • ' }}
-    </p>
-
-  {% endifchanged %}
 {% endfor %}
