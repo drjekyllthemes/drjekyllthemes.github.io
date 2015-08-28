@@ -3,13 +3,16 @@ layout: default
 title:  "Dr. Jekyll's Themes by Author"
 ---
 
-{% for author in site.data.themes.o.authors %}
-<p>
-  <b>{{ author.name }}</b> ({{ author.themes | size }}) -
-  {% for theme in author.themes %}
-    {{ theme }}
-    {% if forloop.last %} {% else %} • {% endif %}
-  {% endfor %}
-</p>
-{% endfor %}
+{% assign authors = site.data.themes.themes | map: 'author' | sort %}
 
+{% for author in authors %}
+  {% ifchanged author %}
+    {% assign themes = site.data.themes.themes | where: 'author', author %}
+
+    <p>
+      <b>{{ author }}</b>({{ themes | size }}) -
+      {{ themes | map: 'title' | join: ' • ' }}
+    </p>
+
+  {% endifchanged %}
+{% endfor %}

@@ -3,12 +3,22 @@ layout: default
 title:  "Dr. Jekyll's Themes by Tags"
 ---
 
-{% for tag in site.data.themes.o.tags %}
-<p>
-  <b>#{{ tag.name }}</b> ({{ tag.themes | size }}) <br>
-  {% for theme in tag.themes %}
-    {{ theme }}
-    {% if forloop.last %} {% else %} • {% endif %}
-  {% endfor %}
-</p>
+{% assign tags =  site.data.themes.themes | map: 'tags' | join: ',' | split: ',' | sort %}
+
+{% for tag in tags %}
+  {% ifchanged tag %}
+
+    {% assign themes = '' | split: ',' %}
+    {% for theme in site.data.themes.themes %}
+      {% if theme.tags contains tag %}
+        {% assign themes = themes | push: theme %}
+      {% endif %}
+    {% endfor %}
+
+    <p>
+      <b>#{{ tag }}</b>({{ themes | size }})<br />
+      {{ themes | map: 'title' | join: ' • ' }}
+    </p>
+
+  {% endifchanged %}
 {% endfor %}
