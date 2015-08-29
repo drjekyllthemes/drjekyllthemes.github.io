@@ -3,10 +3,10 @@ layout: default
 title:  "Dr. Jekyll's Themes by Tags"
 ---
 
-{% include inverted-relation.html collection=site.data.themes.themes field='tags' %}
+{% include group-by-array.html collection=site.data.themes.themes field='tags' %}
 
-{% for tag in inverted_keys %}
-  {% assign themes = inverted_values[forloop.index0] %}
+{% for tag in group_names %}
+  {% assign themes = group_items[forloop.index0] %}
 
   <p>
     <b>#{{ tag }}</b>({{ themes | size }})<br />

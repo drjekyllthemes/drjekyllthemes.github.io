@@ -2,14 +2,14 @@
 layout: default
 title:  "Dr. Jekyll's Themes by Author"
 ---
-{% include inverted-relation.html collection=site.data.themes.themes field='author' %}
 
-{% for author in inverted_keys %}
-  {% assign themes = inverted_values[forloop.index0] %}
+{% assign author_posts = site.data.themes.themes | group_by: 'author' %}
+
+{% for author_post in author_posts %}
 
   <p>
-    <b>{{ author }}</b>({{ themes | size }}) -
-    {{ themes | map: 'title' | join: ' • ' }}
+    <b>{{ author_post.name }}</b>({{ author_post.items | size }}) -
+    {{ author_post.items | map: 'title' | join: ' • ' }}
   </p>
 
 {% endfor %}
