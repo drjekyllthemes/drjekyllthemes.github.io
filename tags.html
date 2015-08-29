@@ -3,12 +3,14 @@ layout: default
 title:  "Dr. Jekyll's Themes by Tags"
 ---
 
-{% for tag in site.data.themes.o.tags %}
-<p>
-  <b>#{{ tag.name }}</b> ({{ tag.themes | size }}) <br>
-  {% for theme in tag.themes %}
-    {{ theme }}
-    {% if forloop.last %} {% else %} • {% endif %}
-  {% endfor %}
-</p>
+{% include group-by-array.html collection=site.data.themes.themes field='tags' %}
+
+{% for tag in group_names %}
+  {% assign themes = group_items[forloop.index0] %}
+
+  <p>
+    <b>#{{ tag }}</b>({{ themes | size }})<br />
+    {{ themes | map: 'title' | join: ' • ' }}
+  </p>
+
 {% endfor %}
