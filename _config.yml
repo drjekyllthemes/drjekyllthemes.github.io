@@ -29,7 +29,6 @@ include:
 exclude:
 - README.md
 - _data/themes/README.md
-- _data/themes/NOTES.md
 - _data/themes/themes.yml
 
 

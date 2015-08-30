@@ -7,7 +7,7 @@ title:  "Dr. Jekyll's Themes Listing"
 
 <table>
 
-{% for theme in site.data.themes.themes %}
+{% for theme in site.data.o.themes.themes %}
 <tr>
    <td><b>{{ theme.title }}</b></td>
    <td>{{ theme.author }}</td>
@@ -17,9 +17,9 @@ title:  "Dr. Jekyll's Themes Listing"
 <tr>
   <td colspan='4'>
     <ul>
-      <li>home:    <a href="{{ theme.homepage }}">{{ theme.homepage }}</a></li>
-      <li>download:<a href="{{ theme.download }}">{{ theme.download }}</a></li>
-      <li>demo:    <a href="{{ theme.demo }}">{{ theme.demo }}</a></li>
+      <li>home:    <a href="{{ theme.home_url }}">{{ theme.home_url }}</a></li>
+      <li>download:<a href="{{ theme.download_url }}">{{ theme.download_url }}</a></li>
+      <li>demo:    <a href="{{ theme.demo_url }}">{{ theme.demo_url }}</a></li>
     </ul>
   </td>
 </tr>
