@@ -1,10 +1,10 @@
 ---
 - name: Gerald Bauer
   themes:
-  - Planet Jekyll's Starter (Minimal)
-  - Dr Jekyll's Minimal
-  - Dr Jekyll's Bootstrap
-  - Dr Jekyll's Classics Book
+  - Henry's Starter (Minimal)
+  - Henry's Minimal
+  - Henry's Bootstrap
+  - Henry's Classics Book
 - name: Mark Otto
   themes:
   - Poole
@@ -164,6 +164,7 @@
 - name: Pavel Makhov
   themes:
   - Clean Dark
+  - Jekyll CV Crafter
 - name: Dirk Fabisch
   themes:
   - Mediator
@@ -276,7 +277,7 @@
 - name: Nick Balestra
   themes:
   - Kactus
-- name: RainyNight
+- name: WakelessDragon
   themes:
   - Tiffany
 - name: Ben Centra
@@ -288,3 +289,54 @@
 - name: Renyuan Zou
   themes:
   - Leonids
+- name: Lang Liu
+  themes:
+  - Book
+- name: Heiswayi Nrird
+  themes:
+  - The Plain
+  - Thinkspace
+- name: Motaquillah Maddane
+  themes:
+  - Daktilo
+- name: Gandara Fajar Umbara
+  themes:
+  - Kiko
+- name: Aron Barreira Bordin
+  themes:
+  - Neo HPSTR
+- name: Christos Alatzas
+  themes:
+  - Yellowblue
+- name: Ashish Gupta
+  themes:
+  - Ink
+- name: Akshay Agarwal
+  themes:
+  - Mono
+- name: Lau Siaw Young
+  themes:
+  - Immaculate
+- name: Diki Andriansyah
+  themes:
+  - Mangan
+- name: S├⌐rgio Kopplin
+  themes:
+  - Indigo Minimalist
+- name: Sunbliss
+  themes:
+  - Photorama
+- name: Jannik Richter
+  themes:
+  - Slender
+- name: Hemang Kumar
+  themes:
+  - Gravity
+  - Dev Journal
+  - Safarnama
+- name: Jens Willmer
+  themes:
+  - Decent
+- name: Dennis Rohner
+  themes:
+  - Urban

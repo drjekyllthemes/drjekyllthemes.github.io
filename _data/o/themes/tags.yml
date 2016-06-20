@@ -1,30 +1,141 @@
 ---
 - name: white
   themes:
-  - Planet Jekyll's Starter (Minimal)
-  - Dr Jekyll's Minimal
-  - Dr Jekyll's Bootstrap
-  - Dr Jekyll's Classics Book
+  - Henry's Starter (Minimal)
+  - Henry's Minimal
+  - Henry's Bootstrap
+  - Henry's Classics Book
+  - Neo HPSTR
+  - Mangan
+  - Indigo Minimalist
+  - Gravity
+  - Thinkspace
 - name: bootstrap
   themes:
-  - Dr Jekyll's Bootstrap
+  - Henry's Bootstrap
   - Shiori
 - name: scss
   themes:
-  - Dr Jekyll's Bootstrap
+  - Henry's Bootstrap
+  - Neo HPSTR
+  - Slender
 - name: books
   themes:
-  - Dr Jekyll's Classics Book
+  - Henry's Classics Book
 - name: poole
   themes:
   - Poole
   - Poole's Hyde
   - Poole's Lanyon
+- name: minimal
+  themes:
+  - Minimal Mistakes
+  - Ink
+  - Gravity
+  - Dev Journal
+  - Safarnama
+  - Thinkspace
+- name: responsive
+  themes:
+  - Minimal Mistakes
+  - Slender
+- name: blog
+  themes:
+  - Minimal Mistakes
+  - Ink
+- name: portfolio
+  themes:
+  - Minimal Mistakes
+- name: archive-pages
+  themes:
+  - Minimal Mistakes
+  - Gravity
+- name: cv
+  themes:
+  - Jekyll CV Crafter
 - name: resume
   themes:
+  - Jekyll CV Crafter
   - Resume Cards
   - iCard Resume
   - Resume
 - name: video
   themes:
   - Video
+- name: clean
+  themes:
+  - Leonids
+  - Ink
+  - Decent
+  - Thinkspace
+- name: content
+  themes:
+  - Leonids
+- name: two-column
+  themes:
+  - Ink
+- name: tufte
+  themes:
+  - Immaculate
+- name: google
+  themes:
+  - Immaculate
+- name: amp
+  themes:
+  - Immaculate
+- name: fast
+  themes:
+  - Immaculate
+- name: beautiful
+  themes:
+  - Immaculate
+- name: modern
+  themes:
+  - Immaculate
+- name: slick
+  themes:
+  - Immaculate
+- name: geek
+  themes:
+  - Mangan
+- name: black
+  themes:
+  - Mangan
+  - Photorama
+- name: dark
+  themes:
+  - Slender
+- name: text-based
+  themes:
+  - Gravity
+  - Dev Journal
+- name: archive
+  themes:
+  - Gravity
+- name: category
+  themes:
+  - Gravity
+- name: developers
+  themes:
+  - Dev Journal
+- name: travelogue
+  themes:
+  - Safarnama
+- name: journal
+  themes:
+  - Safarnama
+- name: decent
+  themes:
+  - Decent
+- name: html5
+  themes:
+  - Decent
+- name: elegant
+  themes:
+  - Decent
+- name: code
+  themes:
+  - Decent
+- name: photo
+  themes:
+  - Decent
