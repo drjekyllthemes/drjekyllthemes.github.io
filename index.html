@@ -19,10 +19,10 @@ title:  "Dr. Jekyll's Themes"
     </div>
     <div class='theme-info'>
         <a href="{{ theme[1].home_url }}"><b>{{ theme[1].title }}</b></a>
-        ★ {{ theme[1].stars }}
+        {% if theme[1].stars %} ★ {{ theme[1].stars }} {% endif %}
         by
         {{ theme[1].author }}
-        (License: {{ theme[1].license }})
+        (License: {% if theme[1].license %}{{ theme[1].license }}{% else %}???{% endif %})
         <br>
       <!--
         {% if theme[1].home_url %}
