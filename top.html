@@ -1,0 +1,11 @@
+---
+layout: default
+title:  "Top 22 - Dr. Jekyll's Themes"
+---
+
+{% assign top_themes = site.data.o.themes.themes | sort: "stars" %}
+<ul>
+{% for theme in top_themes limit:22 %}
+  <li>{{ theme.title }} {{ theme.stars }}</li>
+{% endfor %}
+</ul>
