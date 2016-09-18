@@ -1,16 +1,18 @@
 ---
-layout: default
+layout: themes
 title:  "Newest - Dr. Jekyll's Themes"
 ---
+
+<h1>Newest - Jekyll Themes</h1>
 
 {% assign top_themes = site.data.o.themes.themes | sort: "created" | reverse %}
 <table>
 {% for theme in top_themes limit:33 %}
   <tr>
     <td>
-      {{ theme.created }}
-      Last Update:
-      <span title="{{ theme.commit_msg }}">{{ theme.updated }}</span>
+      <span title="Last Update: {{ theme.updated | date: '%B %d, %Y' }} ++ {{ theme.commit_msg }}">
+        {{ theme.created | date: '%B %d, %Y' }}
+      </span>
     </td>
 
     <td>
@@ -39,13 +41,3 @@ title:  "Newest - Dr. Jekyll's Themes"
   </tr>
 {% endfor %}
 </table>
-
-
-
-<div id='back'>
-
-  {% include addtheme.html %}
-
-  {% include thanks.html %}
-
-</div>
