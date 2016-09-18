@@ -3,14 +3,13 @@ layout: themes
 title:  "Latest Updates - Dr. Jekyll's Themes"
 ---
 
-<h1>Latest Updated - Jekyll Themes</h1>
+<h2>Latest Updates - Jekyll Themes</h2>
 
 {% assign top_themes = site.data.o.themes.themes | sort: "updated" | reverse %}
 <table>
 {% for theme in top_themes limit:33 %}
   <tr>
     <td>
-      Last Update:
       <span title="{{ theme.commit_msg }}">{{ theme.updated | date: '%B %d, %Y' }}</span>
     </td>
 
