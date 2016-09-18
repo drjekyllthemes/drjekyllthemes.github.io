@@ -3,9 +3,34 @@ layout: default
 title:  "Top 22 - Dr. Jekyll's Themes"
 ---
 
-{% assign top_themes = site.data.o.themes.themes | sort: "stars" %}
-<ul>
+{% assign top_themes = site.data.o.themes.themes | sort: "stars" | reverse %}
+<table>
 {% for theme in top_themes limit:22 %}
-  <li>{{ theme.title }} {{ theme.stars }}</li>
+  <tr>
+    <td>
+        <span style="font-size: 300%">{{ forloop.index }}.</span>
+    </td>
+    <td>
+
+          <div>
+             <a href="{{ theme.home_url }}">
+              <img src="{{site.path}}/_data/themes/thumbnails/{{theme.thumbnail}}">
+             </a>
+          </div>
+          <div>
+              <a href="{{ theme.home_url }}"><b>{{ theme.title }}</b></a>
+              ★ {{ theme.stars }}
+              by
+              {{ theme.author }}
+              (License: {{ theme.license }})
+              <br>
+              {% if theme.demo_url %}
+                 <a href="{{ theme.demo_url }}">[Live Demo]</a>
+              {% endif %}
+              <a href="{{ theme.download_url }}">[Download (.zip)]</a>
+          </div>
+
+    </td>
+  </tr>
 {% endfor %}
-</ul>
+</table>
