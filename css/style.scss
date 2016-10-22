@@ -8,7 +8,7 @@
 body {
  // find a better font - why? why not??
  font-family: $font-family;
- 
+
   color: #333333;
   margin: 0;
 }
@@ -83,54 +83,12 @@ a:hover {
 }
 
 
-.announce {
-  background-color: #ffc;
-
-  font-size: 18px;
-  padding: 8px 8px 4px 8px; /* top right bottom left */
-  margin: 6px 0 6px 0; /* top right bottom left */
-  border: 1px solid $color-primary;
-
-  a {
-   color: $color-primary;
-   text-decoration: none;
-   &:visited {
-    color: $color-primary;
-   }
-   &:hover {
-    color: $color-primary;
-    text-decoration: underline;
-   }
-  }
-} // .announce
-
-
-
-// note: add some padding for now
-//   post uses same default layout as theme for now
-//   use class="posts container" and "post container"
-.posts.container, 
-.post.container {
-  padding-top: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 12px;
-
-  h1 {
-    border-bottom: 1px solid black;
-  }
-  
-  h2 {
-    border-bottom: 1px solid black;
-    font-weight: bold; 
-  }
-}
 
 
 /* fix: use javascript?? jquery to add .programlisting class
   to pre tags followed by code e.g. <pre><code> => <pre class='programlisting'><code>
    for now assume all pres are programlistings
-*/ 
+*/
 pre,
 .programlisting
 {
@@ -143,23 +101,5 @@ pre,
 
 @import 'gallery';
 
-
-
-///////////////
-// add banner styles - move to partial - why? why not?
-
-.banner {
-  color: white;
-  background-color: #333333;
-  // font-size: 12px;
-  padding: 6px 6px 4px 8px;
-  margin: 0 0 8px 0; 
-
-  a,
-  a:visited {
-    text-decoration: none;
-    color: white;
-    background-color: #333333; }
-  a:hover {
-      text-decoration: underline; }
-}
+@import 'banner';
+@import 'announce';

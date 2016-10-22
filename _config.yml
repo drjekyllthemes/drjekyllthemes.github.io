@@ -7,7 +7,8 @@ title: "Dr. Jekyll's Themes"
 #  use site.path in your templates to make it work for both protocols e.g. http and https
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
 #    note: for root path use empty string e.g. '' - do NOT include trailing slash e.g. /
-path:   ''
+path:    ''
+baseurl: ''
 url:   "http://drjekyllthemes.github.io"
 
 
@@ -19,8 +20,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-
-permalink:  /news/:title.html
 
 sass:
   sass_dir: css
