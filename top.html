@@ -3,7 +3,9 @@ layout: page
 title:  "Top 22"
 ---
 
+<div style="float: right">
 {% include views.html %}
+</div>
 
 
 {% assign top_themes = site.data.o.themes.themes | sort: "stars" | reverse %}
