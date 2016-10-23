@@ -10,8 +10,8 @@
 
   {% include banner.html %}
 
-<div id="front">
-  <div id="header">
+<div id="header">
+  <div id="masthead">
     <span class='big'>dr. jekyll's themes</span>
     <span class='small'>a free static site generator theme directory</span>
   </div>
@@ -23,14 +23,24 @@
     <a href="http://groups.google.com/group/wwwmake">Questions? Comments?</a>
   </div>
 
-  {% include announce.html %}
 </div>
 
+  {% include announce.html %}
 
 <div id="content">
+  {% include views.html %}
+
   {{ content }}
 </div>
 
+
+<div id="footer">
+
+  {% include addtheme.html %}
+
+  {% include thanks.html %}
+
+</div>
 
 </body>
 </html>

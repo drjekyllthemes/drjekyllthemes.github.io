@@ -14,18 +14,19 @@ body {
 }
 
 // assume this structure:
-//  1) front
+//  1) header
+//       mastheader
 //  2) gallery  (see _gallery.scss)
-//  3) back
+//  3) footer
 
-#front {
+#header {
   padding-top: 12px;
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 12px;
 }
 
-#back {
+#footer {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 12px;
@@ -44,7 +45,7 @@ a:hover {
 
 
 
-#header {
+#masthead {
   padding: 0.25em;
 
   .big
@@ -66,7 +67,7 @@ a:hover {
     // color: gray;
     padding-left: 15px;
   }
-} // # header
+} // #masthead
 
 
 
