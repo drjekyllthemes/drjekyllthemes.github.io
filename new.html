@@ -3,6 +3,8 @@ layout: default
 title:  "Newest - Dr. Jekyll's Themes"
 ---
 
+{% include views.html %}
+
 <h2>Newest - Jekyll Themes</h2>
 
 {% assign top_themes = site.data.o.themes.themes | sort: "created" | reverse %}
