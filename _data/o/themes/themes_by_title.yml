@@ -1,10 +1,11 @@
 ---
-Henry's Hello, Jekyll!:
+Hello, Jekyll!:
   title: Henry's Hello, Jekyll!
   github: henrythemes/hello-jekyll-theme
   demo_url: https://henrythemes.github.io/hello-jekyll-theme/
   thumbnail: hello-jekyll.png
   author: Gerald Bauer
+  avatar: geraldb
   license: Public Domain
   tags:
   - white
@@ -16,12 +17,13 @@ Henry's Hello, Jekyll!:
   commit_msg: Update README.md by GitHub
   stars: 3
   stars_week: 0
-Henry's Hello, Minima!:
+Hello, Minima!:
   title: Henry's Hello, Minima!
   github: henrythemes/hello-minima-theme
   demo_url: http://henrythemes.github.io/hello-minima-theme/
   thumbnail: hello-minima.png
   author: Gerald Bauer
+  avatar: geraldb
   license: Public Domain
   tags:
   - white
@@ -110,6 +112,7 @@ Poole:
   github: poole/poole
   demo_url: http://demo.getpoole.com/
   author: Mark Otto
+  avatar: mdo
   thumbnail: poole.png
   license: MIT
   tags:
@@ -126,6 +129,7 @@ Poole's Hyde:
   github: poole/hyde
   demo_url: http://hyde.getpoole.com/
   author: Mark Otto
+  avatar: mdo
   thumbnail: poole-hyde.png
   license: MIT
   tags:
@@ -145,6 +149,7 @@ Poole's Lanyon:
   github: poole/lanyon
   demo_url: http://lanyon.getpoole.com/
   author: Mark Otto
+  avatar: mdo
   thumbnail: poole-lanyon.png
   license: MIT
   tags:
@@ -180,6 +185,7 @@ Minima (Built-in v3.2+ Default / Anno 2016-):
   github: jekyll/minima
   thumbnail: minima.png
   author: Joel Glovier et al
+  avatar: jglovier
   license: MIT
   gem: minima
   tags:
@@ -197,6 +203,7 @@ Pages' Architect:
   demo_url: https://pages-themes.github.io/architect
   thumbnail: pages-architect.png
   author: Jason Long et al
+  avatar: jasonlong
   gem: jekyll-theme-architect
   license: CC0 - Public Domain
   tags:
@@ -214,6 +221,7 @@ Pages' Cayman:
   demo_url: https://pages-themes.github.io/cayman/
   thumbnail: pages-cayman.png
   author: Jason Long et al
+  avatar: jasonlong
   gem: jekyll-theme-cayman
   license: CC0 - Public Domain
   tags:
@@ -234,6 +242,7 @@ Pages' Dinky:
   demo_url: https://pages-themes.github.io/dinky/
   thumbnail: pages-dinky.png
   author: Diana Mounter et al
+  avatar: broccolini
   gem: jekyll-theme-dinky
   license: CC0 - Public Domain
   tags:
