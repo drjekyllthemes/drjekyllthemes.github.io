@@ -25,6 +25,8 @@ sass:
   sass_dir: css
   style:    expanded
 
+gems:
+- jekyll-avatar
 
 include:
 - _data
