@@ -1,5 +1,5 @@
 ---
-- title: Henry's Hello, Jekyll!
+- title: Hello, Jekyll!
   github: henrythemes/hello-jekyll-theme
   demo_url: https://henrythemes.github.io/hello-jekyll-theme/
   thumbnail: hello-jekyll.png
@@ -15,7 +15,7 @@
   commit_msg: Update README.md by GitHub
   stars: 3
   stars_week: 0
-- title: Henry's Hello, Minima!
+- title: Hello, Minima!
   github: henrythemes/hello-minima-theme
   demo_url: http://henrythemes.github.io/hello-minima-theme/
   thumbnail: hello-minima.png
@@ -28,9 +28,26 @@
   home_url: https://github.com/henrythemes/hello-minima-theme
   download_url: https://github.com/henrythemes/hello-minima-theme/archive/master.zip
   created: 2016-09-19 19:22:59.000000000 Z
-  updated: 2016-11-04 13:37:06.000000000 Z
-  commit_msg: Update README.md by GitHub
+  updated: 2017-02-23 14:46:30.000000000 Z
+  commit_msg: add code example by GitHub
   stars: 4
+  stars_week: 0
+- title: Hello, Pages!
+  github: henrythemes/hello-pages-theme-v2
+  demo_url: https://henrythemes.github.io/hello-pages-theme-v2/
+  thumbnail: hello-pages.png
+  author: Gerald Bauer
+  license: Public Domain
+  tags:
+  - white
+  - starter
+  - pages
+  home_url: https://github.com/henrythemes/hello-pages-theme-v2
+  download_url: https://github.com/henrythemes/hello-pages-theme-v2/archive/master.zip
+  created: 2017-01-13 00:08:17.000000000 Z
+  updated: 2017-01-13 01:45:15.000000000 Z
+  commit_msg: up pages by Gerald Bauer
+  stars: 2
   stars_week: 0
 - title: Henry's Starter (Minimal)
   github: henrythemes/jekyll-starter-theme
@@ -46,8 +63,8 @@
   created: 2015-08-08 14:36:05.000000000 Z
   updated: 2017-01-11 05:35:17.000000000 Z
   commit_msg: Update index.md by GitHub
-  stars: 15
-  stars_week: 0
+  stars: 19
+  stars_week: 4
 - title: Henry's Minimal
   github: henrythemes/jekyll-minimal-theme
   demo_url: http://henrythemes.github.io/jekyll-minimal-theme/
@@ -63,8 +80,8 @@
   created: 2015-02-01 09:36:30.000000000 Z
   updated: 2016-11-15 08:24:00.000000000 Z
   commit_msg: Update README.md by GitHub
-  stars: 54
-  stars_week: 0
+  stars: 55
+  stars_week: 1
 - title: Henry's Bootstrap
   github: henrythemes/jekyll-bootstrap-theme
   demo_url: http://henrythemes.github.io/jekyll-bootstrap-theme/
@@ -81,8 +98,8 @@
   created: 2015-01-30 17:48:11.000000000 Z
   updated: 2016-09-04 12:16:10.000000000 Z
   commit_msg: start by Gerald Bauer
-  stars: 37
-  stars_week: 0
+  stars: 43
+  stars_week: 6
 - title: Henry's Classics Book
   github: henrythemes/jekyll-book-theme
   demo_url: http://henrythemes.github.io/jekyll-book-theme/
@@ -97,7 +114,24 @@
   created: 2015-07-16 17:50:43.000000000 Z
   updated: 2016-02-13 16:07:11.000000000 Z
   commit_msg: Update README.md by Gerald Bauer
-  stars: 8
+  stars: 9
+  stars_week: 1
+- title: Henry's Talks
+  github: henrythemes/jekyll-talks-theme
+  demo_url: https://henrythemes.github.io/jekyll-talks-theme/
+  thumbnail: henry-talks.png
+  author: Gerald Bauer
+  license: Public Domain
+  tags:
+  - white
+  - talks
+  - s6
+  home_url: https://github.com/henrythemes/jekyll-talks-theme
+  download_url: https://github.com/henrythemes/jekyll-talks-theme/archive/master.zip
+  created: 2017-01-10 18:02:38.000000000 Z
+  updated: 2017-02-28 14:44:32.000000000 Z
+  commit_msg: Update README.md by GitHub
+  stars: 3
   stars_week: 0
 - title: Poole
   github: poole/poole
@@ -112,8 +146,8 @@
   created: 2013-12-29 23:39:18.000000000 Z
   updated: 2016-02-16 06:29:26.000000000 Z
   commit_msg: rename posts, add some stuff to intro by Mark Otto
-  stars: 2101
-  stars_week: 1
+  stars: 2178
+  stars_week: 77
 - title: Poole's Hyde
   github: poole/hyde
   demo_url: http://hyde.getpoole.com/
@@ -130,8 +164,8 @@
     Merge pull request #91 from pborreli/patch-1
 
     Fixed typo by Mark Otto
-  stars: 1780
-  stars_week: 2
+  stars: 1906
+  stars_week: 126
 - title: Poole's Lanyon
   github: poole/lanyon
   demo_url: http://lanyon.getpoole.com/
@@ -148,24 +182,9 @@
     Merge pull request #151 from melodykramer/patch-1
 
     Update README.md by Mark Otto
-  stars: 1786
-  stars_week: 1
-- title: New (Old Built-In v3.1 Default / Anno -2016)
-  github: jekyll/example
-  branch: gh-pages
-  demo_url: http://jekyll.github.io/example/
-  author: Joel Glovier et al
-  thumbnail: jekyll-new.png
-  license: MIT
-  tags: []
-  home_url: https://github.com/jekyll/example
-  download_url: https://github.com/jekyll/example/archive/gh-pages.zip
-  created: 2014-10-18 19:58:02.000000000 Z
-  updated: 2014-10-18 20:01:26.000000000 Z
-  commit_msg: Custom permalinks. by Parker Moore
-  stars: 3
-  stars_week: 1
-- title: Minima (Built-in v3.2+ Default / Anno 2016-)
+  stars: 1914
+  stars_week: 128
+- title: Minima (Built-in v3.2+ Default)
   github: jekyll/minima
   thumbnail: minima.png
   author: Joel Glovier et al
@@ -176,11 +195,11 @@
   home_url: https://github.com/jekyll/minima
   download_url: https://github.com/jekyll/minima/archive/master.zip
   created: 2016-05-20 23:07:56.000000000 Z
-  updated: 2016-11-15 17:47:49.000000000 Z
-  commit_msg: 'Release :gem: v2.1.0 by Parker Moore'
-  stars: 285
-  stars_week: 186
-- title: Pages' Architect
+  updated: 2017-04-13 15:09:32.000000000 Z
+  commit_msg: Release 2.1.1 by GitHub
+  stars: 425
+  stars_week: 140
+- title: Architect (Pages)
   github: pages-themes/architect
   demo_url: https://pages-themes.github.io/architect
   thumbnail: pages-architect.png
@@ -192,11 +211,11 @@
   home_url: https://github.com/pages-themes/architect
   download_url: https://github.com/pages-themes/architect/archive/master.zip
   created: 2016-10-06 22:55:49.000000000 Z
-  updated: 2017-01-03 15:23:35.000000000 Z
-  commit_msg: Correct stylesheet path in README by Ben Balter
-  stars: 9
-  stars_week: 0
-- title: Pages' Cayman
+  updated: 2017-04-21 17:34:32.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 23
+  stars_week: 14
+- title: Cayman (Pages)
   github: pages-themes/cayman
   demo_url: https://pages-themes.github.io/cayman/
   thumbnail: pages-cayman.png
@@ -208,14 +227,14 @@
   home_url: https://github.com/pages-themes/cayman
   download_url: https://github.com/pages-themes/cayman/archive/master.zip
   created: 2016-09-20 21:36:46.000000000 Z
-  updated: 2017-01-30 20:37:53.000000000 Z
+  updated: 2017-05-24 16:56:18.000000000 Z
   commit_msg: |-
-    Merge pull request #8 from slowtick/analytics-upgrade
+    Merge pull request #2 from sethjackson/fix-title
 
-    google analytics - changed ga.js to analytics.js by GitHub
-  stars: 28
-  stars_week: 0
-- title: Pages' Dinky
+    Fix default page titles. by GitHub
+  stars: 90
+  stars_week: 62
+- title: Dinky (Pages)
   github: pages-themes/dinky
   demo_url: https://pages-themes.github.io/dinky/
   thumbnail: pages-dinky.png
@@ -227,11 +246,11 @@
   home_url: https://github.com/pages-themes/dinky
   download_url: https://github.com/pages-themes/dinky/archive/master.zip
   created: 2016-10-06 23:00:23.000000000 Z
-  updated: 2017-01-03 15:24:39.000000000 Z
-  commit_msg: Correct new issue URL in README by Ben Balter
-  stars: 6
-  stars_week: 0
-- title: Pages' Hacker
+  updated: 2017-04-21 17:34:37.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 12
+  stars_week: 6
+- title: Hacker (Pages)
   github: pages-themes/hacker
   demo_url: https://pages-themes.github.io/hacker/
   thumbnail: pages-hacker.png
@@ -240,17 +259,18 @@
   license: CC0 - Public Domain
   tags:
   - github
+  - black
   home_url: https://github.com/pages-themes/hacker
   download_url: https://github.com/pages-themes/hacker/archive/master.zip
   created: 2016-10-06 23:02:10.000000000 Z
-  updated: 2017-01-13 17:58:51.000000000 Z
+  updated: 2017-05-08 18:56:03.000000000 Z
   commit_msg: |-
-    Merge pull request #6 from Foaly/patch-1
+    Merge pull request #13 from not-unpleased/patch-1
 
-    Removed css properties with unneeded prefix. by GitHub
-  stars: 12
-  stars_week: 0
-- title: Pages' Leap Day
+    Add viewport by GitHub
+  stars: 39
+  stars_week: 27
+- title: Leap Day (Pages)
   github: pages-themes/leap-day
   demo_url: https://pages-themes.github.io/leap-day/
   thumbnail: pages-leapday.png
@@ -262,11 +282,11 @@
   home_url: https://github.com/pages-themes/leap-day
   download_url: https://github.com/pages-themes/leap-day/archive/master.zip
   created: 2016-10-06 23:02:49.000000000 Z
-  updated: 2017-01-03 15:24:42.000000000 Z
-  commit_msg: Correct new issue URL in README by Ben Balter
-  stars: 3
-  stars_week: 0
-- title: Pages' Merlot
+  updated: 2017-04-21 17:34:41.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 12
+  stars_week: 9
+- title: Merlot (Pages)
   github: pages-themes/merlot
   demo_url: https://pages-themes.github.io/merlot/
   thumbnail: pages-merlot.png
@@ -278,11 +298,11 @@
   home_url: https://github.com/pages-themes/merlot
   download_url: https://github.com/pages-themes/merlot/archive/master.zip
   created: 2016-10-06 23:04:26.000000000 Z
-  updated: 2017-01-03 15:24:45.000000000 Z
-  commit_msg: Correct new issue URL in README by Ben Balter
-  stars: 3
-  stars_week: 0
-- title: Pages' Midnight
+  updated: 2017-04-21 17:34:44.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 7
+  stars_week: 4
+- title: Midnight (Pages)
   github: pages-themes/midnight
   demo_url: https://pages-themes.github.io/midnight/
   thumbnail: pages-midnight.png
@@ -291,14 +311,15 @@
   license: CC0 - Public Domain
   tags:
   - github
+  - black
   home_url: https://github.com/pages-themes/midnight
   download_url: https://github.com/pages-themes/midnight/archive/master.zip
   created: 2016-10-06 23:04:54.000000000 Z
-  updated: 2017-01-03 15:23:49.000000000 Z
-  commit_msg: Correct stylesheet path in README by Ben Balter
-  stars: 10
-  stars_week: 0
-- title: Pages' Minimal
+  updated: 2017-04-21 17:34:47.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 29
+  stars_week: 19
+- title: Minimal (Pages)
   github: pages-themes/minimal
   demo_url: https://pages-themes.github.io/minimal/
   thumbnail: pages-minimal.png
@@ -310,14 +331,11 @@
   home_url: https://github.com/pages-themes/minimal
   download_url: https://github.com/pages-themes/minimal/archive/master.zip
   created: 2016-10-06 23:07:49.000000000 Z
-  updated: 2017-01-09 17:17:48.000000000 Z
-  commit_msg: |-
-    Merge pull request #5 from vitalyzhakov/patch-1
-
-    Use GA async code by GitHub
-  stars: 31
-  stars_week: 0
-- title: Pages' Modernist
+  updated: 2017-04-21 17:34:49.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 73
+  stars_week: 42
+- title: Modernist (Pages)
   github: pages-themes/modernist
   demo_url: https://pages-themes.github.io/modernist/
   thumbnail: pages-modernist.png
@@ -329,11 +347,11 @@
   home_url: https://github.com/pages-themes/modernist
   download_url: https://github.com/pages-themes/modernist/archive/master.zip
   created: 2016-10-06 23:08:28.000000000 Z
-  updated: 2017-01-03 15:24:49.000000000 Z
-  commit_msg: Correct new issue URL in README by Ben Balter
-  stars: 2
-  stars_week: 0
-- title: Pages' Slate
+  updated: 2017-04-21 17:34:52.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 10
+  stars_week: 8
+- title: Slate (Pages)
   github: pages-themes/slate
   demo_url: https://pages-themes.github.io/slate/
   thumbnail: pages-slate.png
@@ -345,14 +363,14 @@
   home_url: https://github.com/pages-themes/slate
   download_url: https://github.com/pages-themes/slate/archive/master.zip
   created: 2016-10-06 23:10:40.000000000 Z
-  updated: 2017-01-17 14:30:25.000000000 Z
+  updated: 2017-05-10 19:36:44.000000000 Z
   commit_msg: |-
-    Merge pull request #3 from Edditoria/hotfix/img-max-width
+    Merge pull request #10 from pat-laugh/code-overflow
 
-    Fix image overflow when media screen is smaller than 980px by GitHub
-  stars: 8
-  stars_week: 0
-- title: Pages' Tactile
+    Fix code overflow by GitHub
+  stars: 29
+  stars_week: 21
+- title: Tactile (Pages)
   github: pages-themes/tactile
   demo_url: https://pages-themes.github.io/tactile/
   thumbnail: pages-tactile.png
@@ -364,11 +382,11 @@
   home_url: https://github.com/pages-themes/tactile
   download_url: https://github.com/pages-themes/tactile/archive/master.zip
   created: 2016-10-06 23:11:46.000000000 Z
-  updated: 2017-01-03 15:24:52.000000000 Z
-  commit_msg: Correct new issue URL in README by Ben Balter
-  stars: 3
-  stars_week: 0
-- title: Pages' Time Machine
+  updated: 2017-04-21 17:34:57.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 10
+  stars_week: 7
+- title: Time Machine (Pages)
   github: pages-themes/time-machine
   demo_url: https://pages-themes.github.io/time-machine/
   thumbnail: pages-timemachine.png
@@ -380,10 +398,10 @@
   home_url: https://github.com/pages-themes/time-machine
   download_url: https://github.com/pages-themes/time-machine/archive/master.zip
   created: 2016-10-06 23:12:17.000000000 Z
-  updated: 2017-01-03 15:24:55.000000000 Z
-  commit_msg: Correct new issue URL in README by Ben Balter
-  stars: 1
-  stars_week: 0
+  updated: 2017-04-21 17:35:00.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 5
+  stars_week: 4
 - title: Now
   github: barryclark/jekyll-now
   demo_url: http://www.jekyllnow.com/
@@ -396,8 +414,8 @@
   created: 2014-02-07 00:14:55.000000000 Z
   updated: 2016-06-08 19:03:46.000000000 Z
   commit_msg: Update _svg-icons.scss by Erin Grand
-  stars: 3336
-  stars_week: 4
+  stars: 3653
+  stars_week: 317
 - title: Beautiful
   github: daattali/beautiful-jekyll
   demo_url: http://deanattali.com/beautiful-jekyll/
@@ -408,10 +426,10 @@
   home_url: https://github.com/daattali/beautiful-jekyll
   download_url: https://github.com/daattali/beautiful-jekyll/archive/master.zip
   created: 2015-03-02 20:04:26.000000000 Z
-  updated: 2017-01-27 23:19:00.000000000 Z
-  commit_msg: Add Subresource Integrity (SRI) support (#164) by Dean Attali
-  stars: 511
-  stars_week: 0
+  updated: 2017-06-17 16:20:47.000000000 Z
+  commit_msg: Added fallback fonts to footer copyright. (#216) by Dean Attali
+  stars: 678
+  stars_week: 167
 - title: Holo Alfa
   github: steinvc/holo-alfa
   branch: gh-pages
@@ -425,8 +443,8 @@
   created: 2015-07-20 19:10:35.000000000 Z
   updated: 2017-01-12 23:16:22.000000000 Z
   commit_msg: Update README.md by GitHub
-  stars: 54
-  stars_week: 0
+  stars: 66
+  stars_week: 12
 - title: "{ Personal }"
   github: PanosSakkos/personal-jekyll-theme
   demo_url: http://panossakkos.github.io/personal-jekyll-theme/
@@ -438,11 +456,15 @@
   home_url: https://github.com/PanosSakkos/personal-jekyll-theme
   download_url: https://github.com/PanosSakkos/personal-jekyll-theme/archive/master.zip
   created: 2015-06-27 16:56:59.000000000 Z
-  updated: 2017-01-28 15:24:14.000000000 Z
-  commit_msg: "Modifying warning due to 404 extension (#202)\n\nThanks @djcaesar9114
-    \U0001F44F by Panos Sakkos"
-  stars: 348
-  stars_week: 1
+  updated: 2017-06-06 06:20:39.000000000 Z
+  commit_msg: |-
+    Add an option to connect main pic to social profile image from facebook,
+    github or gravatar.
+
+    In reference to issue #206, implement an option to connect main pic to
+    facebook, github or gravatar profile image. by Marcus Eisele
+  stars: 402
+  stars_week: 54
 - title: Material Design Lite (MDL)
   home_url: https://github.com/gdg-managua/jekyll-mdl
   download_url: https://github.com/gdg-managua/jekyll-mdl/releases
@@ -458,8 +480,8 @@
     Merge pull request #48 from Sparker0i/patch-1
 
     Add sparker0i.github.io to main repo by GitHub
-  stars: 157
-  stars_week: 0
+  stars: 169
+  stars_week: 12
 - title: Scribble
   home_url: https://github.com/muan/scribble
   download_url: https://github.com/muan/scribble/archive/master.zip
@@ -470,10 +492,10 @@
   tags: []
   github: muan/scribble
   created: 2013-05-06 09:51:15.000000000 Z
-  updated: 2015-11-07 10:56:32.000000000 Z
-  commit_msg: update readme by Mu-An Chiou
-  stars: 535
-  stars_week: 0
+  updated: 2017-05-01 11:51:44.000000000 Z
+  commit_msg: Update README.md by GitHub
+  stars: 564
+  stars_week: 29
 - title: Green Tea
   home_url: http://richbray.me/frap/
   download_url: http://richbray.me/frap/gt.zip
@@ -503,8 +525,8 @@
     Merge pull request #6 from bekce/master
 
     Jekyll 3 support by Matt Harzewski
-  stars: 153
-  stars_week: 0
+  stars: 161
+  stars_week: 8
 - title: Left
   home_url: https://github.com/holman/left
   download_url: https://github.com/holman/left/archive/gh-pages.zip
@@ -520,20 +542,29 @@
     Merge pull request #46 from notwaldorf/started-from-the-bottom-now-we-here
 
     add some aria-labels for a11y by Zach Holman
-  stars: 450
-  stars_week: 0
-- title: Slate
-  home_url: https://github.com/jasoncostello/slate
-  download_url: https://github.com/jasoncostello/slate/archive/master.zip
-  author: Jason Costello
-  thumbnail: slate.png
+  stars: 467
+  stars_week: 17
+- title: Basically Basic
+  github: mmistakes/jekyll-theme-basically-basic
+  demo_url: https://mmistakes.github.io/jekyll-theme-basically-basic
+  author: Michael Rose
+  gem: jekyll-theme-basically-basic
+  thumbnail: basicallybasic.png
   license: MIT
-  tags: []
-  github: jasoncostello/slate
-  created: 2012-06-08 23:00:07.000000000 Z
-  updated: 2016-08-01 20:55:01.000000000 Z
-  commit_msg: Update readme image by GitHub
-  stars: 118
+  tags:
+  - minimal
+  - responsive
+  - blog
+  - resume
+  home_url: https://github.com/mmistakes/jekyll-theme-basically-basic
+  download_url: https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip
+  created: 2017-03-07 21:08:01.000000000 Z
+  updated: 2017-03-31 12:15:24.000000000 Z
+  commit_msg: |-
+    fixed typos (#17)
+
+    want you want --> what you want by Michael Rose
+  stars: 60
   stars_week: 0
 - title: Minimal Mistakes
   github: mmistakes/minimal-mistakes
@@ -551,10 +582,10 @@
   home_url: https://github.com/mmistakes/minimal-mistakes
   download_url: https://github.com/mmistakes/minimal-mistakes/archive/master.zip
   created: 2013-05-24 14:13:30.000000000 Z
-  updated: 2017-01-24 15:57:24.000000000 Z
-  commit_msg: Merge branch 'release/4.2.1' by Michael Rose
-  stars: 1691
-  stars_week: 5
+  updated: 2017-06-14 14:09:25.000000000 Z
+  commit_msg: Fixed MD link to docs in the 'Helpers' page. (#1066) by Michael Rose
+  stars: 2068
+  stars_week: 377
 - title: So Simple
   github: mmistakes/so-simple-theme
   demo_url: http://mmistakes.github.io/so-simple-theme/
@@ -567,8 +598,8 @@
   created: 2013-06-25 20:17:12.000000000 Z
   updated: 2016-09-15 01:37:21.000000000 Z
   commit_msg: Merge branch 'release/2.3.4' by Michael Rose
-  stars: 696
-  stars_week: 0
+  stars: 758
+  stars_week: 62
 - title: Skinny Bones
   github: mmistakes/skinny-bones-jekyll
   demo_url: http://mmistakes.github.io/skinny-bones-jekyll/
@@ -581,8 +612,8 @@
   created: 2014-06-02 13:25:37.000000000 Z
   updated: 2016-06-01 20:17:07.000000000 Z
   commit_msg: Merge branch 'hotfix/1.3.0' by Michael Rose
-  stars: 517
-  stars_week: 1
+  stars: 564
+  stars_week: 47
 - title: HiPSTeR (HPSTR)
   github: mmistakes/hpstr-jekyll-theme
   demo_url: http://mmistakes.github.io/hpstr-jekyll-theme/
@@ -595,8 +626,8 @@
   created: 2013-08-23 19:03:11.000000000 Z
   updated: 2016-09-15 02:06:51.000000000 Z
   commit_msg: Merge branch 'release/1.7.6' by Michael Rose
-  stars: 758
-  stars_week: 1
+  stars: 804
+  stars_week: 46
 - title: HiPSTeR (HPSTR) Version 2 - Vietnamese
   home_url: https://github.com/minhhuy150894/minhhuy150894.github.io
   download_url: https://github.com/minhhuy150894/minhhuy150894.github.io/archive/master.zip
@@ -625,8 +656,8 @@
   commit_msg: "Style footnotes and tables (#30)\n\nNormalize.scss removes superscript
     from footnote markers. Make footnote markers small & superscript.\r\n\r\nTables
     are not styled at all; add some styling to make tables look better. by Cole Townsend"
-  stars: 342
-  stars_week: 0
+  stars: 361
+  stars_week: 19
 - title: Lagom
   github: swanson/lagom
   demo_url: http://lagom.mdswanson.com
@@ -642,8 +673,8 @@
     Merge pull request #35 from vitogit/upstream
 
     Fix css issue on github hosting by GitHub
-  stars: 328
-  stars_week: 0
+  stars: 366
+  stars_week: 38
 - title: Dbyll
   home_url: https://github.com/dbtek/dbyll
   download_url: https://github.com/dbtek/dbyll/archive/master.zip
@@ -654,10 +685,13 @@
   tags: []
   github: dbtek/dbyll
   created: 2013-11-14 15:01:59.000000000 Z
-  updated: 2017-01-19 07:37:02.000000000 Z
-  commit_msg: 'pygments to rogue #60 by İsmail Demirbilek'
-  stars: 362
-  stars_week: 1
+  updated: 2017-02-18 20:52:08.000000000 Z
+  commit_msg: |-
+    Merge pull request #63 from casab/patch-1
+
+    Fixed small typo; wrong highlighter name by GitHub
+  stars: 385
+  stars_week: 23
 - title: Uno Dbyll
   home_url: https://github.com/meliodus/uno-dbyll
   download_url: https://github.com/meliodus/uno-dbyll/archive/gh-pages.zip
@@ -670,8 +704,8 @@
   created: 2015-02-01 19:02:47.000000000 Z
   updated: 2016-11-03 20:50:47.000000000 Z
   commit_msg: Update default.html by GitHub
-  stars: 19
-  stars_week: 0
+  stars: 20
+  stars_week: 1
 - title: Exemplar
   home_url: https://github.com/tybenz/exemplar
   download_url: https://github.com/tybenz/exemplar/archive/master.zip
@@ -684,8 +718,8 @@
   created: 2013-02-20 21:38:22.000000000 Z
   updated: 2016-08-09 16:03:22.000000000 Z
   commit_msg: Remove CNAME by Tyler Benziger
-  stars: 50
-  stars_week: 0
+  stars: 52
+  stars_week: 2
 - title: Kasper
   home_url: https://github.com/rosario/kasper
   download_url: https://github.com/rosario/kasper/archive/master.zip
@@ -696,13 +730,13 @@
   tags: []
   github: rosario/kasper
   created: 2013-11-10 10:15:43.000000000 Z
-  updated: 2016-06-26 22:39:13.000000000 Z
+  updated: 2017-06-08 14:43:13.000000000 Z
   commit_msg: |-
-    Merge pull request #33 from pavelbinar/master
+    Merge pull request #34 from mskims/patch-1
 
-    Update README by GitHub
-  stars: 740
-  stars_week: 0
+    Change disqus script url to be flex by GitHub
+  stars: 780
+  stars_week: 40
 - title: Swift
   home_url: https://github.com/pranavrajs/swift
   download_url: https://github.com/pranavrajs/swift/archive/master.zip
@@ -715,8 +749,8 @@
   created: 2014-11-28 18:43:16.000000000 Z
   updated: 2014-12-17 13:19:18.000000000 Z
   commit_msg: Deleted Unwanted files by pranavrajs
-  stars: 11
-  stars_week: 0
+  stars: 13
+  stars_week: 2
 - title: Flex
   home_url: https://github.com/the-development/flex
   download_url: https://github.com/the-development/flex/archive/master.zip
@@ -729,8 +763,8 @@
   created: 2013-12-09 19:01:22.000000000 Z
   updated: 2014-08-26 16:57:45.000000000 Z
   commit_msg: 'Fixes and closes issue #3 by Jeff Martin'
-  stars: 78
-  stars_week: 0
+  stars: 93
+  stars_week: 15
 - title: H M Faysal's Omega
   home_url: https://github.com/hmfaysal/hmfaysal-omega-theme
   download_url: https://github.com/hmfaysal/hmfaysal-omega-theme/archive/gh-pages.zip
@@ -743,8 +777,8 @@
   created: 2014-01-12 20:13:02.000000000 Z
   updated: 2016-08-31 02:03:41.000000000 Z
   commit_msg: Fixed minor invalid html by Matija Čupić
-  stars: 313
-  stars_week: 0
+  stars: 324
+  stars_week: 11
 - title: H M Faysal's Notepad
   home_url: https://github.com/hmfaysal/Notepad
   download_url: https://github.com/hmfaysal/Notepad/archive/gh-pages.zip
@@ -757,8 +791,8 @@
   created: 2014-07-18 16:57:01.000000000 Z
   updated: 2014-08-29 17:16:38.000000000 Z
   commit_msg: Nprogress Height 4px by Hossain Mohd. Faysal
-  stars: 183
-  stars_week: 0
+  stars: 203
+  stars_week: 20
 - title: Herring Cove
   home_url: https://github.com/arnp/herring-cove
   download_url: https://github.com/arnp/herring-cove/archive/master.zip
@@ -770,8 +804,8 @@
   created: 2013-12-16 04:50:44.000000000 Z
   updated: 2015-11-19 21:12:52.000000000 Z
   commit_msg: Update README.md by Ravi Patel (Robins)
-  stars: 98
-  stars_week: 0
+  stars: 105
+  stars_week: 7
 - title: Red Cup
   github: ajthewebdev/redcup
   author: Nii Adjetey Sowah
@@ -784,7 +818,7 @@
   updated: 2016-04-22 11:31:41.000000000 Z
   commit_msg: Force recompilation of static html files in _site/ by Adjetey Sowah
   stars: 23
-  stars_week: 1
+  stars_week: 0
 - title: Wangana
   github: ajthewebdev/wangana
   author: Nii Adjetey Sowah
@@ -796,7 +830,7 @@
   created: 2014-02-09 16:41:40.000000000 Z
   updated: 2016-04-22 12:19:08.000000000 Z
   commit_msg: Update links to repo by Adjetey Sowah
-  stars: 48
+  stars: 49
   stars_week: 1
 - title: Grid Gallery
   github: ajthewebdev/GridGallery
@@ -810,7 +844,7 @@
   updated: 2016-04-22 12:00:36.000000000 Z
   commit_msg: Updated links to repo by Adjetey Sowah
   stars: 48
-  stars_week: 2
+  stars_week: 0
 - title: Solo
   home_url: http://github.com/chibicode/solo
   download_url: http://github.com/chibicode/solo/archive/master.zip
@@ -826,8 +860,8 @@
     Merge pull request #18 from davisonio/fix-loading
 
     Fix loading of main.css and fix mix content warnings by Shu Uesugi
-  stars: 280
-  stars_week: 0
+  stars: 300
+  stars_week: 20
 - title: Thinny
   home_url: https://github.com/camporez/Thinny
   download_url: https://github.com/camporez/Thinny/releases/latest
@@ -838,10 +872,13 @@
   tags: []
   github: camporez/Thinny
   created: 2014-01-25 15:14:28.000000000 Z
-  updated: 2015-05-14 14:53:04.000000000 Z
-  commit_msg: Updated URL. by Ian Brunelli
-  stars: 272
-  stars_week: 0
+  updated: 2017-04-18 01:16:23.000000000 Z
+  commit_msg: |-
+    Merge pull request #38 from bryant1410/master
+
+    Fix broken headings in Markdown files by GitHub
+  stars: 276
+  stars_week: 4
 - title: Hikari
   home_url: https://github.com/mx3m/hikari-for-Jekyll
   download_url: https://github.com/mx3m/hikari-for-Jekyll/archive/master.zip
@@ -854,8 +891,8 @@
   created: 2014-02-01 08:30:55.000000000 Z
   updated: 2015-09-09 04:14:28.000000000 Z
   commit_msg: changed config.yml to reflect repo's name changes by Mathieu Mayer-Mazzoli
-  stars: 160
-  stars_week: 0
+  stars: 164
+  stars_week: 4
 - title: Brume
   home_url: https://github.com/aigarsdz/brume
   download_url: https://github.com/aigarsdz/brume/archive/master.zip
@@ -866,10 +903,10 @@
   tags: []
   github: aigarsdz/brume
   created: 2013-09-22 10:23:03.000000000 Z
-  updated: 2016-08-12 21:07:23.000000000 Z
-  commit_msg: Adds Gemfile.lock to .gitignore by Aigars Dzerviniks
-  stars: 85
-  stars_week: 1
+  updated: 2017-06-16 21:06:45.000000000 Z
+  commit_msg: Updates version number by Aigars Dzerviniks
+  stars: 88
+  stars_week: 3
 - title: Incorporated
   home_url: https://github.com/kippt/jekyll-incorporated
   download_url: https://github.com/kippt/jekyll-incorporated/archive/master.zip
@@ -882,8 +919,8 @@
   created: 2013-10-09 21:57:31.000000000 Z
   updated: 2014-02-26 00:01:30.000000000 Z
   commit_msg: Update README.md by Karri Saarinen
-  stars: 1009
-  stars_week: -1
+  stars: 1034
+  stars_week: 25
 - title: Gereksiz
   home_url: https://github.com/bozbalci/gereksiz
   download_url: https://github.com/bozbalci/gereksiz/archive/master.zip
@@ -895,21 +932,8 @@
   created: 2014-03-31 19:22:43.000000000 Z
   updated: 2015-10-20 19:35:32.000000000 Z
   commit_msg: Update README.md by Berk Özbalcı
-  stars: 38
-  stars_week: 0
-- title: Architect
-  home_url: https://github.com/pietromenna/jekyll-architect-theme
-  download_url: https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
-  author: Jason Long, ported by Pietro Menna
-  thumbnail: architect.png
-  license: CC BY
-  tags: []
-  github: pietromenna/jekyll-architect-theme
-  created: 2014-04-06 18:05:02.000000000 Z
-  updated: 2016-12-13 16:02:46.000000000 Z
-  commit_msg: Removed author and link by GitHub
-  stars: 48
-  stars_week: 0
+  stars: 39
+  stars_week: 1
 - title: Simpleyyt
   home_url: https://github.com/Simpleyyt/simpleyyt.github.io
   download_url: https://github.com/Simpleyyt/simpleyyt.github.io/archive/master.zip
@@ -920,10 +944,10 @@
   tags: []
   github: Simpleyyt/simpleyyt.github.io
   created: 2015-09-21 03:54:34.000000000 Z
-  updated: 2017-02-12 13:51:35.000000000 Z
+  updated: 2017-05-29 14:33:42.000000000 Z
   commit_msg: update 2017-02-12-helloworld-compile-and-link.md by Simpleyyt
-  stars: 16
-  stars_week: 1
+  stars: 20
+  stars_week: 4
 - title: Noita
   home_url: https://github.com/penibelst/jekyll-noita
   download_url: https://github.com/penibelst/jekyll-noita/archive/gh-pages.zip
@@ -936,8 +960,8 @@
   created: 2014-04-16 20:52:20.000000000 Z
   updated: 2015-01-14 01:47:16.000000000 Z
   commit_msg: Remove relative permalinks by Anatol Broder
-  stars: 37
-  stars_week: 0
+  stars: 38
+  stars_week: 1
 - title: Library
   home_url: https://github.com/SpaceG/Library
   download_url: https://github.com/SpaceG/Library/archive/master.zip
@@ -948,10 +972,10 @@
   tags: []
   github: SpaceG/Library
   created: 2015-01-01 12:21:34.000000000 Z
-  updated: 2016-05-18 23:50:34.000000000 Z
-  commit_msg: Update README.md by Lucas Gatsas
-  stars: 29
-  stars_week: 0
+  updated: 2017-06-11 22:44:17.000000000 Z
+  commit_msg: Update README.md by GitHub
+  stars: 31
+  stars_week: 2
 - title: Glas
   home_url: https://github.com/SpaceG/glas
   download_url: https://github.com/SpaceG/glas/archive/master.zip
@@ -964,8 +988,8 @@
   created: 2015-03-01 23:39:41.000000000 Z
   updated: 2016-04-08 23:18:37.000000000 Z
   commit_msg: Update by Lucas Gatsas
-  stars: 45
-  stars_week: 0
+  stars: 50
+  stars_week: 5
 - title: Otter Pop
   home_url: https://github.com/tybenz/otter-pop
   download_url: https://github.com/tybenz/otter-pop/archive/gh-pages.zip
@@ -993,8 +1017,8 @@
   created: 2014-05-16 05:57:19.000000000 Z
   updated: 2015-09-27 15:05:35.000000000 Z
   commit_msg: Update _layout.scss by Anandu B Ajith
-  stars: 13
-  stars_week: 0
+  stars: 12
+  stars_week: -1
 - title: Typewriter
   home_url: https://github.com/alixedi/typewriter
   download_url: https://github.com/alixedi/typewriter/zipball/master
@@ -1007,8 +1031,8 @@
   created: 2014-06-05 18:19:20.000000000 Z
   updated: 2014-06-09 11:39:20.000000000 Z
   commit_msg: Better vertical rhythym by Ali Zaidi
-  stars: 33
-  stars_week: 0
+  stars: 36
+  stars_week: 3
 - title: White Paper
   home_url: https://github.com/vinitkumar/white-paper
   download_url: https://github.com/vinitkumar/white-paper/archive/v1.0.2.zip
@@ -1019,10 +1043,10 @@
   tags: []
   github: vinitkumar/white-paper
   created: 2014-06-30 14:56:52.000000000 Z
-  updated: 2016-11-12 15:52:11.000000000 Z
-  commit_msg: Update README.md by GitHub
-  stars: 49
-  stars_week: 0
+  updated: 2017-02-24 06:42:10.000000000 Z
+  commit_msg: Update footer.html by GitHub
+  stars: 66
+  stars_week: 17
 - title: Bitwiser
   github: brijeshb42/bitwiser
   demo_url: http://bitwiser.in/bitwiser/
@@ -1035,8 +1059,8 @@
   created: 2014-07-07 11:05:43.000000000 Z
   updated: 2015-09-02 05:26:31.000000000 Z
   commit_msg: Added styling for table inside posts by Brijesh Bittu
-  stars: 22
-  stars_week: 0
+  stars: 25
+  stars_week: 3
 - title: Bitwiser Material
   github: brijeshb42/bitwiser-material
   branch: gh-pages
@@ -1050,8 +1074,8 @@
   created: 2015-07-11 20:55:48.000000000 Z
   updated: 2015-12-07 12:20:03.000000000 Z
   commit_msg: relative url fix by Brijesh Bittu
-  stars: 12
-  stars_week: 0
+  stars: 15
+  stars_week: 3
 - title: Freelancer
   home_url: https://github.com/jeromelachaud/freelancer-theme
   download_url: https://github.com/jeromelachaud/freelancer-theme/archive/master.zip
@@ -1062,44 +1086,13 @@
   tags: []
   github: jeromelachaud/freelancer-theme
   created: 2014-07-19 15:13:08.000000000 Z
-  updated: 2016-10-03 20:53:42.000000000 Z
+  updated: 2017-06-18 15:21:37.000000000 Z
   commit_msg: |-
-    Merge pull request #49 from ASPePeX/master
+    Merge pull request #72 from jourdanrodrigues/patch-1
 
-    The URL on startbootstrap.com changed by GitHub
-  stars: 618
-  stars_week: 0
-- title: Leap Day
-  home_url: https://github.com/mattgraham/leapday
-  download_url: https://github.com/mattgraham/leapday/archive/master.zip
-  demo_url: http://madebygraham.com/leapday/
-  author: Matt Graham
-  thumbnail: leap-day.png
-  license: MIT
-  tags: []
-  github: mattgraham/leapday
-  created: 2012-04-04 21:48:06.000000000 Z
-  updated: 2015-04-04 01:59:00.000000000 Z
-  commit_msg: |-
-    Merge pull request #17 from lmarkus/master
-
-    Made octicon font paths relative. by Matt Graham
-  stars: 86
-  stars_week: 2
-- title: Midnight
-  home_url: https://github.com/mattgraham/midnight
-  download_url: https://github.com/mattgraham/midnight/archive/master.zip
-  demo_url: http://madebygraham.com/midnight/
-  author: Matt Graham
-  thumbnail: midnight.png
-  license: MIT
-  tags: []
-  github: mattgraham/midnight
-  created: 2012-04-04 23:05:14.000000000 Z
-  updated: 2016-03-31 15:42:01.000000000 Z
-  commit_msg: tweeks based on feedback by Matt Graham
-  stars: 118
-  stars_week: 1
+    Fix email variable issue. by GitHub
+  stars: 685
+  stars_week: 67
 - title: Metro
   home_url: https://github.com/olakara/JekyllMetro
   download_url: https://github.com/olakara/JekyllMetro/archive/master.zip
@@ -1110,13 +1103,13 @@
   tags: []
   github: olakara/JekyllMetro
   created: 2014-06-17 14:07:26.000000000 Z
-  updated: 2016-05-15 03:44:37.000000000 Z
+  updated: 2017-04-14 04:38:30.000000000 Z
   commit_msg: |-
-    Merge pull request #43 from hackerkid/patch-1
+    Merge pull request #46 from rickyhan/master
 
-    add .jekyll-metadata by Abdel Raoof
-  stars: 38
-  stars_week: 0
+    added support for txtpen by GitHub
+  stars: 46
+  stars_week: 8
 - title: Pixyll
   home_url: https://github.com/johnotander/pixyll
   download_url: https://github.com/johnotander/pixyll/archive/master.zip
@@ -1127,13 +1120,13 @@
   tags: []
   github: johnotander/pixyll
   created: 2014-01-04 22:52:55.000000000 Z
-  updated: 2017-01-23 15:29:36.000000000 Z
+  updated: 2017-05-29 14:02:17.000000000 Z
   commit_msg: |-
-    Merge pull request #309 from Yinchie/master
+    Merge pull request #330 from ashawley/ampersands
 
-    Invalid setting by GitHub
-  stars: 1272
-  stars_week: 2
+    Quote ampersand in Google font url by GitHub
+  stars: 1379
+  stars_week: 107
 - title: Travelog
   home_url: https://github.com/rowanoulton/travelog-theme
   download_url: https://github.com/rowanoulton/travelog-theme/archive/master.zip
@@ -1148,8 +1141,8 @@
     Merge pull request #4 from rowanoulton/better-retina-support
 
     Better retina support by Rowan Oulton
-  stars: 80
-  stars_week: 0
+  stars: 84
+  stars_week: 4
 - title: Agency
   home_url: https://github.com/y7kim/agency-jekyll-theme
   download_url: https://github.com/y7kim/agency-jekyll-theme/archive/gh-pages.zip
@@ -1160,13 +1153,13 @@
   tags: []
   github: y7kim/agency-jekyll-theme
   created: 2014-08-20 19:54:22.000000000 Z
-  updated: 2017-01-19 19:14:19.000000000 Z
+  updated: 2017-02-27 18:44:56.000000000 Z
   commit_msg: |-
-    Merge pull request #56 from TT--/issue-51-navbar-shrink-sooner
+    Merge pull request #59 from JonathanWade/text-muted-css-fix
 
-    when scrolling down navbar shrinks sooner... by GitHub
-  stars: 374
-  stars_week: 0
+    Fix text-muted class by GitHub
+  stars: 411
+  stars_week: 37
 - title: Solid
   home_url: https://github.com/st4ple/solid-jekyll
   download_url: https://github.com/st4ple/solid-jekyll/archive/master.zip
@@ -1177,13 +1170,10 @@
   tags: []
   github: st4ple/solid-jekyll
   created: 2014-08-15 13:40:18.000000000 Z
-  updated: 2015-11-05 08:43:14.000000000 Z
-  commit_msg: |-
-    Merge pull request #23 from drkokandy/master
-
-    Removing tags from project.html layout and adding them to each post by Oliver Stapleton
-  stars: 270
-  stars_week: 0
+  updated: 2017-02-21 14:38:04.000000000 Z
+  commit_msg: Added license declaration. by GitHub
+  stars: 289
+  stars_week: 19
 - title: Clean
   home_url: http://github.com/scotte/jekyll-clean
   download_url: https://github.com/scotte/jekyll-clean/zipball/gh-pages
@@ -1196,8 +1186,8 @@
   created: 2014-08-22 22:48:36.000000000 Z
   updated: 2016-07-27 21:45:56.000000000 Z
   commit_msg: Fix gh-pages documentation by Scott Emmons
-  stars: 102
-  stars_week: 0
+  stars: 109
+  stars_week: 7
 - title: Clean Dark
   home_url: https://github.com/streetturtle/jekyll-clean-dark
   download_url: https://github.com/streetturtle/jekyll-clean-dark/archive/gh-pages.zip
@@ -1208,10 +1198,10 @@
   tags: []
   github: streetturtle/jekyll-clean-dark
   created: 2015-06-29 22:56:56.000000000 Z
-  updated: 2017-01-11 19:00:12.000000000 Z
-  commit_msg: Rename archive.md to archive.html by GitHub
-  stars: 57
-  stars_week: 1
+  updated: 2017-02-27 13:51:45.000000000 Z
+  commit_msg: Update README.md by GitHub
+  stars: 68
+  stars_week: 11
 - title: Curriculum Vitae (CV) Crafter
   home_url: https://github.com/streetturtle/jekyll-cv-crafter
   download_url: https://github.com/streetturtle/jekyll-cv-crafter/archive/gh-pages.zip
@@ -1224,10 +1214,10 @@
   - resume
   github: streetturtle/jekyll-cv-crafter
   created: 2016-03-01 21:14:00.000000000 Z
-  updated: 2017-01-09 22:00:50.000000000 Z
-  commit_msg: Fix typos by Pavel Makhov
-  stars: 24
-  stars_week: 0
+  updated: 2017-03-03 01:51:26.000000000 Z
+  commit_msg: Theme 'gemification' by streetturtle
+  stars: 33
+  stars_week: 9
 - title: Mediator
   home_url: https://github.com/dirkfabisch/mediator
   download_url: https://github.com/dirkfabisch/mediator/archive/master.zip
@@ -1243,8 +1233,8 @@
     Merge pull request #73 from jasuarez/fix-social-network-share
 
     Fix social network share by GitHub
-  stars: 586
-  stars_week: 0
+  stars: 617
+  stars_week: 31
 - title: Shiori
   home_url: https://github.com/ellekasai/shiori
   download_url: https://github.com/ellekasai/shiori/archive/gh-pages.zip
@@ -1256,13 +1246,10 @@
   - bootstrap
   github: ellekasai/shiori
   created: 2014-09-07 05:49:29.000000000 Z
-  updated: 2016-09-12 22:07:19.000000000 Z
-  commit_msg: |-
-    Merge pull request #14 from anthonyfok/fix-typo-and-permission
-
-    Fix minor typo; change file permission to 0644 by GitHub
-  stars: 254
-  stars_week: 0
+  updated: 2017-05-25 17:16:36.000000000 Z
+  commit_msg: Remove Twitter and Gist by Elle Kasai
+  stars: 253
+  stars_week: -1
 - title: Resume Cards
   home_url: https://github.com/ellekasai/resumecards
   download_url: https://github.com/ellekasai/resumecards/archive/gh-pages.zip
@@ -1274,11 +1261,10 @@
   - resume
   github: ellekasai/resumecards
   created: 2014-12-28 20:41:56.000000000 Z
-  updated: 2016-09-12 22:16:16.000000000 Z
-  commit_msg: Merge branch 'gh-pages' of https://github.com/ellekasai/resumecards
-    into gh-pages by Elle Kasai
-  stars: 560
-  stars_week: 0
+  updated: 2017-05-25 17:48:16.000000000 Z
+  commit_msg: Add New Post and Remove Twitter by Elle Kasai
+  stars: 591
+  stars_week: 31
 - title: Harmony
   home_url: https://github.com/gayanvirajith/harmony
   download_url: https://github.com/gayanvirajith/harmony/archive/master.zip
@@ -1289,13 +1275,13 @@
   tags: []
   github: gayanvirajith/harmony
   created: 2014-07-28 06:02:43.000000000 Z
-  updated: 2016-04-05 11:02:26.000000000 Z
+  updated: 2017-06-07 06:47:58.000000000 Z
   commit_msg: |-
-    Merge pull request #18 from axhm3a/master
+    Merge pull request #24 from jonnydark/liquid-warning-fix
 
-    fixed closing of wrong tag h4/h2 thanks to @axhm3a by Gayan Virajith
-  stars: 207
-  stars_week: 0
+    Remove errant parenthesis to fix liquid syntax error thantks to @jonnydark by GitHub
+  stars: 224
+  stars_week: 17
 - title: Contrast
   home_url: https://github.com/niklasbuschmann/contrast
   download_url: https://github.com/niklasbuschmann/contrast/archive/gh-pages.zip
@@ -1306,10 +1292,10 @@
   tags: []
   github: niklasbuschmann/contrast
   created: 2015-01-30 20:06:37.000000000 Z
-  updated: 2017-02-12 10:56:57.000000000 Z
-  commit_msg: fix by GitHub
-  stars: 38
-  stars_week: 1
+  updated: 2017-05-21 10:55:45.000000000 Z
+  commit_msg: improve consistency by GitHub
+  stars: 41
+  stars_week: 3
 - title: Single Paged
   home_url: https://github.com/t413/SinglePaged
   download_url: https://github.com/t413/SinglePaged/archive/gh-pages.zip
@@ -1322,8 +1308,8 @@
   created: 2014-09-19 20:31:46.000000000 Z
   updated: 2016-08-04 06:13:56.000000000 Z
   commit_msg: Updated examples list-- removed old + added some new by Tim O'Brien
-  stars: 502
-  stars_week: 0
+  stars: 548
+  stars_week: 46
 - title: Clean Blog
   home_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll
   download_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/gh-pages.zip
@@ -1336,8 +1322,8 @@
   created: 2014-09-27 08:05:10.000000000 Z
   updated: 2016-08-19 01:23:52.000000000 Z
   commit_msg: minor text change to config by David Miller
-  stars: 779
-  stars_week: 1
+  stars: 865
+  stars_week: 86
 - title: Landing Page
   home_url: https://github.com/swcool/landing-page-theme
   download_url: https://github.com/swcool/landing-page-theme/archive/master.zip
@@ -1353,8 +1339,8 @@
     Merge pull request #12 from ssokurenko/master
 
     Moved copyright and credits strings to the config. by Shane Weng
-  stars: 201
-  stars_week: 0
+  stars: 221
+  stars_week: 20
 - title: Autm.rb
   github: kirqe/autm-rb
   demo_url: http://kirqe.github.io/autm-rb
@@ -1365,10 +1351,10 @@
   home_url: https://github.com/kirqe/autm-rb
   download_url: https://github.com/kirqe/autm-rb/archive/master.zip
   created: 2014-10-10 15:37:02.000000000 Z
-  updated: 2017-02-09 12:44:31.000000000 Z
-  commit_msg: Update README.md by GitHub
-  stars: 51
-  stars_week: 0
+  updated: 2017-04-02 21:14:04.000000000 Z
+  commit_msg: added compact view (title and date for blog) by railsr
+  stars: 58
+  stars_week: 7
 - title: Almace Scaffolding
   home_url: https://github.com/sparanoid/almace-scaffolding
   download_url: https://github.com/sparanoid/almace-scaffolding/archive/master.zip
@@ -1379,10 +1365,10 @@
   tags: []
   github: sparanoid/almace-scaffolding
   created: 2013-12-31 11:24:45.000000000 Z
-  updated: 2017-02-11 13:05:45.000000000 Z
-  commit_msg: 'feat(grunt): add `html_trim` support by Tunghsiao Liu'
-  stars: 118
-  stars_week: 0
+  updated: 2017-06-06 06:45:42.000000000 Z
+  commit_msg: 'docs(readme): add Greenkeeper badge by Tunghsiao Liu'
+  stars: 129
+  stars_week: 11
 - title: Masonry
   home_url: https://github.com/pasindud/jekyll-masonry
   download_url: https://github.com/pasindud/jekyll-masonry/archive/master.zip
@@ -1394,8 +1380,8 @@
   created: 2014-09-03 14:35:16.000000000 Z
   updated: 2015-09-08 11:59:51.000000000 Z
   commit_msg: Update README.md by Pasindu De Silva
-  stars: 24
-  stars_week: 0
+  stars: 25
+  stars_week: 1
 - title: Strange Case
   home_url: https://github.com/thephuse/strange_case
   download_url: https://github.com/thephuse/strange_case/archive/gh-pages.zip
@@ -1408,8 +1394,8 @@
   created: 2014-01-07 18:39:42.000000000 Z
   updated: 2014-12-12 14:46:33.000000000 Z
   commit_msg: Update home icon by Kelley Gibson
-  stars: 44
-  stars_week: 0
+  stars: 45
+  stars_week: 1
 - title: Open Theme
   home_url: https://github.com/manavsehgal/opentheme
   download_url: https://github.com/manavsehgal/opentheme/archive/master.zip
@@ -1420,10 +1406,10 @@
   tags: []
   github: manavsehgal/opentheme
   created: 2014-11-19 12:03:04.000000000 Z
-  updated: 2015-12-23 00:35:38.000000000 Z
-  commit_msg: Update README.md by Manav Sehgal
-  stars: 83
-  stars_week: 2
+  updated: 2017-05-23 20:32:50.000000000 Z
+  commit_msg: Not hosted anymore. by GitHub
+  stars: 88
+  stars_week: 5
 - title: Freshman 21
   home_url: https://github.com/yulijia/freshman21
   download_url: https://github.com/yulijia/freshman21/archive/master.zip
@@ -1434,10 +1420,13 @@
   tags: []
   github: yulijia/freshman21
   created: 2014-12-13 08:04:22.000000000 Z
-  updated: 2017-02-04 15:30:00.000000000 Z
-  commit_msg: 'feat(page-img-style): modify page.html image style (#23) by yulijia'
-  stars: 64
-  stars_week: 0
+  updated: 2017-03-24 01:14:49.000000000 Z
+  commit_msg: |-
+    Merge pull request #31 from Richeir/dev
+
+    Fix scss convert with none-ANSI charactors. ( issue #27 ) by GitHub
+  stars: 65
+  stars_week: 1
 - title: Minimal Block
   home_url: https://github.com/drvy/minimal-block
   download_url: https://github.com/drvy/minimal-block/archive/master.zip
@@ -1448,11 +1437,13 @@
   tags: []
   github: drvy/minimal-block
   created: 2015-01-02 19:29:31.000000000 Z
-  updated: 2016-11-26 16:06:10.000000000 Z
-  commit_msg: Configure sass pre-processor and adapt to new stylesheets by Dragomir
-    Yordanov
-  stars: 22
-  stars_week: 0
+  updated: 2017-05-29 18:31:22.000000000 Z
+  commit_msg: |-
+    Merge pull request #6 from agrathwohl/liquid-syntax-fix
+
+    fix liquid tag in post layout, which causes build warnings by GitHub
+  stars: 24
+  stars_week: 2
 - title: Compass
   home_url: https://github.com/excentris/compass
   download_url: https://github.com/excentris/compass/archive/master.zip
@@ -1463,13 +1454,13 @@
   tags: []
   github: excentris/compass
   created: 2015-01-03 21:56:41.000000000 Z
-  updated: 2016-02-17 07:34:01.000000000 Z
+  updated: 2017-05-21 10:39:09.000000000 Z
   commit_msg: |-
-    Merge pull request #2 from claman/fix-relative-permalinks
+    Merge pull request #3 from dhashe/exclude-files
 
-    Fix relative permalinks and syntax highlighting by Eduardo Rubio
-  stars: 72
-  stars_week: 0
+    Exclude non-site files by GitHub
+  stars: 85
+  stars_week: 13
 - title: Type
   home_url: https://github.com/rohanchandra/type-theme
   download_url: https://github.com/rohanchandra/type-theme/archive/master.zip
@@ -1480,13 +1471,13 @@
   tags: []
   github: rohanchandra/type-theme
   created: 2015-01-07 02:37:24.000000000 Z
-  updated: 2016-11-23 07:19:04.000000000 Z
+  updated: 2017-06-17 08:15:12.000000000 Z
   commit_msg: |-
-    Merge pull request #38 from StilgarISCA/MuutSupport
+    Merge pull request #46 from divayprakash/patch-1
 
-    Add support for Muut commenting by GitHub
-  stars: 275
-  stars_week: 0
+    Fix image for non-empty baseurl by GitHub
+  stars: 297
+  stars_week: 22
 - title: Gaya
   home_url: https://github.com/gayanvirajith/gaya
   download_url: https://github.com/gayanvirajith/gaya/archive/master.zip
@@ -1502,8 +1493,8 @@
     Merge pull request #16 from ianbrunelli/patch-1
 
     Fix typo thanks to @ianbrunelli by Gayan Virajith
-  stars: 86
-  stars_week: 0
+  stars: 97
+  stars_week: 11
 - title: Travelogue
   home_url: https://github.com/SalGnt/Travelogue
   download_url: https://github.com/SalGnt/Travelogue/archive/master.zip
@@ -1516,8 +1507,8 @@
   created: 2015-01-13 15:49:27.000000000 Z
   updated: 2015-09-10 13:43:31.000000000 Z
   commit_msg: Add jekyll-sitemap by Salvatore Gentile
-  stars: 153
-  stars_week: 0
+  stars: 152
+  stars_week: -1
 - title: Long Haul
   home_url: https://github.com/brianmaierjr/long-haul
   download_url: https://github.com/brianmaierjr/long-haul/archive/master.zip
@@ -1528,10 +1519,10 @@
   tags: []
   github: brianmaierjr/long-haul
   created: 2014-12-14 08:41:52.000000000 Z
-  updated: 2017-02-07 02:46:27.000000000 Z
-  commit_msg: messing with default sass functionality in jekyll by Brian Maier Jr
-  stars: 241
-  stars_week: 2
+  updated: 2017-04-07 04:03:00.000000000 Z
+  commit_msg: taking out compass references by Brian Maier Jr
+  stars: 271
+  stars_week: 30
 - title: Ttskch
   home_url: https://github.com/ttskch/jekyll-ttskch-theme
   download_url: https://github.com/ttskch/jekyll-ttskch-theme/archive/master.zip
@@ -1542,13 +1533,13 @@
   tags: []
   github: ttskch/jekyll-ttskch-theme
   created: 2015-01-23 10:41:56.000000000 Z
-  updated: 2017-02-10 05:14:56.000000000 Z
+  updated: 2017-04-09 04:38:22.000000000 Z
   commit_msg: |-
-    Merge pull request #29 from ggarnier/master
+    Merge pull request #34 from sasukeh/sasukeh-patch001
 
-    Change recent posts header tag to h2 by GitHub
-  stars: 15
-  stars_week: 0
+    add my blog to your ring by GitHub
+  stars: 19
+  stars_week: 4
 - title: Rifyll
   home_url: https://github.com/itsrifat/rifyll
   download_url: https://github.com/itsrifat/rifyll/archive/master.zip
@@ -1561,8 +1552,8 @@
   created: 2015-01-01 21:38:31.000000000 Z
   updated: 2017-01-03 23:20:01.000000000 Z
   commit_msg: Update _config.yml by GitHub
-  stars: 9
-  stars_week: 0
+  stars: 10
+  stars_week: 1
 - title: Grayscale
   home_url: https://github.com/jeromelachaud/grayscale-theme
   download_url: https://github.com/jeromelachaud/grayscale-theme/archive/master.zip
@@ -1578,8 +1569,8 @@
     Merge pull request #11 from kylesferrazza/patch-3
 
     Title and Description from config by Jerome Lachaud
-  stars: 148
-  stars_week: 0
+  stars: 160
+  stars_week: 12
 - title: Metaphor
   home_url: https://github.com/prio101/metaphor-jekyll
   download_url: https://github.com/prio101/metaphor-jekyll/archive/master.zip
@@ -1592,8 +1583,8 @@
   created: 2015-02-05 11:38:10.000000000 Z
   updated: 2015-02-05 11:37:31.000000000 Z
   commit_msg: All by prio101
-  stars: 1
-  stars_week: 0
+  stars: 2
+  stars_week: 1
 - title: Naringu
   home_url: https://github.com/ariestiyansyah/naringu
   download_url: https://github.com/ariestiyansyah/naringu/archive/master.zip
@@ -1609,8 +1600,8 @@
     Merge pull request #10 from rearrange/master
 
     Changes to support Jekyll 3 by Rizky Ariestiyansyah
-  stars: 26
-  stars_week: 0
+  stars: 31
+  stars_week: 5
 - title: Tufte
   home_url: https://github.com/clayh53/tufte-jekyll
   download_url: https://github.com/clayh53/tufte-jekyll/archive/master.zip
@@ -1624,8 +1615,8 @@
   updated: 2016-12-19 18:44:53.000000000 Z
   commit_msg: 'changed font names to conform to tufte-css naming convention was: ETBembo
     now: ETbook by clayh53'
-  stars: 186
-  stars_week: 0
+  stars: 226
+  stars_week: 40
 - title: Feeling Responsive
   github: Phlow/feeling-responsive
   branch: gh-pages
@@ -1637,13 +1628,13 @@
   home_url: https://github.com/Phlow/feeling-responsive
   download_url: https://github.com/Phlow/feeling-responsive/archive/gh-pages.zip
   created: 2014-08-17 10:32:01.000000000 Z
-  updated: 2017-01-31 11:45:13.000000000 Z
+  updated: 2017-04-23 12:48:46.000000000 Z
   commit_msg: |-
-    Merge pull request #129 from jhabdas/gallery-image-alt-text
+    Merge pull request #146 from NeverMin/fix-liquid-syntax-error
 
-    Add caption as image alt text by GitHub
-  stars: 304
-  stars_week: 0
+    fixed Liquid syntax error #145 by GitHub
+  stars: 337
+  stars_week: 33
 - title: Emerald
   home_url: https://github.com/KingFelix/emerald
   download_url: https://github.com/KingFelix/emerald/archive/master.zip
@@ -1654,13 +1645,13 @@
   tags: []
   github: KingFelix/emerald
   created: 2015-03-17 10:26:55.000000000 Z
-  updated: 2016-10-19 19:06:33.000000000 Z
+  updated: 2017-05-19 06:36:42.000000000 Z
   commit_msg: |-
-    Merge pull request #17 from dezon/fix_url
+    Merge pull request #22 from iandioch/patch-1
 
-    Fix url by GitHub
-  stars: 90
-  stars_week: 0
+    Update head.html to have https font link by GitHub
+  stars: 105
+  stars_week: 15
 - title: Dev Aid
   home_url: https://github.com/kevit/devaid-jekyll-theme
   download_url: https://github.com/kevit/devaid-jekyll-theme/archive/master.zip
@@ -1693,8 +1684,8 @@
     Merge pull request #77 from brianbunke/gh-pages
 
     Bump Font Awesome version to 4.7.0 by GitHub
-  stars: 141
-  stars_week: 0
+  stars: 151
+  stars_week: 10
 - title: Pithy
   home_url: https://github.com/smallmuou/Jekyll-Pithy
   download_url: https://github.com/smallmuou/Jekyll-Pithy/archive/master.zip
@@ -1705,10 +1696,10 @@
   tags: []
   github: smallmuou/Jekyll-Pithy
   created: 2015-04-10 01:45:07.000000000 Z
-  updated: 2016-12-08 09:33:30.000000000 Z
-  commit_msg: Merge branch 'master' of github.com:smallmuou/Jekyll-Pithy by smallmuou
-  stars: 53
-  stars_week: 0
+  updated: 2017-03-24 06:13:34.000000000 Z
+  commit_msg: add year by smallmuou
+  stars: 62
+  stars_week: 9
 - title: Twister
   home_url: https://github.com/DigitalMindCH/twister-jekyll-theme
   download_url: http://digitalmind.ch/media/downloads/twister_theme.zip
@@ -1724,8 +1715,8 @@
     Merge pull request #6 from azonmarina/master
 
     Missing posts in front page by Myriam
-  stars: 47
-  stars_week: 0
+  stars: 49
+  stars_week: 2
 - title: Black Doc
   home_url: https://github.com/karloespiritu/BlackDoc
   download_url: https://github.com/karloespiritu/BlackDoc/archive/master.zip
@@ -1738,8 +1729,8 @@
   created: 2015-05-22 00:34:37.000000000 Z
   updated: 2016-07-30 14:51:17.000000000 Z
   commit_msg: updated config params by Karlo Espiritu
-  stars: 49
-  stars_week: 0
+  stars: 61
+  stars_week: 12
 - title: Polar Bear
   home_url: https://github.com/diezcami/polar-bear-theme
   download_url: https://github.com/diezcami/polar-bear-theme/archive/master.zip
@@ -1756,7 +1747,7 @@
 
     Add Gemfile by Camille Diez
   stars: 28
-  stars_week: 1
+  stars_week: 0
 - title: Arctic Fox
   home_url: https://github.com/diezcami/arctic-fox-theme
   download_url: https://github.com/diezcami/arctic-fox-theme/archive/master.zip
@@ -1772,8 +1763,8 @@
     Merge pull request #4 from arnaud-zg/master
 
     Fix align obsolete attribute by Camille Diez
-  stars: 34
-  stars_week: 0
+  stars: 41
+  stars_week: 7
 - title: Cool Concise
   home_url: https://github.com/Gaohaoyang/gaohaoyang.github.io
   download_url: https://github.com/Gaohaoyang/gaohaoyang.github.io/archive/v1.1.zip
@@ -1784,10 +1775,10 @@
   tags: []
   github: Gaohaoyang/gaohaoyang.github.io
   created: 2015-02-10 06:24:40.000000000 Z
-  updated: 2017-02-09 13:11:45.000000000 Z
-  commit_msg: update by chuan shi(haoyang gao)
-  stars: 669
-  stars_week: 1
+  updated: 2017-06-15 15:13:42.000000000 Z
+  commit_msg: u by chuan shi(haoyang gao)
+  stars: 807
+  stars_week: 138
 - title: Resume Card
   home_url: https://github.com/ddbullfrog/resumecard
   download_url: https://github.com/ddbullfrog/resumecard/archive/gh-pages.zip
@@ -1799,10 +1790,10 @@
   - resume
   github: ddbullfrog/resumecard
   created: 2015-06-01 22:00:02.000000000 Z
-  updated: 2016-09-27 02:30:20.000000000 Z
-  commit_msg: Update README.md by GitHub
-  stars: 120
-  stars_week: 1
+  updated: 2017-04-12 07:26:40.000000000 Z
+  commit_msg: Update _config.yml by GitHub
+  stars: 132
+  stars_week: 12
 - title: Kactus
   home_url: https://github.com/nickbalestra/kactus
   download_url: https://github.com/nickbalestra/kactus/archive/master.zip
@@ -1815,8 +1806,8 @@
   created: 2015-06-11 18:10:48.000000000 Z
   updated: 2016-08-30 20:00:17.000000000 Z
   commit_msg: fixed broken navigation by Nick Balestra
-  stars: 287
-  stars_week: 1
+  stars: 313
+  stars_week: 26
 - title: Tiffany
   home_url: https://github.com/WakelessDragon/blog
   download_url: https://github.com/WakelessDragon/blog/archive/gh-pages.zip
@@ -1827,10 +1818,10 @@
   tags: []
   github: WakelessDragon/blog
   created: 2015-01-25 05:46:39.000000000 Z
-  updated: 2016-07-21 10:00:15.000000000 Z
-  commit_msg: "内容格式调整 by WakelessDragon"
-  stars: 66
-  stars_week: 0
+  updated: 2017-05-27 09:16:42.000000000 Z
+  commit_msg: "记一次在spring-mvc中踩坑的经历 by WakelessDragon"
+  stars: 67
+  stars_week: 1
 - title: Centrarium
   github: bencentra/centrarium
   demo_url: http://bencentra.com/centrarium
@@ -1846,8 +1837,8 @@
     Merge pull request #40 from falexandrou/master
 
     update & fix highlight.js by GitHub
-  stars: 123
-  stars_week: 0
+  stars: 144
+  stars_week: 21
 - title: Mickey
   github: vincentchan/mickey
   demo_url: http://vincentchan.github.io/mickey
@@ -1863,8 +1854,8 @@
     Merge pull request #6 from johnwook/master
 
     Dependency update & Replace gulp-ruby-sass with gulp-sass by Vincent Chan
-  stars: 215
-  stars_week: 0
+  stars: 233
+  stars_week: 18
 - title: Resume
   github: jglovier/resume-template
   branch: gh-pages
@@ -1877,13 +1868,10 @@
   home_url: https://github.com/jglovier/resume-template
   download_url: https://github.com/jglovier/resume-template/archive/gh-pages.zip
   created: 2015-07-18 12:59:13.000000000 Z
-  updated: 2017-02-01 21:25:39.000000000 Z
-  commit_msg: |-
-    Merge pull request #22 from bryanculver/gh-pages
-
-    Added some print media styles. by GitHub
-  stars: 362
-  stars_week: 1
+  updated: 2017-06-15 10:35:43.000000000 Z
+  commit_msg: fix spelling in one more spot by GitHub
+  stars: 439
+  stars_week: 77
 - title: Video
   github: mushishi78/jekyll-video
   branch: gh-pages
@@ -1913,8 +1901,8 @@
   created: 2015-04-22 13:12:24.000000000 Z
   updated: 2015-05-09 18:23:40.000000000 Z
   commit_msg: Blank by Max White
-  stars: 14
-  stars_week: 0
+  stars: 15
+  stars_week: 1
 - title: Leonids
   github: renyuanz/leonids
   branch: master
@@ -1928,13 +1916,13 @@
   home_url: https://github.com/renyuanz/leonids
   download_url: https://github.com/renyuanz/leonids/archive/master.zip
   created: 2015-08-22 20:45:38.000000000 Z
-  updated: 2017-01-18 01:12:38.000000000 Z
+  updated: 2017-02-23 19:01:54.000000000 Z
   commit_msg: |-
-    Merge pull request #39 from warden/pr-readme-docker
+    Merge pull request #41 from DracoBlue/patch-1
 
-    Add docker info to README by GitHub
-  stars: 204
-  stars_week: 1
+    Use after-elements instead of html for sidebar elements by GitHub
+  stars: 295
+  stars_week: 91
 - title: Book
   github: kkninjae/book
   branch: gh-pages
@@ -1946,10 +1934,10 @@
   home_url: https://github.com/kkninjae/book
   download_url: https://github.com/kkninjae/book/archive/gh-pages.zip
   created: 2015-08-27 20:29:15.000000000 Z
-  updated: 2015-09-06 08:43:40.000000000 Z
+  updated: 2017-03-05 15:05:09.000000000 Z
   commit_msg: fix missing links by Lang Liu
-  stars: 58
-  stars_week: 1
+  stars: 71
+  stars_week: 13
 - title: The Plain
   github: heiswayi/the-plain
   branch: gh-pages
@@ -1961,10 +1949,13 @@
   home_url: https://github.com/heiswayi/the-plain
   download_url: https://github.com/heiswayi/the-plain/archive/gh-pages.zip
   created: 2015-09-08 16:09:41.000000000 Z
-  updated: 2017-02-04 15:48:38.000000000 Z
-  commit_msg: Update _config.yml by GitHub
-  stars: 155
-  stars_week: 0
+  updated: 2017-05-08 06:32:10.000000000 Z
+  commit_msg: |-
+    Merge pull request #24 from facundofarias/master
+
+    Fixing bug when pointing to another blog post by GitHub
+  stars: 190
+  stars_week: 35
 - title: Daktilo
   github: kronik3r/daktilo
   demo_url: http://hitchhiker.ma/daktilo/
@@ -1977,8 +1968,8 @@
   created: 2015-09-08 04:32:39.000000000 Z
   updated: 2016-03-01 10:37:42.000000000 Z
   commit_msg: 'Fix #18 - Remove confusion about disqus username by Motaquillah Maddane'
-  stars: 140
-  stars_week: 0
+  stars: 150
+  stars_week: 10
 - title: Kiko
   github: gfjaru/Kiko
   demo_url: http://kiko.gfjaru.com/
@@ -1991,8 +1982,8 @@
   created: 2015-09-10 13:13:47.000000000 Z
   updated: 2016-10-30 12:42:26.000000000 Z
   commit_msg: Update README.md by GitHub
-  stars: 135
-  stars_week: 0
+  stars: 139
+  stars_week: 4
 - title: Neo HPSTR
   github: aron-bordin/neo-hpstr-jekyll-theme
   demo_url: http://aronbordin.com/neo-hpstr-jekyll-theme/
@@ -2007,8 +1998,8 @@
   created: 2015-09-05 00:02:58.000000000 Z
   updated: 2016-12-11 15:18:55.000000000 Z
   commit_msg: Update README.md by GitHub
-  stars: 88
-  stars_week: 1
+  stars: 113
+  stars_week: 25
 - title: Yellowblue
   github: chalatz/yellowblue
   demo_url: http://demo-yb.yellowblue.eu/
@@ -2019,10 +2010,10 @@
   home_url: https://github.com/chalatz/yellowblue
   download_url: https://github.com/chalatz/yellowblue/archive/master.zip
   created: 2015-10-16 09:59:38.000000000 Z
-  updated: 2017-01-12 12:09:24.000000000 Z
-  commit_msg: Added Jekyll 3 support by chalatz
-  stars: 12
-  stars_week: 0
+  updated: 2017-03-01 07:51:48.000000000 Z
+  commit_msg: corrected a link by chalatz
+  stars: 13
+  stars_week: 1
 - title: Ink
   github: thinker3197/ink
   demo_url: http://thinker3197.github.io/ink/
@@ -2042,8 +2033,8 @@
     Merge pull request #3 from konahart/master
 
     Use site.twitter to generate Twitter social link by GitHub
-  stars: 10
-  stars_week: 0
+  stars: 15
+  stars_week: 5
 - title: Mono
   github: AkshayAgarwal007/Jekyll-Mono
   demo_url: http://akshayagarwal007.github.io/Jekyll-Mono/
@@ -2056,8 +2047,8 @@
   created: 2016-05-20 19:44:40.000000000 Z
   updated: 2016-12-07 14:33:18.000000000 Z
   commit_msg: updated rss icon by GitHub
-  stars: 65
-  stars_week: 0
+  stars: 86
+  stars_week: 21
 - title: Immaculate
   github: siawyoung/immaculate
   branch: gh-pages
@@ -2081,25 +2072,24 @@
     Match table font size
 
     Closes #3 by Lau Siaw Young
-  stars: 52
-  stars_week: 0
+  stars: 61
+  stars_week: 9
 - title: Mangan
   github: dikiaap/mangan
   demo_url: https://mangan.dikiaap.id
-  author: Diki Andriansyah
+  author: Diki Ananta
   thumbnail: mangan.png
   license: MIT
   tags:
   - geek
-  - black
   - white
   home_url: https://github.com/dikiaap/mangan
   download_url: https://github.com/dikiaap/mangan/archive/master.zip
   created: 2015-07-03 08:13:56.000000000 Z
-  updated: 2017-01-02 22:57:42.000000000 Z
-  commit_msg: Update ruby requirements and readme by GitHub
-  stars: 29
-  stars_week: 0
+  updated: 2017-06-08 03:53:53.000000000 Z
+  commit_msg: Update to https link on post by GitHub
+  stars: 32
+  stars_week: 3
 - title: Indigo Minimalist
   github: sergiokopplin/indigo
   branch: gh-pages
@@ -2112,13 +2102,13 @@
   home_url: https://github.com/sergiokopplin/indigo
   download_url: https://github.com/sergiokopplin/indigo/archive/gh-pages.zip
   created: 2016-01-23 22:26:04.000000000 Z
-  updated: 2017-02-12 20:00:27.000000000 Z
+  updated: 2017-05-21 15:33:33.000000000 Z
   commit_msg: |-
-    Merge pull request #212 from sergiokopplin/next
+    Merge pull request #234 from ravpacheco/gh-pages
 
-    merge with next branch by GitHub
-  stars: 379
-  stars_week: 3
+    Fix social link issue (#232) on mobile versions by GitHub
+  stars: 515
+  stars_week: 136
 - title: Photorama
   github: sunbliss/photorama
   branch: gh-pages
@@ -2131,10 +2121,10 @@
   home_url: https://github.com/sunbliss/photorama
   download_url: https://github.com/sunbliss/photorama/archive/gh-pages.zip
   created: 2016-03-27 21:21:59.000000000 Z
-  updated: 2017-02-04 23:19:06.000000000 Z
-  commit_msg: Version 2.0 released by GitHub
-  stars: 50
-  stars_week: 0
+  updated: 2017-03-22 04:13:53.000000000 Z
+  commit_msg: Version 2.1 released by GitHub
+  stars: 77
+  stars_week: 27
 - title: Slender
   github: nikrich/jekyll-slender-template
   demo_url: http://nikrich.github.io/jekyll-slender-template/
@@ -2153,8 +2143,8 @@
     Merge pull request #21 from nikrich/dev
 
     Update README.md by Jannik Richter
-  stars: 22
-  stars_week: 0
+  stars: 25
+  stars_week: 3
 - title: Gravity
   github: hemangsk/Gravity
   demo_url: http://hemangsk.github.io/Gravity
@@ -2171,13 +2161,10 @@
   home_url: https://github.com/hemangsk/Gravity
   download_url: https://github.com/hemangsk/Gravity/archive/master.zip
   created: 2016-03-30 20:26:09.000000000 Z
-  updated: 2017-01-17 18:17:46.000000000 Z
-  commit_msg: |-
-    style.css: Align nav to center
-
-    Closes #32 by GitHub
-  stars: 142
-  stars_week: 0
+  updated: 2017-06-12 16:02:20.000000000 Z
+  commit_msg: 'README.md: Add full size screenshot by GitHub'
+  stars: 228
+  stars_week: 86
 - title: Dev Journal
   github: hemangsk/DevJournal
   demo_url: http://hemangsk.github.io/DevJournal
@@ -2191,10 +2178,10 @@
   home_url: https://github.com/hemangsk/DevJournal
   download_url: https://github.com/hemangsk/DevJournal/archive/master.zip
   created: 2016-05-13 08:22:12.000000000 Z
-  updated: 2016-07-14 12:11:14.000000000 Z
-  commit_msg: navbar bug fix by Hemang Kumar
-  stars: 44
-  stars_week: 0
+  updated: 2017-02-15 08:13:28.000000000 Z
+  commit_msg: Delete _syntax-highlighting.scssc by GitHub
+  stars: 53
+  stars_week: 9
 - title: Safarnama
   github: hemangsk/safarnama
   demo_url: http://hemangsk.github.io/safarnama
@@ -2210,8 +2197,8 @@
   created: 2016-05-21 11:02:17.000000000 Z
   updated: 2016-06-06 03:35:44.000000000 Z
   commit_msg: Update README.md by Hemang Kumar
-  stars: 1
-  stars_week: 0
+  stars: 2
+  stars_week: 1
 - title: Decent
   github: jwillmer/jekyllDecent
   branch: gh-pages
@@ -2229,10 +2216,13 @@
   home_url: https://github.com/jwillmer/jekyllDecent
   download_url: https://github.com/jwillmer/jekyllDecent/archive/gh-pages.zip
   created: 2016-05-22 19:37:47.000000000 Z
-  updated: 2016-09-14 08:28:31.000000000 Z
-  commit_msg: updated release number by GitHub
-  stars: 37
-  stars_week: 0
+  updated: 2017-06-06 10:42:09.000000000 Z
+  commit_msg: |-
+    Set baseurl to fix redirect bug
+
+    Close #35 by GitHub
+  stars: 45
+  stars_week: 8
 - title: Thinkspace
   github: heiswayi/thinkspace
   branch: master
@@ -2247,10 +2237,10 @@
   home_url: https://github.com/heiswayi/thinkspace
   download_url: https://github.com/heiswayi/thinkspace/archive/master.zip
   created: 2016-06-11 09:31:31.000000000 Z
-  updated: 2017-02-04 15:36:07.000000000 Z
-  commit_msg: Minor update by Heiswayi Nrird
-  stars: 75
-  stars_week: 0
+  updated: 2017-03-24 13:48:36.000000000 Z
+  commit_msg: Update head.html by GitHub
+  stars: 109
+  stars_week: 34
 - title: TextLog
   github: heiswayi/textlog
   branch: gh-pages
@@ -2267,10 +2257,10 @@
   home_url: https://github.com/heiswayi/textlog
   download_url: https://github.com/heiswayi/textlog/archive/gh-pages.zip
   created: 2017-01-15 08:19:03.000000000 Z
-  updated: 2017-02-04 15:39:30.000000000 Z
-  commit_msg: Minor update by Heiswayi Nrird
-  stars: 9
-  stars_week: 0
+  updated: 2017-03-24 15:08:44.000000000 Z
+  commit_msg: Update to v1.1 by Heiswayi Nrird
+  stars: 25
+  stars_week: 16
 - title: Urban
   github: midzer/urban-theme
   demo_url: http://narkotyk.net
@@ -2281,10 +2271,10 @@
   home_url: https://github.com/midzer/urban-theme
   download_url: https://github.com/midzer/urban-theme/archive/master.zip
   created: 2015-10-06 13:35:07.000000000 Z
-  updated: 2016-07-16 19:00:42.000000000 Z
-  commit_msg: fixed typo by GitHub
-  stars: 18
-  stars_week: 0
+  updated: 2017-05-05 08:38:49.000000000 Z
+  commit_msg: fix preview pictures by midzer
+  stars: 25
+  stars_week: 7
 - title: Labrador
   github: donini/labrador-jekyll-theme
   demo_url: http://donini.me
@@ -2319,10 +2309,10 @@
   home_url: https://github.com/portfolio-central/jekyll-instagram-portfolio-theme
   download_url: https://github.com/portfolio-central/jekyll-instagram-portfolio-theme/archive/gh-pages.zip
   created: 2016-09-01 14:41:11.000000000 Z
-  updated: 2017-01-04 20:04:02.000000000 Z
-  commit_msg: Updated the project description. by GitHub
-  stars: 12
-  stars_week: 0
+  updated: 2017-02-14 18:41:55.000000000 Z
+  commit_msg: Update README.md by GitHub
+  stars: 20
+  stars_week: 8
 - title: Smart Material
   github: ssokurenko/jekyll-smart-material
   branch: gh-pages
@@ -2340,8 +2330,8 @@
   created: 2015-10-22 20:08:05.000000000 Z
   updated: 2016-09-20 18:43:37.000000000 Z
   commit_msg: Added theme screenshot. by Sergey Sokurenko
-  stars: 6
-  stars_week: 0
+  stars: 7
+  stars_week: 1
 - title: Libretto
   github: ferrolho/jekyll-theme-libretto
   branch: gh-pages
@@ -2354,8 +2344,8 @@
   created: 2016-09-01 12:53:45.000000000 Z
   updated: 2016-09-18 13:04:25.000000000 Z
   commit_msg: Create LICENSE by GitHub
-  stars: 17
-  stars_week: 0
+  stars: 24
+  stars_week: 7
 - title: R. L. Stevenson
   github: ExchangeRate-API/rlstevenson-jekyll-theme
   demo_url: https://www.exchangerate-api.com/rlstevenson/
@@ -2374,8 +2364,8 @@
     Merge pull request #1 from NUNTS/patch-1
 
     Update _config.yml by GitHub
-  stars: 3
-  stars_week: 0
+  stars: 4
+  stars_week: 1
 - title: Researcher
   github: bk2dcradle/researcher
   branch: gh-pages
@@ -2390,10 +2380,10 @@
   home_url: https://github.com/bk2dcradle/researcher
   download_url: https://github.com/bk2dcradle/researcher/archive/gh-pages.zip
   created: 2016-08-29 16:23:36.000000000 Z
-  updated: 2016-09-12 14:23:19.000000000 Z
-  commit_msg: revert to http | screw kloudsec by bk2dcradle
-  stars: 39
-  stars_week: 0
+  updated: 2017-05-14 16:36:56.000000000 Z
+  commit_msg: updated readme | remove https by bk2dcradle
+  stars: 58
+  stars_week: 19
 - title: Violet
   github: sergiokopplin/violet
   branch: gh-pages
@@ -2408,8 +2398,8 @@
   created: 2016-07-06 02:09:17.000000000 Z
   updated: 2017-02-12 02:07:40.000000000 Z
   commit_msg: updating header margins by Sérgio Kopplin
-  stars: 11
-  stars_week: 0
+  stars: 13
+  stars_week: 2
 - title: Ed
   github: elotroalex/ed
   branch: gh-pages
@@ -2421,10 +2411,10 @@
   home_url: https://github.com/elotroalex/ed
   download_url: https://github.com/elotroalex/ed/archive/gh-pages.zip
   created: 2016-01-18 02:09:56.000000000 Z
-  updated: 2016-12-31 01:52:41.000000000 Z
-  commit_msg: added v2.2 to travis yaml by Alex Gil
-  stars: 88
-  stars_week: 0
+  updated: 2017-05-31 20:21:42.000000000 Z
+  commit_msg: added relative link by GitHub
+  stars: 103
+  stars_week: 15
 - title: CSSS - Slide Show (S9)
   thumbnail: slideshow-csss.png
   github: slideshow-templates/slideshow-csss
@@ -2440,8 +2430,8 @@
   created: 2011-10-27 21:00:38.000000000 Z
   updated: 2016-09-13 18:20:34.000000000 Z
   commit_msg: Update README.md by GitHub
-  stars: 6
-  stars_week: 0
+  stars: 8
+  stars_week: 2
 - title: Deck.js - Slide Show (S9)
   thumbnail: slideshow-deck.js.png
   github: slideshow-templates/slideshow-deck.js
@@ -2457,8 +2447,8 @@
   created: 2011-10-23 13:31:26.000000000 Z
   updated: 2016-09-13 18:35:14.000000000 Z
   commit_msg: Add files via upload by GitHub
-  stars: 12
-  stars_week: 0
+  stars: 13
+  stars_week: 1
 - title: Impress.js - Slide Show (S9)
   thumbnail: slideshow-impress.js.png
   github: slideshow-templates/slideshow-impress.js
@@ -2475,8 +2465,8 @@
   created: 2012-03-03 15:07:40.000000000 Z
   updated: 2016-09-13 18:48:22.000000000 Z
   commit_msg: Update README.md by GitHub
-  stars: 92
-  stars_week: 0
+  stars: 94
+  stars_week: 2
 - title: S6 Blank - Slide Show (S9)
   thumbnail: slideshow-s6-blank.png
   github: slideshow-templates/slideshow-s6-blank
@@ -2493,8 +2483,8 @@
   created: 2010-07-04 07:50:01.000000000 Z
   updated: 2016-09-13 18:42:07.000000000 Z
   commit_msg: Add files via upload by GitHub
-  stars: 3
-  stars_week: 0
+  stars: 5
+  stars_week: 2
 - title: Reveal.js - Slide Show (S9)
   thumbnail: slideshow-revealjs.png
   github: slideshow-templates/slideshow-reveal.js
@@ -2510,8 +2500,8 @@
   created: 2016-05-15 09:39:49.000000000 Z
   updated: 2016-12-06 14:49:18.000000000 Z
   commit_msg: Update NOTES.md by GitHub
-  stars: 5
-  stars_week: 0
+  stars: 10
+  stars_week: 5
 - title: Documenation 'n' Help Systems
   thumbnail: jekyll-documentation.png
   github: tomjohnson1492/documentation-theme-jekyll
@@ -2525,10 +2515,11 @@
   home_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
   download_url: https://github.com/tomjohnson1492/documentation-theme-jekyll/archive/gh-pages.zip
   created: 2015-02-13 22:56:26.000000000 Z
-  updated: 2017-02-10 22:24:00.000000000 Z
-  commit_msg: fixed content api tooltips demo by tomjohnson1492
-  stars: 387
-  stars_week: -1
+  updated: 2017-06-05 16:27:03.000000000 Z
+  commit_msg: improved doc around sidebars, fixed bug with topnav code for single
+    items, improved other doc with supported features by Tom Johnson
+  stars: 455
+  stars_week: 68
 - title: Handbook
   thumbnail: opendatahandbook.png
   github: okfn/handbook-theme
@@ -2543,8 +2534,8 @@
   created: 2015-06-11 10:19:31.000000000 Z
   updated: 2016-05-20 11:05:08.000000000 Z
   commit_msg: new OK Panel markup by Sam Smith
-  stars: 10
-  stars_week: 0
+  stars: 11
+  stars_week: 1
 - title: Roman's Minimalist
   thumbnail: jekyll-minimalist.jpg
   github: romanzolotarev/jekyll-minimalist
@@ -2559,8 +2550,8 @@
   created: 2016-08-22 02:10:26.000000000 Z
   updated: 2016-11-21 17:14:49.000000000 Z
   commit_msg: Add jekyll-livereload by Roman Zolotarev
-  stars: 4
-  stars_week: 0
+  stars: 6
+  stars_week: 2
 - title: Roman's Newsletter (RSS-to-Email)
   thumbnail: jekyll-newsletter.png
   github: romanzolotarev/jekyll-newsletter
@@ -2593,10 +2584,10 @@
   home_url: https://github.com/kuoa/julia
   download_url: https://github.com/kuoa/julia/archive/master.zip
   created: 2016-07-30 14:36:15.000000000 Z
-  updated: 2016-08-16 13:42:50.000000000 Z
-  commit_msg: Remove google analytics info by kuoa
-  stars: 7
-  stars_week: 0
+  updated: 2017-03-10 19:41:38.000000000 Z
+  commit_msg: Update LICENSE by GitHub
+  stars: 18
+  stars_week: 11
 - title: Highlights (by HTML5 UP)
   github: andrewbanchich/Highlights-Jekyll-Theme
   demo_url: https://andrewbanchich.gitlab.io/highlights-jekyll-theme/
@@ -2611,8 +2602,8 @@
   created: 2016-07-17 19:09:41.000000000 Z
   updated: 2017-02-05 20:47:03.000000000 Z
   commit_msg: path fixes by Andrew Banchich
-  stars: 1
-  stars_week: 0
+  stars: 2
+  stars_week: 1
 - title: Identity (by HTML5 UP)
   github: andrewbanchich/Identity-Jekyll-Theme
   demo_url: https://andrewbanchich.gitlab.io/identity-jekyll-theme/
@@ -2626,8 +2617,8 @@
   created: 2016-07-17 16:21:42.000000000 Z
   updated: 2017-02-05 20:45:38.000000000 Z
   commit_msg: path fixes by Andrew Banchich
-  stars: 3
-  stars_week: 0
+  stars: 4
+  stars_week: 1
 - title: Forty (by HTML5 UP)
   github: andrewbanchich/Forty-Jekyll-Theme
   demo_url: https://andrewbanchich.gitlab.io/forty-jekyll-theme/
@@ -2641,10 +2632,10 @@
   home_url: https://github.com/andrewbanchich/Forty-Jekyll-Theme
   download_url: https://github.com/andrewbanchich/Forty-Jekyll-Theme/archive/master.zip
   created: 2016-08-23 00:53:06.000000000 Z
-  updated: 2017-02-11 03:38:31.000000000 Z
-  commit_msg: Update .gitlab-ci.yml by Andrew Banchich
-  stars: 72
-  stars_week: 2
+  updated: 2017-05-25 01:58:12.000000000 Z
+  commit_msg: fixes images not resizing by Andrew Banchich
+  stars: 123
+  stars_week: 51
 - title: Library
   github: alexcarpenter/library-jekyll-theme
   demo_url: http://alexcarpenter.github.io/library-jekyll-theme/
@@ -2655,10 +2646,10 @@
   home_url: https://github.com/alexcarpenter/library-jekyll-theme
   download_url: https://github.com/alexcarpenter/library-jekyll-theme/archive/master.zip
   created: 2016-01-24 15:20:15.000000000 Z
-  updated: 2016-05-26 13:44:13.000000000 Z
-  commit_msg: Update README.md by Alex Carpenter
-  stars: 23
-  stars_week: 0
+  updated: 2017-03-26 14:19:07.000000000 Z
+  commit_msg: Push example domain by Alex Carpenter
+  stars: 26
+  stars_week: 3
 - title: Evento
   github: boyney123/evento
   demo_url: http://evento.davidboyne.co.uk/
@@ -2675,8 +2666,8 @@
     Merge pull request #2 from David-Ro/patch-1
 
     Update README.md by David Boyne
-  stars: 24
-  stars_week: 0
+  stars: 28
+  stars_week: 4
 - title: Onlince CV
   github: sharu725/online-cv
   demo_url: http://webjeda.com/online-cv/
@@ -2688,13 +2679,10 @@
   home_url: https://github.com/sharu725/online-cv
   download_url: https://github.com/sharu725/online-cv/archive/master.zip
   created: 2016-07-29 04:35:27.000000000 Z
-  updated: 2016-12-28 13:41:44.000000000 Z
-  commit_msg: |-
-    Merge pull request #11 from rajanand/patch-1
-
-    Update linkedin url format. by GitHub
-  stars: 96
-  stars_week: 4
+  updated: 2017-03-29 14:56:08.000000000 Z
+  commit_msg: Optional google analytics by Dude
+  stars: 185
+  stars_week: 89
 - title: Dunders (Double Underscores)
   github: woliveiras/__s
   demo_url: https://woliveiras.com.br/dunders.demo/
@@ -2707,10 +2695,13 @@
   home_url: https://github.com/woliveiras/__s
   download_url: https://github.com/woliveiras/__s/archive/master.zip
   created: 2016-09-01 22:23:51.000000000 Z
-  updated: 2016-09-28 10:52:51.000000000 Z
-  commit_msg: Add screenshot 250x200 by woliveiras
-  stars: 24
-  stars_week: 0
+  updated: 2017-03-12 13:16:51.000000000 Z
+  commit_msg: |-
+    Merge pull request #9 from kvnol/patch
+
+    Add meta viewport by GitHub
+  stars: 32
+  stars_week: 8
 - title: Cards
   github: willianjusten/cards-jekyll-template
   demo_url: https://willianjusten.com.br/cards-jekyll-template/
@@ -2722,10 +2713,10 @@
   home_url: https://github.com/willianjusten/cards-jekyll-template
   download_url: https://github.com/willianjusten/cards-jekyll-template/archive/master.zip
   created: 2016-05-09 00:02:43.000000000 Z
-  updated: 2017-02-13 12:33:02.000000000 Z
-  commit_msg: Add UTC timezone. (#22) by Willian Justen
-  stars: 126
-  stars_week: 0
+  updated: 2017-06-13 23:04:16.000000000 Z
+  commit_msg: 'Fixing issue related on #27 by Willian Justen'
+  stars: 153
+  stars_week: 27
 - title: SZ-Flex (Blog)
   github: StartZeroGnu/jekyll-szflex-theme
   demo_url: https://startzerognu.github.io/jekyll-szflex-theme/
@@ -2755,10 +2746,10 @@
   home_url: https://github.com/rmsubekti/emping
   download_url: https://github.com/rmsubekti/emping/archive/master.zip
   created: 2016-10-21 16:56:20.000000000 Z
-  updated: 2017-01-21 14:29:33.000000000 Z
-  commit_msg: Initial commit by Rahmat Subekti
-  stars: 4
-  stars_week: 0
+  updated: 2017-04-15 20:04:49.000000000 Z
+  commit_msg: change baseurl by Rahmat
+  stars: 12
+  stars_week: 8
 - title: Chalk
   github: nielsenramon/chalk
   demo_url: http://chalk.nielsenramon.com
@@ -2769,10 +2760,10 @@
   home_url: https://github.com/nielsenramon/chalk
   download_url: https://github.com/nielsenramon/chalk/archive/master.zip
   created: 2016-07-26 20:59:57.000000000 Z
-  updated: 2017-01-16 09:05:10.000000000 Z
-  commit_msg: 'nr-update-ruby | Update ruby to 2.4.0, fix #38 by Nielsen Ramon'
-  stars: 205
-  stars_week: 0
+  updated: 2017-06-14 17:23:26.000000000 Z
+  commit_msg: Use jQuery short notation by Nielsen Ramon
+  stars: 309
+  stars_week: 104
 - title: Papyrus
   github: hugoferreira/papyrus-theme
   demo_url: http://hugosereno.eu
@@ -2787,8 +2778,8 @@
   commit_msg: |-
     Updated to Bootstrap Alpha 5.
     Other minor tweaks. by Hugo Sereno Ferreira
-  stars: 23
-  stars_week: 1
+  stars: 33
+  stars_week: 10
 - title: Alembic
   github: daviddarnes/alembic
   demo_url: https://alembic.darn.es
@@ -2805,10 +2796,10 @@
   home_url: https://github.com/daviddarnes/alembic
   download_url: https://github.com/daviddarnes/alembic/archive/master.zip
   created: 2016-08-27 15:50:21.000000000 Z
-  updated: 2017-02-05 17:53:31.000000000 Z
-  commit_msg: Set search.json to null to stop warnings by David Darnes
-  stars: 41
-  stars_week: 0
+  updated: 2017-06-04 15:01:29.000000000 Z
+  commit_msg: Version bump Alembic to 2.1.0 by David Darnes
+  stars: 70
+  stars_week: 29
 - title: Clean (Siddhant)
   github: siddhantgoel/clean-jekyll-theme
   demo_url: https://siddhantgoel.github.io/clean-jekyll-theme
@@ -2823,10 +2814,10 @@
   home_url: https://github.com/siddhantgoel/clean-jekyll-theme
   download_url: https://github.com/siddhantgoel/clean-jekyll-theme/archive/master.zip
   created: 2016-11-15 18:37:55.000000000 Z
-  updated: 2017-02-04 13:37:40.000000000 Z
+  updated: 2017-05-19 07:57:19.000000000 Z
   commit_msg: bump version by Siddhant Goel
-  stars: 3
-  stars_week: 0
+  stars: 5
+  stars_week: 2
 - title: Lagrange
   github: LeNPaul/Lagrange
   branch: gh-pages
@@ -2844,13 +2835,10 @@
   home_url: https://github.com/LeNPaul/Lagrange
   download_url: https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip
   created: 2016-07-24 02:05:27.000000000 Z
-  updated: 2017-02-10 04:23:31.000000000 Z
-  commit_msg: |-
-    Merge pull request #5 from inteligensia/html-tag
-
-    Add html tag in default layout by GitHub
-  stars: 8
-  stars_week: 0
+  updated: 2017-05-24 16:21:29.000000000 Z
+  commit_msg: Update main.css by GitHub
+  stars: 54
+  stars_week: 46
 - title: Kikofri
   github: kxxvii/Kikofri
   demo_url: http://kikofri.johantkatiska.se/
@@ -2870,7 +2858,7 @@
   updated: 2017-01-06 11:13:22.000000000 Z
   commit_msg: "typo\n\tmodified:   README.md by kxxvii"
   stars: 2
-  stars_week: 1
+  stars_week: 0
 - title: Whiteglass
   github: yous/whiteglass
   demo_url: https://yous.github.io/whiteglass/
@@ -2885,10 +2873,13 @@
   home_url: https://github.com/yous/whiteglass
   download_url: https://github.com/yous/whiteglass/archive/master.zip
   created: 2017-01-06 17:13:03.000000000 Z
-  updated: 2017-02-10 09:27:18.000000000 Z
-  commit_msg: Fix typos by Chayoung You
-  stars: 14
-  stars_week: 0
+  updated: 2017-06-10 20:09:31.000000000 Z
+  commit_msg: |-
+    Merge pull request #10 from Weishaupt/comments
+
+    Provide the ability to include custom comments provider by GitHub
+  stars: 71
+  stars_week: 57
 - title: Blade
   github: mateussmedeiros/blade-theme
   demo_url: https://mateussmedeiros.github.io/blade-theme/
@@ -2916,11 +2907,11 @@
   home_url: https://github.com/lpsandaruwan/surgeon-tux
   download_url: https://github.com/lpsandaruwan/surgeon-tux/archive/master.zip
   created: 2017-01-28 11:32:04.000000000 Z
-  updated: 2017-01-28 12:42:46.000000000 Z
-  commit_msg: initial commit by Lahiru Pathirage
-  stars: 2
+  updated: 2017-03-19 12:31:09.000000000 Z
+  commit_msg: merge resolved by Lahiru Pathirage
+  stars: 4
   stars_week: 2
-- title: BeNice17
+- title: Be Nice 17
   github: vietanhdev/beNice17
   demo_url: https://vietanhdev.com/beNice17/
   author: Viet Anh Nguyen
@@ -2934,7 +2925,7 @@
   commit_msg: Add files via upload by GitHub
   stars: 2
   stars_week: 0
-- title: Cloud Cannon's Cause
+- title: Cause (Cloud Cannon)
   github: CloudCannon/cause-jekyll-template
   demo_url: https://clean-oryx.cloudvent.net
   thumbnail: cloudcannon-cause.png
@@ -2948,9 +2939,9 @@
   created: 2016-11-16 01:59:02.000000000 Z
   updated: 2016-12-09 00:40:06.000000000 Z
   commit_msg: Initial commit by Mike Neumegen
-  stars: 6
-  stars_week: 0
-- title: Cloud Cannon's Edition
+  stars: 14
+  stars_week: 8
+- title: Edition (Cloud Cannon)
   github: CloudCannon/edition-jekyll-template
   demo_url: https://long-pig.cloudvent.net
   thumbnail: cloudcannon-edition.png
@@ -2963,9 +2954,9 @@
   created: 2016-07-14 03:38:28.000000000 Z
   updated: 2016-12-09 00:47:14.000000000 Z
   commit_msg: Initial commit by Ross Phillips
-  stars: 29
-  stars_week: 0
-- title: Cloud Cannon's Frisco
+  stars: 68
+  stars_week: 39
+- title: Frisco (Cloud Cannon)
   github: CloudCannon/frisco-jekyll-template
   demo_url: https://brave-submarine.cloudvent.net
   thumbnail: cloudcannon-frisco.png
@@ -2977,11 +2968,11 @@
   home_url: https://github.com/CloudCannon/frisco-jekyll-template
   download_url: https://github.com/CloudCannon/frisco-jekyll-template/archive/master.zip
   created: 2016-11-01 04:12:15.000000000 Z
-  updated: 2017-01-11 00:54:29.000000000 Z
-  commit_msg: Update _config.yml by GitHub
-  stars: 12
-  stars_week: 0
-- title: Cloud Cannon's Hydra
+  updated: 2017-03-23 18:47:37.000000000 Z
+  commit_msg: Fixed disqus by GitHub
+  stars: 25
+  stars_week: 13
+- title: Hydra (Cloud Cannon)
   github: CloudCannon/hydra-jekyll-template
   demo_url: https://proud-alligator.cloudvent.net
   thumbnail: cloudcannon-hydra.png
@@ -2993,11 +2984,14 @@
   home_url: https://github.com/CloudCannon/hydra-jekyll-template
   download_url: https://github.com/CloudCannon/hydra-jekyll-template/archive/master.zip
   created: 2016-10-14 04:39:07.000000000 Z
-  updated: 2017-01-17 19:18:50.000000000 Z
-  commit_msg: remove maps.js by Mike Neumegen
-  stars: 14
-  stars_week: 0
-- title: Cloud Cannon's Justice
+  updated: 2017-04-17 18:27:09.000000000 Z
+  commit_msg: |-
+    Merge pull request #3 from pastorryanhayden/patch-1
+
+    Fixed Typo by GitHub
+  stars: 30
+  stars_week: 16
+- title: Justice (Cloud Cannon)
   github: CloudCannon/justice-jekyll-template
   demo_url: https://grey-grouse.cloudvent.net
   thumbnail: cloudcannon-justice.png
@@ -3009,11 +3003,11 @@
   home_url: https://github.com/CloudCannon/justice-jekyll-template
   download_url: https://github.com/CloudCannon/justice-jekyll-template/archive/master.zip
   created: 2016-11-10 00:56:02.000000000 Z
-  updated: 2016-12-09 00:42:26.000000000 Z
-  commit_msg: Initial commit by Ross Phillips
-  stars: 6
-  stars_week: 0
-- title: Cloud Cannon's Malt
+  updated: 2017-03-09 17:51:31.000000000 Z
+  commit_msg: Fixed broken image on index by GitHub
+  stars: 13
+  stars_week: 7
+- title: Malt (Cloud Cannon)
   github: CloudCannon/malt-jekyll-template
   demo_url: https://whispering-boat.cloudvent.net
   thumbnail: cloudcannon-malt.png
@@ -3027,9 +3021,9 @@
   created: 2016-11-09 22:42:40.000000000 Z
   updated: 2016-12-09 00:38:08.000000000 Z
   commit_msg: Initial commit by Mike Neumegen
-  stars: 2
-  stars_week: 0
-- title: Cloud Cannon's Urban
+  stars: 5
+  stars_week: 3
+- title: Urban (Cloud Cannon)
   github: CloudCannon/urban-jekyll-template
   demo_url: https://teal-worm.cloudvent.net
   thumbnail: cloudcannon-urban.png
@@ -3042,8 +3036,8 @@
   created: 2016-11-10 03:08:36.000000000 Z
   updated: 2016-12-09 01:11:30.000000000 Z
   commit_msg: Initial commit by George Phillips
-  stars: 19
-  stars_week: 0
+  stars: 39
+  stars_week: 20
 - title: Console
   github: jaehee0113/console
   demo_url: https://jaehee0113.github.io/console/
@@ -3054,9 +3048,26 @@
   home_url: https://github.com/jaehee0113/console
   download_url: https://github.com/jaehee0113/console/archive/master.zip
   created: 2017-01-25 06:26:30.000000000 Z
-  updated: 2017-02-10 07:30:01.000000000 Z
-  commit_msg: internationalization explanation added. by jaehee0113
-  stars: 2
+  updated: 2017-05-12 07:46:00.000000000 Z
+  commit_msg: Merge branch 'enhancement/16' by jaehee0113
+  stars: 8
+  stars_week: 6
+- title: Monochrome
+  github: dyutibarma/monochrome
+  demo_url: https://dyutibarma.github.io/monochrome/
+  thumbnail: monochrome.png
+  author: Dyuti Barma
+  license: Public Domain
+  tags:
+  - minimal
+  - responsive
+  - monochrome
+  home_url: https://github.com/dyutibarma/monochrome
+  download_url: https://github.com/dyutibarma/monochrome/archive/master.zip
+  created: 2017-02-20 03:58:54.000000000 Z
+  updated: 2017-04-15 03:45:56.000000000 Z
+  commit_msg: Update 2017-02-18-thereviewindex-introduction.md by GitHub
+  stars: 23
   stars_week: 0
 - title: Schemadoc
   github: schemadoc/schemadoc-theme
@@ -3093,3 +3104,399 @@
   commit_msg: version bump by Stefan Haslinger
   stars: 3
   stars_week: 0
+- title: "(Museum) Audio Guide"
+  github: ACMILabs/static-museum-audio-guide
+  demo_url: http://acmilabs.github.io/static-museum-audio-guide/welcome/
+  thumbnail: audioguide.png
+  author: Andrew Serong et al
+  license: MIT
+  tags:
+  - guide
+  - audio
+  - museum
+  home_url: https://github.com/ACMILabs/static-museum-audio-guide
+  download_url: https://github.com/ACMILabs/static-museum-audio-guide/archive/master.zip
+  created: 2016-05-27 05:27:13.000000000 Z
+  updated: 2017-06-07 05:10:13.000000000 Z
+  commit_msg: Add link to Voces en Off audio project by Andrew Serong
+  stars: 14
+  stars_week: 0
+- title: White Paper
+  github: vinitkumar/white-paper
+  demo_url: http://vinitkumar.me/white-paper
+  thumbnail: whitepaper.png
+  author: Vinit Kumar
+  license: MIT
+  tags:
+  - simple
+  - developer
+  - clean
+  home_url: https://github.com/vinitkumar/white-paper
+  download_url: https://github.com/vinitkumar/white-paper/archive/master.zip
+  created: 2014-06-30 14:56:52.000000000 Z
+  updated: 2017-02-24 06:42:10.000000000 Z
+  commit_msg: Update footer.html by GitHub
+  stars: 66
+  stars_week: 17
+- title: Photography
+  github: ramswaroop/photography
+  demo_url: http://photography.ramswaroop.me/
+  thumbnail: photography.png
+  author: Ram Patra
+  license: MIT
+  tags:
+  - photographer
+  - photography
+  - photos
+  - pictures
+  - gallery
+  home_url: https://github.com/ramswaroop/photography
+  download_url: https://github.com/ramswaroop/photography/archive/master.zip
+  created: 2017-02-18 17:38:02.000000000 Z
+  updated: 2017-05-24 21:50:13.000000000 Z
+  commit_msg: Merge branch 'gh-pages' by ramswaroop
+  stars: 47
+  stars_week: 0
+- title: Millennial
+  github: LeNPaul/Millennial
+  branch: gh-pages
+  demo_url: https://lenpaul.github.io/Millennial/
+  author: Paul Le
+  thumbnail: millennial.jpg
+  license: MIT
+  tags:
+  - blog
+  - publication
+  - journal
+  - minimal
+  - minimalist
+  - clean
+  - simple
+  - starter
+  home_url: https://github.com/LeNPaul/Millennial
+  download_url: https://github.com/LeNPaul/Millennial/archive/gh-pages.zip
+  created: 2016-08-21 21:53:24.000000000 Z
+  updated: 2017-06-17 01:01:21.000000000 Z
+  commit_msg: Add html tags by LeNPaul
+  stars: 5
+  stars_week: 0
+- title: jSimple
+  github: paulmostowyj/jsimple
+  demo_url: https://paulmostowyj.github.io/jsimple/
+  author: Paul Mostowyj
+  thumbnail: jsimple-thumbnail.png
+  license: MIT
+  tags:
+  - simple
+  - minimal
+  - blog
+  home_url: https://github.com/paulmostowyj/jsimple
+  download_url: https://github.com/paulmostowyj/jsimple/archive/master.zip
+  created: 2017-04-25 21:24:26.000000000 Z
+  updated: 2017-05-14 22:08:23.000000000 Z
+  commit_msg: more images by paulmostowyj
+  stars: 1
+  stars_week: 0
+- title: jNegative
+  github: paulmostowyj/jnegative
+  demo_url: https://paulmostowyj.github.io/jnegative/
+  author: Paul Mostowyj
+  thumbnail: jnegative-thumbnail.png
+  license: MIT
+  tags:
+  - simple
+  - minimal
+  - blog
+  home_url: https://github.com/paulmostowyj/jnegative
+  download_url: https://github.com/paulmostowyj/jnegative/archive/master.zip
+  created: 2017-05-12 22:20:34.000000000 Z
+  updated: 2017-05-14 22:08:55.000000000 Z
+  commit_msg: more images by paulmostowyj
+  stars: 1
+  stars_week: 0
+- title: Portfolio
+  github: LeNPaul/portfolio-jekyll-theme
+  branch: gh-pages
+  demo_url: https://lenpaul.github.io/portfolio-jekyll-theme/
+  author: Paul Le
+  thumbnail: portfolio-jekyll-theme-thumb.jpg
+  license: MIT
+  tags:
+  - blog
+  - portfolio
+  - minimal
+  - minimalist
+  - clean
+  - simple
+  - starter
+  home_url: https://github.com/LeNPaul/portfolio-jekyll-theme
+  download_url: https://github.com/LeNPaul/portfolio-jekyll-theme/archive/gh-pages.zip
+  created: 2016-09-05 21:02:25.000000000 Z
+  updated: 2017-06-01 05:17:21.000000000 Z
+  commit_msg: Update code by LeNPaul
+  stars: 4
+  stars_week: 0
+- title: Simple Texture
+  github: yizeng/jekyll-theme-simple-texture
+  demo_url: https://yizeng.github.io/jekyll-theme-simple-texture/
+  author: Yi Zeng
+  thumbnail: simple-texture.png
+  license: MIT
+  gem: jekyll-theme-simple-texture
+  tags:
+  - blog
+  - minimal
+  - clean
+  - simple
+  - texture
+  home_url: https://github.com/yizeng/jekyll-theme-simple-texture
+  download_url: https://github.com/yizeng/jekyll-theme-simple-texture/archive/master.zip
+  created: 2017-05-27 10:52:29.000000000 Z
+  updated: 2017-05-30 06:32:39.000000000 Z
+  commit_msg: Add instructions to replace default Gemfile for installations via forking
+    repo by Yi Zeng
+  stars: 2
+  stars_week: 0
+- title: Darcli (Dark + CLI)
+  github: gjuniioor/darcli
+  branch: gh-pages
+  demo_url: https://gjuniioor.github.io/darcli/
+  author: Gildásio Júnior
+  thumbnail: darcli.png
+  license: GNU GPL
+  tags:
+  - blog
+  - minimal
+  - clean
+  - simple
+  home_url: https://github.com/gjuniioor/darcli
+  download_url: https://github.com/gjuniioor/darcli/archive/gh-pages.zip
+  created: 2016-05-02 19:32:17.000000000 Z
+  updated: 2016-07-31 13:57:59.000000000 Z
+  commit_msg: "Adding a Gemfile to be able to bundle the project (#2)\n\nAdding a
+    Gemfile to be able to bundle the project\r\nThis solves #1 by Gildásio Júnior"
+  stars: 21
+  stars_week: 0
+- title: Clyell
+  github: gjuniioor/clyell
+  branch: gh-pages
+  demo_url: https://gjuniioor.github.io/clyell/
+  author: Gildásio Júnior
+  thumbnail: clyell.png
+  license: GNU GPL
+  tags:
+  - blog
+  - minimal
+  - clean
+  - simple
+  home_url: https://github.com/gjuniioor/clyell
+  download_url: https://github.com/gjuniioor/clyell/archive/gh-pages.zip
+  created: 2017-06-16 03:14:11.000000000 Z
+  updated: 2017-06-17 12:37:00.000000000 Z
+  commit_msg: Add GPL by Gildásio Júnior
+  stars: 1
+  stars_week: 0
+- title: Cayman Blog
+  github: lorepirri/cayman-blog
+  demo_url: https://lorepirri.github.io/cayman-blog/
+  author: Lorenzo Pirritano
+  thumbnail: thumbnail-cayman-blog-250.png
+  license: CC0 - Public Domain
+  gem: jekyll-theme-cayman-blog
+  tags:
+  - blog
+  - responsive
+  - sass
+  - minimal
+  home_url: https://github.com/lorepirri/cayman-blog
+  download_url: https://github.com/lorepirri/cayman-blog/archive/master.zip
+  created: 2017-04-28 21:55:31.000000000 Z
+  updated: 2017-05-21 17:06:37.000000000 Z
+  commit_msg: Merge first pull request for broken link by lorepirri
+  stars: 2
+  stars_week: 0
+- title: Sparrow
+  github: lingxz/sparrow
+  demo_url: https://theconfused.me/sparrow
+  author: Lingyi Hu
+  thumbnail: sparrow.png
+  license: MIT
+  gem: sparrow-jekyll-theme
+  tags:
+  - blog
+  - responsive
+  - sass
+  - minimal
+  home_url: https://github.com/lingxz/sparrow
+  download_url: https://github.com/lingxz/sparrow/archive/master.zip
+  created: 2017-04-11 12:48:40.000000000 Z
+  updated: 2017-04-13 23:04:29.000000000 Z
+  commit_msg: change heading font in posts to heebo by lingxz
+  stars: 5
+  stars_week: 0
+- title: Wead
+  github: kevyder/wead
+  demo_url: http://kevinrodriguez.me/wead/
+  author: Kevin Rodríguez
+  thumbnail: wead.jpg
+  license: MIT
+  tags:
+  - blog
+  - responsive
+  - minimal
+  - sass
+  - bootstrap
+  home_url: https://github.com/kevyder/wead
+  download_url: https://github.com/kevyder/wead/archive/master.zip
+  created: 2017-01-06 21:03:19.000000000 Z
+  updated: 2017-04-13 16:49:28.000000000 Z
+  commit_msg: Update README.md by GitHub
+  stars: 11
+  stars_week: 0
+- title: Fresh
+  github: artemsheludko/fresh
+  demo_url: http://artemsheludko.pw/fresh/
+  author: Artem Sheludko
+  thumbnail: fresh-sm.png
+  license: GNU GPL
+  tags:
+  - blog
+  - responsive
+  - minimal
+  - scss
+  - html5
+  home_url: https://github.com/artemsheludko/fresh
+  download_url: https://github.com/artemsheludko/fresh/archive/master.zip
+  created: 2017-04-03 13:25:22.000000000 Z
+  updated: 2017-04-03 18:20:53.000000000 Z
+  commit_msg: Update README.md by GitHub
+  stars: 2
+  stars_week: 0
+- title: Mat Jek
+  github: ShawnTeoh/matjek
+  branch: gh-pages
+  demo_url: https://shawnteoh.github.io/matjek
+  author: Shawn Teoh
+  thumbnail: matjek.png
+  license: GNU GPL
+  tags:
+  - material
+  - responsive
+  - blog
+  - resume
+  home_url: https://github.com/ShawnTeoh/matjek
+  download_url: https://github.com/ShawnTeoh/matjek/archive/gh-pages.zip
+  created: 2017-03-23 09:55:40.000000000 Z
+  updated: 2017-06-07 18:19:27.000000000 Z
+  commit_msg: Wrap code by ShawnTeoh
+  stars: 2
+  stars_week: 0
+- title: Academic Pages
+  github: academicpages/academicpages.github.io
+  demo_url: https://academicpages.github.io
+  author: Stuart Geiger
+  thumbnail: academicpages.png
+  license: MIT
+  tags:
+  - academic
+  - portfolio
+  - papers
+  - blog
+  - resume
+  - responsive
+  home_url: https://github.com/academicpages/academicpages.github.io
+  download_url: https://github.com/academicpages/academicpages.github.io/archive/master.zip
+  created: 2016-09-15 11:16:04.000000000 Z
+  updated: 2017-03-28 02:01:52.000000000 Z
+  commit_msg: update to reflect completed documentation by GitHub
+  stars: 210
+  stars_week: 0
+- title: U.S. (Gov) Web Design Standards (Docs, Landing)
+  github: 18F/uswds-jekyll
+  author: Shawn Allen
+  thumbnail: uswds-docs.png
+  license: Public Domain
+  tags:
+  - docs
+  - landing
+  home_url: https://github.com/18F/uswds-jekyll
+  download_url: https://github.com/18F/uswds-jekyll/archive/master.zip
+  created: 2017-02-23 23:41:47.000000000 Z
+  updated: 2017-05-15 19:26:45.000000000 Z
+  commit_msg: |-
+    Merge pull request #25 from 18F/patch-1.1.1
+
+    Update USWDS v1.1.0 assets (theme v1.1.1) by GitHub
+  stars: 26
+  stars_week: 0
+- title: Monday (Black and White)
+  github: artemsheludko/monday
+  demo_url: http://artemsheludko.pw/monday/
+  author: Artem Sheludko
+  thumbnail: monday-sm.png
+  license: GNU GPL
+  tags:
+  - blog
+  - responsive
+  - minimal
+  - scss
+  home_url: https://github.com/artemsheludko/monday
+  download_url: https://github.com/artemsheludko/monday/archive/master.zip
+  created: 2017-03-10 15:42:27.000000000 Z
+  updated: 2017-05-12 15:03:58.000000000 Z
+  commit_msg: Update README.md by GitHub
+  stars: 2
+  stars_week: 0
+- title: Mr. Brown Responsive
+  github: artemsheludko/mr-brown
+  demo_url: http://artemsheludko.pw/mr-brown/
+  author: Artem Sheludko
+  thumbnail: mr.brown.png
+  license: MIT
+  tags:
+  - blog
+  - responsive
+  - minimal
+  - scss
+  - html5
+  home_url: https://github.com/artemsheludko/mr-brown
+  download_url: https://github.com/artemsheludko/mr-brown/archive/master.zip
+  created: 2017-02-23 17:03:57.000000000 Z
+  updated: 2017-05-06 11:59:51.000000000 Z
+  commit_msg: Update txtpen.html by GitHub
+  stars: 9
+  stars_week: 0
+- title: Materialized
+  github: lpsandaruwan/materialized
+  demo_url: http://lahiru.site/materialized
+  author: Lahiru Pathirage
+  thumbnail: materialized.png
+  license: GNU GPL
+  tags:
+  - angular
+  - material
+  - responsive
+  home_url: https://github.com/lpsandaruwan/materialized
+  download_url: https://github.com/lpsandaruwan/materialized/archive/master.zip
+  created: 2017-02-24 20:36:38.000000000 Z
+  updated: 2017-03-19 12:19:21.000000000 Z
+  commit_msg: responsive header fixes by Lahiru Pathirage
+  stars: 3
+  stars_week: 0
+- title: Surgeon Tux
+  github: lpsandaruwan/surgeon-tux
+  demo_url: http://lahiru.site/surgeon-tux
+  author: Lahiru Pathirage
+  thumbnail: surgeon-tux.png
+  license: GPLv3
+  tags:
+  - terminal
+  - monospace
+  - black
+  home_url: https://github.com/lpsandaruwan/surgeon-tux
+  download_url: https://github.com/lpsandaruwan/surgeon-tux/archive/master.zip
+  created: 2017-01-28 11:32:04.000000000 Z
+  updated: 2017-03-19 12:31:09.000000000 Z
+  commit_msg: merge resolved by Lahiru Pathirage
+  stars: 4
+  stars_week: 2
