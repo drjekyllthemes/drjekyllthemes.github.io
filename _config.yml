@@ -12,6 +12,12 @@ baseurl: ''
 url:   "http://drjekyllthemes.github.io"
 
 
+collections:
+  authors:
+    output: true
+    permalink: /:name
+
+
 ########
 # more settings
 
