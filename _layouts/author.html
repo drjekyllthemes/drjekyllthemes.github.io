@@ -2,10 +2,14 @@
 layout: default
 ---
 
+{% assign author_github = site.data.authors[page.name].github %}
+
 <div id="page">
 
- 
-  <h1>{{ page.name }}</h1>
+  <h1>
+   {% avatar user=author_github size=48 %}
+   <a href="https://github.com/{{author_github}}">{{ page.name }}</a>
+  </h1>
 
   <h2>Themes ({{ page.themes | size }})</h2>
 
