@@ -1,14 +1,11 @@
-# Dr. Jekyll's Themes
 
-(Yet Another) Static Site Theme Directory - see it live @ [`drjekyllthemes.github.io`](http://drjekyllthemes.github.io)
-
+Dr. Jekyll's Themes Directory - [`drjekyllthemes.github.io`](http://drjekyllthemes.github.io)
 
 
-#### _Add Your Theme! See the [`/themes` repo »](https://github.com/drjekyllthemes/themes). Thanks!_
+_Add Your Theme! See the [`/themes` repo »](https://github.com/drjekyllthemes/themes). Thanks!_
 
 
 
-## Meta
 
 **License**
 

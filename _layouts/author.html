@@ -13,9 +13,9 @@ layout: default
 
   <h2>Themes ({{ page.themes | size }})</h2>
 
-<div class='gallery'>  
+<div class='gallery'>
 {% for theme_title in page.themes %}
-  
+
   {% assign theme = site.data.o.themes.themes_by_title[theme_title] %}
 
 <div class='theme'>
@@ -23,7 +23,7 @@ layout: default
        <a href="{{ theme.home_url }}">
         <img src="{{site.path}}/_data/themes/thumbnails/{{theme.thumbnail}}">
        </a>
-    </div>  
+    </div>
 
   <div class='theme-info'>
         <a href="{{ theme.home_url }}"><b>{{ theme_title }}</b></a>
@@ -53,21 +53,18 @@ layout: default
     </div>
   </div>
 
-  <!--
-    {{ theme | jsonify }}
-  -->
-  
-{% endfor %}  
-</div>  
-  
+
+{% endfor %}
+</div>
+
   
 
-  <!-- todo: check if content is empty? possible? 
+  <!-- todo: check if content is empty? possible?
 
   <h2>Notes</h2>
 
    -->
-   
+
   {{ content }}
-  
+
 </div>
