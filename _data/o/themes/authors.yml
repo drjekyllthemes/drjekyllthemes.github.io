@@ -1,25 +1,61 @@
 ---
 - name: Gerald Bauer
   themes:
+  - Hello, Jekyll!
+  - Hello, Minima!
+  - Hello, Pages!
   - Henry's Starter (Minimal)
   - Henry's Minimal
   - Henry's Bootstrap
   - Henry's Classics Book
+  - Henry's Talks
+  - CSSS - Slide Show (S9)
+  - Deck.js - Slide Show (S9)
+  - Impress.js - Slide Show (S9)
+  - S6 Blank - Slide Show (S9)
+  - Reveal.js - Slide Show (S9)
+  - Schemadoc
 - name: Mark Otto
   themes:
   - Poole
   - Poole's Hyde
   - Poole's Lanyon
-- name: Dean Attali
-  themes:
-  - Beautiful Jekyll
 - name: Joel Glovier
   themes:
-  - Jekyll New (Built-In Default)
+  - Minima (Built-in v3.2+ Default)
   - Resume
+- name: Jason Long
+  themes:
+  - Architect (Pages)
+  - Cayman (Pages)
+  - Tactile (Pages)
+- name: Diana Mounter
+  themes:
+  - Dinky (Pages)
+- name: Jason Costello
+  themes:
+  - Hacker (Pages)
+  - Slate (Pages)
+- name: Matt Graham
+  themes:
+  - Leap Day (Pages)
+  - Midnight (Pages)
+- name: Cameron McEfee
+  themes:
+  - Merlot (Pages)
+- name: Steve Smith
+  themes:
+  - Minimal (Pages)
+  - Modernist (Pages)
+- name: Jon Rohan
+  themes:
+  - Time Machine (Pages)
 - name: Barry Clark
   themes:
-  - Jekyll Now
+  - Now
+- name: Dean Attali
+  themes:
+  - Beautiful
 - name: Stijn van Cuijk
   themes:
   - Holo Alfa
@@ -42,13 +78,11 @@
 - name: Zach Holman
   themes:
   - Left
-- name: Jason Costello
-  themes:
-  - Slate
 - name: Michael Rose
   themes:
-  - So Simple
+  - Basically Basic
   - Minimal Mistakes
+  - So Simple
   - Skinny Bones
   - HiPSTeR (HPSTR)
 - name: David Ng (Nguyen Minh Huy) - Michael Rose
@@ -63,6 +97,9 @@
 - name: Ismail Demirbilek
   themes:
   - Dbyll
+- name: Ankan Biswas
+  themes:
+  - Uno Dbyll
 - name: Tyler Benziger
   themes:
   - Exemplar
@@ -80,9 +117,6 @@
   themes:
   - H M Faysal's Omega
   - H M Faysal's Notepad
-- name: Liam Symonds
-  themes:
-  - Simply Grey
 - name: Ravi Patel
   themes:
   - Herring Cove
@@ -106,12 +140,9 @@
 - name: Kippt Inc.
   themes:
   - Incorporated
-- name: Berk ├ûzbalc─▒
+- name: Berk Özbalcı
   themes:
   - Gereksiz
-- name: Jason Long, ported by Pietro Menna
-  themes:
-  - Architect
 - name: Yitao Yao
   themes:
   - Simpleyyt
@@ -120,8 +151,8 @@
   - Noita
 - name: Lucas Gatsas
   themes:
-  - Clean Magic Medium
-  - Ice & Fire
+  - Library
+  - Glas
 - name: Anandu B Ajith
   themes:
   - Block Log
@@ -131,6 +162,7 @@
 - name: Vinit Kumar
   themes:
   - White Paper
+  - White Paper
 - name: Brijesh Bittu
   themes:
   - Bitwiser
@@ -139,10 +171,6 @@
   themes:
   - Freelancer
   - Grayscale
-- name: Matt Graham
-  themes:
-  - Leap Day
-  - Midnight
 - name: Abdel Raoof Olakara
   themes:
   - Metro
@@ -164,7 +192,7 @@
 - name: Pavel Makhov
   themes:
   - Clean Dark
-  - Jekyll CV Crafter
+  - Curriculum Vitae (CV) Crafter
 - name: Dirk Fabisch
   themes:
   - Mediator
@@ -190,7 +218,7 @@
   - Landing Page
 - name: Kirill Beletskiy
   themes:
-  - autm-rb
+  - Autm.rb
 - name: Tunghsiao Liu
   themes:
   - Almace Scaffolding
@@ -206,9 +234,6 @@
 - name: Lijia Yu
   themes:
   - Freshman 21
-- name: Ankan Biswas
-  themes:
-  - Uno Dbyll
 - name: Dragomir Yordanov
   themes:
   - Minimal Block
@@ -226,7 +251,7 @@
   - Long Haul
 - name: Takashi Kanemoto
   themes:
-  - Qck
+  - Ttskch
 - name: Moinul
   themes:
   - Rifyll
@@ -239,7 +264,7 @@
 - name: Clay Harmon
   themes:
   - Tufte
-- name: Moritz ┬╗mo.┬½ Sauer
+- name: Moritz Sauer
   themes:
   - Feeling Responsive
 - name: Jacopo Rabolini
@@ -248,10 +273,7 @@
 - name: Xiaoying Riley
   themes:
   - Dev Aid
-- name: Max White
-  themes:
-  - One Page Wonder
-  - Video
+  - Onlince CV
 - name: Jacob Tomlinson
   themes:
   - Carte Noire
@@ -268,16 +290,16 @@
   themes:
   - Polar Bear
   - Arctic Fox
-- name: Gaohaoyang
+- name: Gao Haoyang
   themes:
   - Cool Concise
 - name: Dong Liang
   themes:
-  - iCard Resume
+  - Resume Card
 - name: Nick Balestra
   themes:
   - Kactus
-- name: WakelessDragon
+- name: Wakeless Dragon
   themes:
   - Tiffany
 - name: Ben Centra
@@ -286,6 +308,10 @@
 - name: Vincent Chan
   themes:
   - Mickey
+- name: Max White
+  themes:
+  - Video
+  - One Page Wonder
 - name: Renyuan Zou
   themes:
   - Leonids
@@ -296,6 +322,7 @@
   themes:
   - The Plain
   - Thinkspace
+  - TextLog
 - name: Motaquillah Maddane
   themes:
   - Daktilo
@@ -317,13 +344,14 @@
 - name: Lau Siaw Young
   themes:
   - Immaculate
-- name: Diki Andriansyah
+- name: Diki Ananta
   themes:
   - Mangan
-- name: S├⌐rgio Kopplin
+- name: Sérgio Kopplin
   themes:
   - Indigo Minimalist
-- name: Sunbliss
+  - Violet
+- name: Anna Prigkipaki
   themes:
   - Photorama
 - name: Jannik Richter
@@ -340,3 +368,154 @@
 - name: Dennis Rohner
   themes:
   - Urban
+- name: Rodrigo Donini
+  themes:
+  - Labrador
+- name: Sergey Sokurenko
+  themes:
+  - Instagram Portfolio
+  - Smart Material
+- name: Henrique Ferrolho
+  themes:
+  - Libretto
+- name: ExchangeRate API
+  themes:
+  - R. L. Stevenson
+- name: Ankit Sultana
+  themes:
+  - Researcher
+- name: Alex Gil
+  themes:
+  - Ed
+- name: Tom Johnson
+  themes:
+  - Documenation 'n' Help Systems
+- name: Shu Higashi, Sam Smith,
+  themes:
+  - Handbook
+- name: Roman Zolotarev
+  themes:
+  - Roman's Minimalist
+  - Roman's Newsletter (RSS-to-Email)
+- name: Alexandru al II-lea
+  themes:
+  - Julia
+- name: Andrew Banchich
+  themes:
+  - Highlights (by HTML5 UP)
+  - Identity (by HTML5 UP)
+  - Forty (by HTML5 UP)
+- name: Alex Carpenter
+  themes:
+  - Library
+- name: David Boyne
+  themes:
+  - Evento
+- name: William Oliveira
+  themes:
+  - Dunders (Double Underscores)
+- name: Willian Justen
+  themes:
+  - Cards
+- name: StartZeroGnu
+  themes:
+  - SZ-Flex (Blog)
+- name: Rahmat Subekti
+  themes:
+  - Emping
+- name: Nielsen Ramon
+  themes:
+  - Chalk
+- name: Hugo Sereno Ferreira
+  themes:
+  - Papyrus
+- name: David Darnes
+  themes:
+  - Alembic
+- name: Siddhant Goel
+  themes:
+  - Clean (Siddhant)
+- name: Paul Le
+  themes:
+  - Lagrange
+  - Millennial
+  - Portfolio
+- name: Johan T Katiska
+  themes:
+  - Kikofri
+- name: Chayoung You
+  themes:
+  - Whiteglass
+- name: Mateus Medeiros
+  themes:
+  - Blade
+- name: Lahiru Pathirage
+  themes:
+  - Surgeon Tux
+  - Materialized
+  - Surgeon Tux
+- name: Viet Anh Nguyen
+  themes:
+  - Be Nice 17
+- name: Mike Neumegen
+  themes:
+  - Cause (Cloud Cannon)
+  - Frisco (Cloud Cannon)
+  - Hydra (Cloud Cannon)
+  - Malt (Cloud Cannon)
+- name: Ross Phillips
+  themes:
+  - Edition (Cloud Cannon)
+  - Justice (Cloud Cannon)
+- name: George Phillips
+  themes:
+  - Urban (Cloud Cannon)
+- name: Jae Hee Lee
+  themes:
+  - Console
+- name: Dyuti Barma
+  themes:
+  - Monochrome
+- name: Stefan Haslinger
+  themes:
+  - Octopod's Bootflat
+- name: Andrew Serong
+  themes:
+  - "(Museum) Audio Guide"
+- name: Ram Patra
+  themes:
+  - Photography
+- name: Paul Mostowyj
+  themes:
+  - jSimple
+  - jNegative
+- name: Yi Zeng
+  themes:
+  - Simple Texture
+- name: Gildásio Júnior
+  themes:
+  - Darcli (Dark + CLI)
+  - Clyell
+- name: Lorenzo Pirritano
+  themes:
+  - Cayman Blog
+- name: Lingyi Hu
+  themes:
+  - Sparrow
+- name: Kevin Rodríguez
+  themes:
+  - Wead
+- name: Artem Sheludko
+  themes:
+  - Fresh
+  - Monday (Black and White)
+  - Mr. Brown Responsive
+- name: Shawn Teoh
+  themes:
+  - Mat Jek
+- name: Stuart Geiger
+  themes:
+  - Academic Pages
+- name: Shawn Allen
+  themes:
+  - U.S. (Gov) Web Design Standards (Docs, Landing)
