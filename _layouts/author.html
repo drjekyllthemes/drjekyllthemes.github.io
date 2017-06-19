@@ -16,7 +16,7 @@ layout: default
 {% for theme_title in page.themes %}
   
   <h3>{{ theme_title }}</h3>
-  {% assign theme = site.data.themes_by_title[theme_title] %}
+  {% assign theme = site.data.o.themes_by_title[theme_title] %}
   
   <pre>
     {{ theme | jsonify }}
