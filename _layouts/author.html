@@ -7,17 +7,31 @@ layout: default
 <div id="page">
 
   <h1>
-   {% avatar user=author_github size=48 %}
+   {% avatar user=author_github size=64 %}
    <a href="https://github.com/{{author_github}}">{{ page.name }}</a>
   </h1>
 
   <h2>Themes ({{ page.themes | size }})</h2>
 
+{% for theme_title in page.themes %}
+  
+  <h3>{{ theme_title }}</h3>
+  {% assign theme = site.data.themes_by_title[theme_title] %}
+  
+  <pre>
+    {{ theme | jsonify }}
+  </pre>
+  
+{% endfor %}  
+  
+  
 
-  <!-- todo: check if content is empty? possible? -->
+  <!-- todo: check if content is empty? possible? 
 
   <h2>Notes</h2>
 
+   -->
+   
   {{ content }}
-
+  
 </div>
