@@ -22,7 +22,7 @@ title:  "Dr. Jekyll's Themes"
     </div>
     <div class='theme-info'>
         <!-- note: for now strip et al -->
-        {% assign theme_author = theme[1].author | replace ' et al', '' %}
+        {% assign theme_author = theme[1].author | replace: ' et al', '' %}
         <!-- theme_author: {{ theme_author }} -->
         {% assign known_author = site.data.authors[ theme_author ] %}
 
