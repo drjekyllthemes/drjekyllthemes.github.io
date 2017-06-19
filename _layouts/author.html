@@ -13,16 +13,52 @@ layout: default
 
   <h2>Themes ({{ page.themes | size }})</h2>
 
+<div class='gallery'>  
 {% for theme_title in page.themes %}
   
-  <h3>{{ theme_title }}</h3>
   {% assign theme = site.data.o.themes.themes_by_title[theme_title] %}
-  
+
+<div class='theme'>
+    <div class='theme-preview'>
+       <a href="{{ theme.home_url }}">
+        <img src="{{site.path}}/_data/themes/thumbnails/{{theme.thumbnail}}">
+       </a>
+    </div>  
+
+  <div class='theme-info'>
+        <a href="{{ theme.home_url }}"><b>{{ theme_title }}</b></a>
+        {% if theme.stars %} ★ {{ theme.stars }} {% endif %}
+        by
+        {{ theme.author }}
+        (License: {% if theme.license %}{{ theme.license }}{% else %}???{% endif %})
+        <br>
+      <!--
+        {% if theme.home_url %}
+           <a href="{{ theme.home_url }}">[More Info]</a>
+        {% endif %}
+      -->
+        {% if theme.demo_url %}
+           <a href="{{ theme.demo_url }}">[Live Demo]</a>
+        {% endif %}
+        <a href="{{ theme.download_url }}">[Download (.zip)]</a>
+        {% if theme.gem %}
+           <a href="https://rubygems.org/gems/{{ theme.gem }}">[Bundle (.gem)]</a>
+        {% endif %}
+        {% if theme.tags %}
+          <br>
+          {% for tag in theme.tags %}
+            #{{tag}}
+          {% endfor %}
+        {% endif %}
+    </div>
+  </div>
+
   <pre>
     {{ theme | jsonify }}
   </pre>
   
 {% endfor %}  
+</div>  
   
   
 
