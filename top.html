@@ -25,6 +25,15 @@ title:  "Top 22"
               <a href="{{ theme.home_url }}"><b>{{ theme.title }}</b></a>
               ★ {{ theme.stars }}
               by
+         <!-- note: for now strip et al -->
+        {% assign theme_author = theme.author | replace: ' et al', '' %}        
+        {% assign known_author = site.data.authors[ theme_author ] %}
+
+        {% if known_author %}
+          {% assign theme_avatar = known_author.github %}
+          <a href="{{ theme_avatar }}">{% avatar user=theme_avatar size=20 %}</a>
+        {% endif %}
+            
               {{ theme.author }}
               (License: {{ theme.license }})
               <br>
