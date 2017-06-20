@@ -2,7 +2,7 @@
 <html>
 <head>
    <meta charset="utf-8">
-   <title>{{ page.title }}</title>
+   <title>{{ page.title }} - {{ site.data.o.themes.themes | size }} free open source static website jekyll themes</title>
    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playball">
    <link rel="stylesheet" href="{{site.path}}/css/style.css">
 </head>
@@ -13,12 +13,12 @@
 <div id="header">
   <div id="masthead">
     <span class='big'>dr. jekyll's themes</span>
-    <span class='small'>a free static site generator theme directory</span>
+    <span class='small'>a free static website generator theme directory - {{ site.data.o.themes.themes | size }} and counting</span>
   </div>
 
   <div id="nav">
     <a href="{{site.path}}/">Welcome</a> •
-    <a href="https://github.com/drjekyllthemes/themes">Add Your Theme!</a> •
+     <b><a href="https://github.com/drjekyllthemes/themes">Add Your Theme!</a></b> •
     <a href="https://github.com/drjekyllthemes/drjekyll"><code>drj/drjekyll</code> - The Missing Theme Package Manager (Command Line Tool)</a> •
     <a href="http://groups.google.com/group/wwwmake">Questions? Comments?</a>
   </div>
