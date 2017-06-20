@@ -1,6 +1,9 @@
 ####
 # map author names to github
 ##  used for avatar pics
+##
+##  note: ALWAYS use lowercase for github handle  (mixed letters WILL BREAK pages!!!)
+##
 
 Gerald Bauer:
   github: geraldb
@@ -42,7 +45,7 @@ Stijn van Cuijk:
   github: steinvc
 
 Panos Sakkos:
-  github: PanosSakkos
+  github: panossakkos
 
 Mu-An Chiou:
   github: muan
@@ -57,7 +60,7 @@ Michael Rose:
   github: mmistakes
 
 Cole Townsend:
-  github: ColeTownsend
+  github: coletownsend
 
 Matt Swanson:
   github: swanson
@@ -79,7 +82,7 @@ Alex Carpenter:
   github: t413
 
 Moritz Sauer:
-  github: Phlow
+  github: phlow
 
 Ben Centra:
   github: bencentra
@@ -105,13 +108,14 @@ Stefan Haslinger:
 
 
 Richard Bray:
-  github: RichardBray
+  github: richardbray
 
 Oscar Cortez:
   github: oscarmcm
 
+
 Ankan Biswas:
-  github: Meliodus
+  github: meliodus
 
 Tyler Benziger:
   github: tybenz
@@ -131,7 +135,7 @@ David Miller:
   github: davidtmiller
 
 Gao Haoyang:
-  github: Gaohaoyang
+  github: gaohaoyang
 
 Jerome Lachaud:
   github: jeromelachaud
