@@ -498,7 +498,7 @@ Material Design Lite (MDL):
   home_url: https://github.com/gdg-managua/jekyll-mdl
   download_url: https://github.com/gdg-managua/jekyll-mdl/releases
   demo_url: http://www.gdgmanagua.org/jekyll-mdl
-  author: Google Developers Group (GDG) Managua
+  author: Oscar Cortez et al
   thumbnail: jekyll-mdl-screen.jpg
   license: Apache
   tags: []
@@ -526,58 +526,6 @@ Scribble:
   commit_msg: Update README.md by GitHub
   stars: 564
   stars_week: 29
-Green Tea:
-  title: Green Tea
-  home_url: http://richbray.me/frap/
-  download_url: http://richbray.me/frap/gt.zip
-  demo_url: http://richbray.me/frap/gt/
-  author: Richard Bray
-  thumbnail: green-tea.png
-  tags: []
-Vanilla Bean Creme:
-  title: Vanilla Bean Creme
-  home_url: http://richbray.me/frap/
-  download_url: http://richbray.me/frap/vbc.zip
-  demo_url: http://richbray.me/frap/vbc/
-  author: Richard Bray
-  thumbnail: vanilla-bean-creme.png
-  tags: []
-Solar:
-  title: Solar
-  home_url: https://github.com/mattvh/solar-theme-jekyll
-  download_url: https://github.com/mattvh/solar-theme-jekyll/archive/master.zip
-  demo_url: http://mattvh.github.io/solar-theme-jekyll/
-  author: Matt Harzewski
-  thumbnail: solar.png
-  license: GNU GPL
-  tags: []
-  github: mattvh/solar-theme-jekyll
-  created: 2013-06-07 20:27:21.000000000 Z
-  updated: 2016-05-14 07:56:00.000000000 Z
-  commit_msg: |-
-    Merge pull request #6 from bekce/master
-
-    Jekyll 3 support by Matt Harzewski
-  stars: 161
-  stars_week: 8
-Left:
-  title: Left
-  home_url: https://github.com/holman/left
-  download_url: https://github.com/holman/left/archive/gh-pages.zip
-  demo_url: http://zachholman.com/left/
-  author: Zach Holman
-  thumbnail: left.png
-  license: MIT
-  tags: []
-  github: holman/left
-  created: 2012-12-12 00:18:54.000000000 Z
-  updated: 2016-05-25 07:11:48.000000000 Z
-  commit_msg: |-
-    Merge pull request #46 from notwaldorf/started-from-the-bottom-now-we-here
-
-    add some aria-labels for a11y by Zach Holman
-  stars: 467
-  stars_week: 17
 Basically Basic:
   title: Basically Basic
   github: mmistakes/jekyll-theme-basically-basic
@@ -667,20 +615,45 @@ HiPSTeR (HPSTR):
   commit_msg: Merge branch 'release/1.7.6' by Michael Rose
   stars: 804
   stars_week: 46
-HiPSTeR (HPSTR) Version 2 - Vietnamese:
-  title: HiPSTeR (HPSTR) Version 2 - Vietnamese
-  home_url: https://github.com/minhhuy150894/minhhuy150894.github.io
-  download_url: https://github.com/minhhuy150894/minhhuy150894.github.io/archive/master.zip
-  demo_url: http://minhhuy150894.github.io
-  author: David Ng (Nguyen Minh Huy) - Michael Rose
-  thumbnail: hpstr-v2.png
+Academic Pages:
+  title: Academic Pages
+  github: academicpages/academicpages.github.io
+  demo_url: https://academicpages.github.io
+  author: Stuart Geiger
+  thumbnail: academicpages.png
   license: MIT
-  tags: []
-  github: minhhuy150894/minhhuy150894.github.io
-  created: 2015-05-11 13:24:51.000000000 Z
-  updated: 2017-01-30 11:11:46.000000000 Z
-  commit_msg: Update README.md by GitHub
-  stars: 15
+  tags:
+  - academic
+  - portfolio
+  - papers
+  - blog
+  - resume
+  - responsive
+  home_url: https://github.com/academicpages/academicpages.github.io
+  download_url: https://github.com/academicpages/academicpages.github.io/archive/master.zip
+  created: 2016-09-15 11:16:04.000000000 Z
+  updated: 2017-03-28 02:01:52.000000000 Z
+  commit_msg: update to reflect completed documentation by GitHub
+  stars: 210
+  stars_week: 0
+U.S. (Gov) Web Design Standards (Docs, Landing):
+  title: U.S. (Gov) Web Design Standards (Docs, Landing)
+  github: 18F/uswds-jekyll
+  author: Shawn Allen
+  thumbnail: uswds-docs.png
+  license: Public Domain
+  tags:
+  - docs
+  - landing
+  home_url: https://github.com/18F/uswds-jekyll
+  download_url: https://github.com/18F/uswds-jekyll/archive/master.zip
+  created: 2017-02-23 23:41:47.000000000 Z
+  updated: 2017-05-15 19:26:45.000000000 Z
+  commit_msg: |-
+    Merge pull request #25 from 18F/patch-1.1.1
+
+    Update USWDS v1.1.0 assets (theme v1.1.1) by GitHub
+  stars: 26
   stars_week: 0
 Balzac:
   title: Balzac
@@ -970,7 +943,7 @@ Incorporated:
   home_url: https://github.com/kippt/jekyll-incorporated
   download_url: https://github.com/kippt/jekyll-incorporated/archive/master.zip
   demo_url: http://blog.sendtoinc.com/
-  author: Kippt Inc.
+  author: Karri Saarinen et al
   thumbnail: incorporated.png
   license: MIT
   tags: []
@@ -1403,7 +1376,7 @@ Clean Blog:
   home_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll
   download_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/gh-pages.zip
   demo_url: http://BlackrockDigital.github.io/startbootstrap-clean-blog-jekyll/
-  author: Start Bootstrap
+  author: David Miller et al
   thumbnail: clean-blog.png
   license: Apache
   tags: []
@@ -1480,7 +1453,7 @@ Strange Case:
   home_url: https://github.com/thephuse/strange_case
   download_url: https://github.com/thephuse/strange_case/archive/gh-pages.zip
   demo_url: http://thephuse.github.io/strange_case/
-  author: Phuse
+  author: Kelley Gibson et al
   thumbnail: strange-case.png
   license: MIT
   tags: []
@@ -1648,7 +1621,7 @@ Rifyll:
   home_url: https://github.com/itsrifat/rifyll
   download_url: https://github.com/itsrifat/rifyll/archive/master.zip
   demo_url: http://itsrifat.github.io/rifyll/
-  author: Moinul
+  author: Moinul Hossain
   thumbnail: rifyll.png
   license: MIT
   tags: []
@@ -1681,7 +1654,7 @@ Metaphor:
   home_url: https://github.com/prio101/metaphor-jekyll
   download_url: https://github.com/prio101/metaphor-jekyll/archive/master.zip
   demo_url: http://mahabubislam.me
-  author: Mahabub I.
+  author: Mahabub Islam Prio
   thumbnail: metaphor.png
   license: MIT
   tags: []
@@ -1798,27 +1771,12 @@ Carte Noire:
     Bump Font Awesome version to 4.7.0 by GitHub
   stars: 151
   stars_week: 10
-Pithy:
-  title: Pithy
-  home_url: https://github.com/smallmuou/Jekyll-Pithy
-  download_url: https://github.com/smallmuou/Jekyll-Pithy/archive/master.zip
-  demo_url: http://wenva.github.io/
-  author: Pawpaw
-  thumbnail: pithy.png
-  license: MIT
-  tags: []
-  github: smallmuou/Jekyll-Pithy
-  created: 2015-04-10 01:45:07.000000000 Z
-  updated: 2017-03-24 06:13:34.000000000 Z
-  commit_msg: add year by smallmuou
-  stars: 62
-  stars_week: 9
 Twister:
   title: Twister
   home_url: https://github.com/DigitalMindCH/twister-jekyll-theme
   download_url: http://digitalmind.ch/media/downloads/twister_theme.zip
   demo_url: http://digitalmind.ch/themes/twister-jekyll-theme/demo/
-  author: Digitalmind
+  author: Daniel Baur et al
   thumbnail: twister.png
   license: MIT
   tags: []
@@ -2497,27 +2455,6 @@ Libretto:
   commit_msg: Create LICENSE by GitHub
   stars: 24
   stars_week: 7
-R. L. Stevenson:
-  title: R. L. Stevenson
-  github: ExchangeRate-API/rlstevenson-jekyll-theme
-  demo_url: https://www.exchangerate-api.com/rlstevenson/
-  thumbnail: rlstevenson.png
-  author: ExchangeRate API
-  license: MIT
-  tags:
-  - blog
-  - responsive
-  - bootstrap
-  home_url: https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme
-  download_url: https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme/archive/master.zip
-  created: 2016-09-08 12:22:19.000000000 Z
-  updated: 2016-10-13 09:09:27.000000000 Z
-  commit_msg: |-
-    Merge pull request #1 from NUNTS/patch-1
-
-    Update _config.yml by GitHub
-  stars: 4
-  stars_week: 1
 Researcher:
   title: Researcher
   github: bk2dcradle/researcher
@@ -2875,24 +2812,6 @@ Cards:
   commit_msg: 'Fixing issue related on #27 by Willian Justen'
   stars: 153
   stars_week: 27
-SZ-Flex (Blog):
-  title: SZ-Flex (Blog)
-  github: StartZeroGnu/jekyll-szflex-theme
-  demo_url: https://startzerognu.github.io/jekyll-szflex-theme/
-  author: StartZeroGnu
-  thumbnail: sz-flex.png
-  license: MIT
-  tags:
-  - blog
-  keys:
-  - szflex
-  home_url: https://github.com/StartZeroGnu/jekyll-szflex-theme
-  download_url: https://github.com/StartZeroGnu/jekyll-szflex-theme/archive/master.zip
-  created: 2016-10-31 20:28:37.000000000 Z
-  updated: 2016-11-23 17:22:53.000000000 Z
-  commit_msg: Add disqus shortname by StartZeroGnu
-  stars: 1
-  stars_week: 0
 Emping:
   title: Emping
   github: rmsubekti/emping
@@ -2982,28 +2901,6 @@ Clean (Siddhant):
   commit_msg: bump version by Siddhant Goel
   stars: 5
   stars_week: 2
-Lagrange:
-  title: Lagrange
-  github: LeNPaul/Lagrange
-  branch: gh-pages
-  demo_url: https://lenpaul.github.io/Lagrange/
-  author: Paul Le
-  thumbnail: lagrange.jpg
-  license: MIT
-  tags:
-  - blog
-  - minimal
-  - minimalist
-  - clean
-  - simple
-  - starter
-  home_url: https://github.com/LeNPaul/Lagrange
-  download_url: https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip
-  created: 2016-07-24 02:05:27.000000000 Z
-  updated: 2017-05-24 16:21:29.000000000 Z
-  commit_msg: Update main.css by GitHub
-  stars: 54
-  stars_week: 46
 Kikofri:
   title: Kikofri
   github: kxxvii/Kikofri
@@ -3323,6 +3220,28 @@ Photography:
   commit_msg: Merge branch 'gh-pages' by ramswaroop
   stars: 47
   stars_week: 0
+Lagrange:
+  title: Lagrange
+  github: LeNPaul/Lagrange
+  branch: gh-pages
+  demo_url: https://lenpaul.github.io/Lagrange/
+  author: Paul Le
+  thumbnail: lagrange.jpg
+  license: MIT
+  tags:
+  - blog
+  - minimal
+  - minimalist
+  - clean
+  - simple
+  - starter
+  home_url: https://github.com/LeNPaul/Lagrange
+  download_url: https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip
+  created: 2016-07-24 02:05:27.000000000 Z
+  updated: 2017-05-24 16:21:29.000000000 Z
+  commit_msg: Update main.css by GitHub
+  stars: 54
+  stars_week: 46
 Millennial:
   title: Millennial
   github: LeNPaul/Millennial
@@ -3347,42 +3266,6 @@ Millennial:
   commit_msg: Add html tags by LeNPaul
   stars: 5
   stars_week: 0
-jSimple:
-  title: jSimple
-  github: paulmostowyj/jsimple
-  demo_url: https://paulmostowyj.github.io/jsimple/
-  author: Paul Mostowyj
-  thumbnail: jsimple-thumbnail.png
-  license: MIT
-  tags:
-  - simple
-  - minimal
-  - blog
-  home_url: https://github.com/paulmostowyj/jsimple
-  download_url: https://github.com/paulmostowyj/jsimple/archive/master.zip
-  created: 2017-04-25 21:24:26.000000000 Z
-  updated: 2017-05-14 22:08:23.000000000 Z
-  commit_msg: more images by paulmostowyj
-  stars: 1
-  stars_week: 0
-jNegative:
-  title: jNegative
-  github: paulmostowyj/jnegative
-  demo_url: https://paulmostowyj.github.io/jnegative/
-  author: Paul Mostowyj
-  thumbnail: jnegative-thumbnail.png
-  license: MIT
-  tags:
-  - simple
-  - minimal
-  - blog
-  home_url: https://github.com/paulmostowyj/jnegative
-  download_url: https://github.com/paulmostowyj/jnegative/archive/master.zip
-  created: 2017-05-12 22:20:34.000000000 Z
-  updated: 2017-05-14 22:08:55.000000000 Z
-  commit_msg: more images by paulmostowyj
-  stars: 1
-  stars_week: 0
 Portfolio:
   title: Portfolio
   github: LeNPaul/portfolio-jekyll-theme
@@ -3405,6 +3288,42 @@ Portfolio:
   updated: 2017-06-01 05:17:21.000000000 Z
   commit_msg: Update code by LeNPaul
   stars: 4
+  stars_week: 0
+Paul's Simple:
+  title: Paul's Simple
+  github: paulmostowyj/jsimple
+  demo_url: https://paulmostowyj.github.io/jsimple/
+  author: Paul Mostowyj
+  thumbnail: jsimple-thumbnail.png
+  license: MIT
+  tags:
+  - simple
+  - minimal
+  - blog
+  home_url: https://github.com/paulmostowyj/jsimple
+  download_url: https://github.com/paulmostowyj/jsimple/archive/master.zip
+  created: 2017-04-25 21:24:26.000000000 Z
+  updated: 2017-05-14 22:08:23.000000000 Z
+  commit_msg: more images by paulmostowyj
+  stars: 1
+  stars_week: 0
+Paul's Negative:
+  title: Paul's Negative
+  github: paulmostowyj/jnegative
+  demo_url: https://paulmostowyj.github.io/jnegative/
+  author: Paul Mostowyj
+  thumbnail: jnegative-thumbnail.png
+  license: MIT
+  tags:
+  - simple
+  - minimal
+  - blog
+  home_url: https://github.com/paulmostowyj/jnegative
+  download_url: https://github.com/paulmostowyj/jnegative/archive/master.zip
+  created: 2017-05-12 22:20:34.000000000 Z
+  updated: 2017-05-14 22:08:55.000000000 Z
+  commit_msg: more images by paulmostowyj
+  stars: 1
   stars_week: 0
 Simple Texture:
   title: Simple Texture
@@ -3434,7 +3353,7 @@ Darcli (Dark + CLI):
   branch: gh-pages
   demo_url: https://gjuniioor.github.io/darcli/
   author: Gildásio Júnior
-  thumbnail: darcli.png
+  thumbnail: darcli.jpg
   license: GNU GPL
   tags:
   - blog
@@ -3529,6 +3448,26 @@ Wead:
   commit_msg: Update README.md by GitHub
   stars: 11
   stars_week: 0
+Shawn's Material:
+  title: Shawn's Material
+  github: ShawnTeoh/matjek
+  branch: gh-pages
+  demo_url: https://shawnteoh.github.io/matjek
+  author: Shawn Teoh
+  thumbnail: matjek.png
+  license: GNU GPL
+  tags:
+  - material
+  - responsive
+  - blog
+  - resume
+  home_url: https://github.com/ShawnTeoh/matjek
+  download_url: https://github.com/ShawnTeoh/matjek/archive/gh-pages.zip
+  created: 2017-03-23 09:55:40.000000000 Z
+  updated: 2017-06-07 18:19:27.000000000 Z
+  commit_msg: Wrap code by ShawnTeoh
+  stars: 2
+  stars_week: 0
 Fresh:
   title: Fresh
   github: artemsheludko/fresh
@@ -3548,66 +3487,6 @@ Fresh:
   updated: 2017-04-03 18:20:53.000000000 Z
   commit_msg: Update README.md by GitHub
   stars: 2
-  stars_week: 0
-Mat Jek:
-  title: Mat Jek
-  github: ShawnTeoh/matjek
-  branch: gh-pages
-  demo_url: https://shawnteoh.github.io/matjek
-  author: Shawn Teoh
-  thumbnail: matjek.png
-  license: GNU GPL
-  tags:
-  - material
-  - responsive
-  - blog
-  - resume
-  home_url: https://github.com/ShawnTeoh/matjek
-  download_url: https://github.com/ShawnTeoh/matjek/archive/gh-pages.zip
-  created: 2017-03-23 09:55:40.000000000 Z
-  updated: 2017-06-07 18:19:27.000000000 Z
-  commit_msg: Wrap code by ShawnTeoh
-  stars: 2
-  stars_week: 0
-Academic Pages:
-  title: Academic Pages
-  github: academicpages/academicpages.github.io
-  demo_url: https://academicpages.github.io
-  author: Stuart Geiger
-  thumbnail: academicpages.png
-  license: MIT
-  tags:
-  - academic
-  - portfolio
-  - papers
-  - blog
-  - resume
-  - responsive
-  home_url: https://github.com/academicpages/academicpages.github.io
-  download_url: https://github.com/academicpages/academicpages.github.io/archive/master.zip
-  created: 2016-09-15 11:16:04.000000000 Z
-  updated: 2017-03-28 02:01:52.000000000 Z
-  commit_msg: update to reflect completed documentation by GitHub
-  stars: 210
-  stars_week: 0
-U.S. (Gov) Web Design Standards (Docs, Landing):
-  title: U.S. (Gov) Web Design Standards (Docs, Landing)
-  github: 18F/uswds-jekyll
-  author: Shawn Allen
-  thumbnail: uswds-docs.png
-  license: Public Domain
-  tags:
-  - docs
-  - landing
-  home_url: https://github.com/18F/uswds-jekyll
-  download_url: https://github.com/18F/uswds-jekyll/archive/master.zip
-  created: 2017-02-23 23:41:47.000000000 Z
-  updated: 2017-05-15 19:26:45.000000000 Z
-  commit_msg: |-
-    Merge pull request #25 from 18F/patch-1.1.1
-
-    Update USWDS v1.1.0 assets (theme v1.1.1) by GitHub
-  stars: 26
   stars_week: 0
 Monday (Black and White):
   title: Monday (Black and White)
@@ -3666,3 +3545,57 @@ Materialized:
   commit_msg: responsive header fixes by Lahiru Pathirage
   stars: 3
   stars_week: 0
+Green Tea:
+  title: Green Tea
+  home_url: http://richbray.me/frap/
+  download_url: http://richbray.me/frap/gt.zip
+  demo_url: http://richbray.me/frap/gt/
+  author: Richard Bray
+  thumbnail: green-tea.png
+  license: ":-) - Happy License"
+  tags: []
+Vanilla Bean Creme:
+  title: Vanilla Bean Creme
+  home_url: http://richbray.me/frap/
+  download_url: http://richbray.me/frap/vbc.zip
+  demo_url: http://richbray.me/frap/vbc/
+  author: Richard Bray
+  thumbnail: vanilla-bean-creme.png
+  license: ":-) - Happy License"
+  tags: []
+Solar:
+  title: Solar
+  home_url: https://github.com/mattvh/solar-theme-jekyll
+  download_url: https://github.com/mattvh/solar-theme-jekyll/archive/master.zip
+  demo_url: http://mattvh.github.io/solar-theme-jekyll/
+  author: Matt Harzewski
+  thumbnail: solar.png
+  license: GNU GPL
+  tags: []
+  github: mattvh/solar-theme-jekyll
+  created: 2013-06-07 20:27:21.000000000 Z
+  updated: 2016-05-14 07:56:00.000000000 Z
+  commit_msg: |-
+    Merge pull request #6 from bekce/master
+
+    Jekyll 3 support by Matt Harzewski
+  stars: 161
+  stars_week: 8
+Left:
+  title: Left
+  home_url: https://github.com/holman/left
+  download_url: https://github.com/holman/left/archive/gh-pages.zip
+  demo_url: http://zachholman.com/left/
+  author: Zach Holman
+  thumbnail: left.png
+  license: MIT
+  tags: []
+  github: holman/left
+  created: 2012-12-12 00:18:54.000000000 Z
+  updated: 2016-05-25 07:11:48.000000000 Z
+  commit_msg: |-
+    Merge pull request #46 from notwaldorf/started-from-the-bottom-now-we-here
+
+    add some aria-labels for a11y by Zach Holman
+  stars: 467
+  stars_week: 17

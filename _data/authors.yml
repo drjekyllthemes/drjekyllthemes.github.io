@@ -1,5 +1,5 @@
 ####
-# map author names to github 
+# map author names to github
 ##  used for avatar pics
 
 Gerald Bauer:
@@ -14,10 +14,10 @@ Joel Glovier:
 Jason Long:
   github: jasonlong
 
-Diana Mounter: 
+Diana Mounter:
   github: broccolini
 
-Jason Costello: 
+Jason Costello:
   github: jasoncostello
 
 Matt Graham:
@@ -75,7 +75,7 @@ Nii Adjetey Sowah:
 Alex Carpenter:
   github: alexcarpenter
 
-Tim O'Brien:
+"Tim O'Brien":
   github: t413
 
 Moritz Sauer:
@@ -99,6 +99,22 @@ William Oliveira:
 Mike Neumegen:
   github: mneumegen
 
-Stefan Haslinger:
+"Stefan Haslinger":
   github: haslinger
 
+
+
+"Richard Bray":
+  github: RichardBray
+
+"Oscar Cortez":
+  github: oscarmcm
+
+Ankan Biswas:
+  github: Meliodus
+
+"Tyler Benziger":
+  github: tybenz
+
+"Pranav Raj S":
+  github: pranavrajs

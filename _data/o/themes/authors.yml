@@ -62,22 +62,12 @@
 - name: Panos Sakkos
   themes:
   - "{ Personal }"
-- name: Google Developers Group (GDG) Managua
+- name: Oscar Cortez
   themes:
   - Material Design Lite (MDL)
 - name: Mu-An Chiou
   themes:
   - Scribble
-- name: Richard Bray
-  themes:
-  - Green Tea
-  - Vanilla Bean Creme
-- name: Matt Harzewski
-  themes:
-  - Solar
-- name: Zach Holman
-  themes:
-  - Left
 - name: Michael Rose
   themes:
   - Basically Basic
@@ -85,9 +75,12 @@
   - So Simple
   - Skinny Bones
   - HiPSTeR (HPSTR)
-- name: David Ng (Nguyen Minh Huy) - Michael Rose
+- name: Stuart Geiger
   themes:
-  - HiPSTeR (HPSTR) Version 2 - Vietnamese
+  - Academic Pages
+- name: Shawn Allen
+  themes:
+  - U.S. (Gov) Web Design Standards (Docs, Landing)
 - name: Cole Townsend
   themes:
   - Balzac
@@ -137,7 +130,7 @@
 - name: Aigars Dzerviniks
   themes:
   - Brume
-- name: Kippt Inc.
+- name: Karri Saarinen
   themes:
   - Incorporated
 - name: Berk Özbalcı
@@ -210,7 +203,7 @@
 - name: Tim O'Brien
   themes:
   - Single Paged
-- name: Start Bootstrap
+- name: David Miller
   themes:
   - Clean Blog
 - name: Shane Weng
@@ -225,7 +218,7 @@
 - name: Pasindu De Silva
   themes:
   - Masonry
-- name: Phuse
+- name: Kelley Gibson
   themes:
   - Strange Case
 - name: Manav Sehgal
@@ -252,10 +245,10 @@
 - name: Takashi Kanemoto
   themes:
   - Ttskch
-- name: Moinul
+- name: Moinul Hossain
   themes:
   - Rifyll
-- name: Mahabub I.
+- name: Mahabub Islam Prio
   themes:
   - Metaphor
 - name: Rizky Ariestiyansyah
@@ -277,10 +270,7 @@
 - name: Jacob Tomlinson
   themes:
   - Carte Noire
-- name: Pawpaw
-  themes:
-  - Pithy
-- name: Digitalmind
+- name: Daniel Baur
   themes:
   - Twister
 - name: Karlo Espiritu
@@ -378,9 +368,6 @@
 - name: Henrique Ferrolho
   themes:
   - Libretto
-- name: ExchangeRate API
-  themes:
-  - R. L. Stevenson
 - name: Ankit Sultana
   themes:
   - Researcher
@@ -417,9 +404,6 @@
 - name: Willian Justen
   themes:
   - Cards
-- name: StartZeroGnu
-  themes:
-  - SZ-Flex (Blog)
 - name: Rahmat Subekti
   themes:
   - Emping
@@ -435,11 +419,6 @@
 - name: Siddhant Goel
   themes:
   - Clean (Siddhant)
-- name: Paul Le
-  themes:
-  - Lagrange
-  - Millennial
-  - Portfolio
 - name: Johan T Katiska
   themes:
   - Kikofri
@@ -485,10 +464,15 @@
 - name: Ram Patra
   themes:
   - Photography
+- name: Paul Le
+  themes:
+  - Lagrange
+  - Millennial
+  - Portfolio
 - name: Paul Mostowyj
   themes:
-  - jSimple
-  - jNegative
+  - Paul's Simple
+  - Paul's Negative
 - name: Yi Zeng
   themes:
   - Simple Texture
@@ -505,17 +489,21 @@
 - name: Kevin Rodríguez
   themes:
   - Wead
+- name: Shawn Teoh
+  themes:
+  - Shawn's Material
 - name: Artem Sheludko
   themes:
   - Fresh
   - Monday (Black and White)
   - Mr. Brown Responsive
-- name: Shawn Teoh
+- name: Richard Bray
   themes:
-  - Mat Jek
-- name: Stuart Geiger
+  - Green Tea
+  - Vanilla Bean Creme
+- name: Matt Harzewski
   themes:
-  - Academic Pages
-- name: Shawn Allen
+  - Solar
+- name: Zach Holman
   themes:
-  - U.S. (Gov) Web Design Standards (Docs, Landing)
+  - Left
