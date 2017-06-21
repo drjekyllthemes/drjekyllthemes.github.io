@@ -1,3 +1,11 @@
 ## Jekyll-Generated Site
 
 _site/
+
+
+
+## "local" gemfiles
+##   check in? ignored by github pages ???
+
+Gemfile
+Gemfile.lock
