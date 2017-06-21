@@ -4,7 +4,7 @@ title:  "Top 22"
 ---
 
 
-{% assign top_themes = site.data.o.themes.themes | sort: "stars" | reverse %}
+{% assign top_themes = site.data.o.themes | sort: "stars" | reverse %}
 <table>
 {% for theme in top_themes limit:22 %}
   <tr>
@@ -22,18 +22,18 @@ title:  "Top 22"
 
     <td>
           <div>
-              <a href="{{ theme.home_url }}"><b>{{ theme.title }}</b></a>
+              <a href="{{ theme.home_url }}"><b>{{ theme.name }}</b></a>
               ★ {{ theme.stars }}
               by
          <!-- note: for now strip et al -->
-        {% assign theme_author = theme.author | replace: ' et al', '' %}        
-        {% assign known_author = site.data.authors[ theme_author ] %}
+        {% assign theme_author = theme.author | replace: ' et al', '' %}
+        {% assign known_author = site.data.author_by_name[ theme_author ] %}
 
         {% if known_author %}
           {% assign theme_avatar = known_author.github %}
           <a href="{{ theme_avatar }}">{% avatar user=theme_avatar size=20 %}</a>
         {% endif %}
-            
+
               {{ theme.author }}
               (License: {{ theme.license }})
               <br>

@@ -3,7 +3,7 @@ layout: debug
 title:  "Themes by Tags"
 ---
 
-{% for tag in site.data.o.themes.tags %}
+{% for tag in site.data.o.tags %}
 <p>
   <b>#{{ tag.name }}</b> ({{ tag.themes | size }}) <br>
   {% for theme in tag.themes %}

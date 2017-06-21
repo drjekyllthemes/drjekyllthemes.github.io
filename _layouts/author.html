@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign author_github = site.data.authors[page.name].github %}
+{% assign author_github = site.data.author_by_name[page.name].github %}
 
 <div id="page">
 
@@ -14,9 +14,9 @@ layout: default
   <h2>Themes ({{ page.themes | size }})</h2>
 
 <div class='gallery'>
-{% for theme_title in page.themes %}
+{% for theme_name in page.themes %}
 
-  {% assign theme = site.data.o.themes.themes_by_title[theme_title] %}
+  {% assign theme = site.data.o.theme_by_name[theme_name] %}
 
 <div class='theme'>
     <div class='theme-preview'>
@@ -26,7 +26,7 @@ layout: default
     </div>
 
   <div class='theme-info'>
-        <a href="{{ theme.home_url }}"><b>{{ theme_title }}</b></a>
+        <a href="{{ theme.home_url }}"><b>{{ theme_name }}</b></a>
         {% if theme.stars %} ★ {{ theme.stars }} {% endif %}
         by
         {{ theme.author }}

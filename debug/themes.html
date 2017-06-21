@@ -7,9 +7,9 @@ title:  "Themes"
       list o/themes.yml
   -->
 
-{% for theme in site.data.o.themes.themes %}
+{% for theme in site.data.o.themes %}
 <p>
-  <b>{{ theme[0] }}</b><br>
-  {{ theme[1] }}
+  <b>{{ theme.name }}</b><br>
+  {{ theme | inspect }}
 </p>
 {% endfor %}

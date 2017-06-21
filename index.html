@@ -3,54 +3,49 @@ layout: default
 title:  "Dr. Jekyll's Themes"
 ---
 
-<!-- note:
-      use generated hash (themes.o.themes) for now
-       theme[0]  => was theme.title (now is the theme key)
-       theme[1]  => was theme  (now is the theme hash)
-  -->
 
 <div class='gallery'>
 
   {% include views.html %}
 
-{% for theme in site.data.o.themes.themes_by_title %}
+{% for theme in site.data.o.themes %}
   <div class='theme'>
     <div class='theme-preview'>
-       <a href="{{ theme[1].home_url }}">
-        <img src="{{site.path}}/themes/thumbnails/{{theme[1].thumbnail}}">
+       <a href="{{ theme.home_url }}">
+        <img src="{{site.path}}/themes/thumbnails/{{theme.thumbnail}}">
        </a>
     </div>
     <div class='theme-info'>
         <!-- note: for now strip et al -->
-        {% assign theme_author = theme[1].author | replace: ' et al', '' %}
+        {% assign theme_author = theme.author | replace: ' et al', '' %}
         <!-- theme_author: {{ theme_author }} -->
-        {% assign known_author = site.data.authors[ theme_author ] %}
+        {% assign known_author = site.data.author_by_name[ theme_author ] %}
 
-        <a href="{{ theme[1].home_url }}"><b>{{ theme[1].title }}</b></a>
-        {% if theme[1].stars %} ★ {{ theme[1].stars }} {% endif %}
+        <a href="{{ theme.home_url }}"><b>{{ theme.name }}</b></a>
+        {% if theme.stars %} ★ {{ theme.stars }} {% endif %}
         by
         {% if known_author %}
           {% assign theme_avatar = known_author.github %}
           <a href="{{ theme_avatar }}">{% avatar user=theme_avatar size=20 %}</a>
         {% endif %}
-        {{ theme[1].author }}
-        (License: {% if theme[1].license %}{{ theme[1].license }}{% else %}???{% endif %})
+        {{ theme.author }}
+        (License: {% if theme.license %}{{ theme.license }}{% else %}???{% endif %})
         <br>
       <!--
         {% if theme[1].home_url %}
            <a href="{{ theme[1].home_url }}">[More Info]</a>
         {% endif %}
       -->
-        {% if theme[1].demo_url %}
-           <a href="{{ theme[1].demo_url }}">[Live Demo]</a>
+        {% if theme.demo_url %}
+           <a href="{{ theme.demo_url }}">[Live Demo]</a>
         {% endif %}
-        <a href="{{ theme[1].download_url }}">[Download (.zip)]</a>
-        {% if theme[1].gem %}
-           <a href="https://rubygems.org/gems/{{ theme[1].gem }}">[Bundle (.gem)]</a>
+        <a href="{{ theme.download_url }}">[Download (.zip)]</a>
+        {% if theme.gem %}
+           <a href="https://rubygems.org/gems/{{ theme.gem }}">[Bundle (.gem)]</a>
         {% endif %}
-        {% if theme[1].tags %}
+        {% if theme.tags %}
           <br>
-          {% for tag in theme[1].tags %}
+          {% for tag in theme.tags %}
             #{{tag}}
           {% endfor %}
         {% endif %}

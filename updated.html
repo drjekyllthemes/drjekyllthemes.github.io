@@ -4,7 +4,7 @@ title:  "Latest Updates"
 ---
 
 
-{% assign top_themes = site.data.o.themes.themes | sort: "updated" | reverse %}
+{% assign top_themes = site.data.o.themes | sort: "updated" | reverse %}
 <table>
 {% for theme in top_themes limit:33 %}
   <tr>
@@ -22,7 +22,7 @@ title:  "Latest Updates"
 
     <td>
           <div>
-              <a href="{{ theme.home_url }}"><b>{{ theme.title }}</b></a>
+              <a href="{{ theme.home_url }}"><b>{{ theme.name }}</b></a>
               ★ {{ theme.stars }}
               by
               {{ theme.author }}
