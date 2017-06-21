@@ -38,7 +38,10 @@ sass:
   sass_dir: css
   style:    expanded
 
-plugins:
+## plugins:
+## - jekyll-avatar
+
+gems:
 - jekyll-avatar
 
 
