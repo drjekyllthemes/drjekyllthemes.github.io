@@ -47,6 +47,9 @@ gems:
 
 exclude:
 - README.md
+- NOTES.md
+- Gemfile
+- Gemfile.lock
 
 
 safe: true

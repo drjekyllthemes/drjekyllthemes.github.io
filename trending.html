@@ -1,0 +1,14 @@
+---
+layout: page
+title:  "Trending"
+---
+
+<div class='gallery'>
+
+{% assign trending_themes = site.data.o.themes | sort: "stars_week" | reverse %}
+
+{% for theme in trending_themes limit:22 %}
+    {% include theme.html theme=theme %}
+{% endfor %}
+
+</div>

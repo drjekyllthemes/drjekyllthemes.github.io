@@ -17,42 +17,7 @@ layout: default
 {% for theme_name in page.themes %}
 
   {% assign theme = site.data.o.theme_by_name[theme_name] %}
-
-<div class='theme'>
-    <div class='theme-preview'>
-       <a href="{{ theme.home_url }}">
-        <img src="{{site.path}}/themes/thumbnails/{{theme.thumbnail}}">
-       </a>
-    </div>
-
-  <div class='theme-info'>
-        <a href="{{ theme.home_url }}"><b>{{ theme_name }}</b></a>
-        {% if theme.stars %} ★ {{ theme.stars }} {% endif %}
-        by
-        {{ theme.author }}
-        (License: {% if theme.license %}{{ theme.license }}{% else %}???{% endif %})
-        <br>
-      <!--
-        {% if theme.home_url %}
-           <a href="{{ theme.home_url }}">[More Info]</a>
-        {% endif %}
-      -->
-        {% if theme.demo_url %}
-           <a href="{{ theme.demo_url }}">[Live Demo]</a>
-        {% endif %}
-        <a href="{{ theme.download_url }}">[Download (.zip)]</a>
-        {% if theme.gem %}
-           <a href="https://rubygems.org/gems/{{ theme.gem }}">[Bundle (.gem)]</a>
-        {% endif %}
-        {% if theme.tags %}
-          <br>
-          {% for tag in theme.tags %}
-            #{{tag}}
-          {% endfor %}
-        {% endif %}
-    </div>
-  </div>
-
+  {% include theme.html theme=theme %}
 
 {% endfor %}
 </div>

@@ -8,48 +8,57 @@ title:  "Dr. Jekyll's Themes"
 
   {% include views.html %}
 
-{% for theme in site.data.o.themes %}
-  <div class='theme'>
-    <div class='theme-preview'>
-       <a href="{{ theme.home_url }}">
-        <img src="{{site.path}}/themes/thumbnails/{{theme.thumbnail}}">
-       </a>
-    </div>
-    <div class='theme-info'>
-        <!-- note: for now strip et al -->
-        {% assign theme_author = theme.author | replace: ' et al', '' %}
-        <!-- theme_author: {{ theme_author }} -->
-        {% assign known_author = site.data.author_by_name[ theme_author ] %}
 
-        <a href="{{ theme.home_url }}"><b>{{ theme.name }}</b></a>
-        {% if theme.stars %} ★ {{ theme.stars }} {% endif %}
-        by
-        {% if known_author %}
-          {% assign theme_avatar = known_author.github %}
-          <a href="{{ theme_avatar }}">{% avatar user=theme_avatar size=20 %}</a>
-        {% endif %}
-        {{ theme.author }}
-        (License: {% if theme.license %}{{ theme.license }}{% else %}???{% endif %})
-        <br>
-      <!--
-        {% if theme[1].home_url %}
-           <a href="{{ theme[1].home_url }}">[More Info]</a>
-        {% endif %}
-      -->
-        {% if theme.demo_url %}
-           <a href="{{ theme.demo_url }}">[Live Demo]</a>
-        {% endif %}
-        <a href="{{ theme.download_url }}">[Download (.zip)]</a>
-        {% if theme.gem %}
-           <a href="https://rubygems.org/gems/{{ theme.gem }}">[Bundle (.gem)]</a>
-        {% endif %}
-        {% if theme.tags %}
-          <br>
-          {% for tag in theme.tags %}
-            #{{tag}}
-          {% endfor %}
-        {% endif %}
-    </div>
-  </div>
+<h2>Trending (22) <a href="{{ '/trending' | relative_url }}">&nbsp;»&nbsp;</a></h2>
+
+{% assign trending_themes = site.data.o.themes | sort: "stars_week" | reverse %}
+
+{% for theme in trending_themes limit:6 %}
+  {% include theme.html theme=theme %}
 {% endfor %}
+
+<div>
+  <a href="{{ '/trending' | relative_url }}">More »</a>
+</div>
+
+
+
+<h2>Newest (11) <a href="{{ '/new' | relative_url }}">&nbsp;»&nbsp;</a></h2>
+
+{% assign new_themes = site.data.o.themes | sort: "created" | reverse %}
+
+{% for theme in new_themes limit:6 %}
+  {% include theme.html theme=theme %}
+{% endfor %}
+
+<div>
+  <a href="{{ '/new' | relative_url }}">More »</a>
+</div>
+
+
+<h2>Top (22)  <a href="{{ '/top' | relative_url }}">&nbsp;»&nbsp;</a></h2>
+
+{% assign top_themes = site.data.o.themes | sort: "stars" | reverse %}
+
+{% for theme in top_themes limit:6 %}
+  {% include theme.html theme=theme %}
+{% endfor %}
+
+<div>
+  <a href="{{ '/top' | relative_url }}">More »</a>
+</div>
+
+
+
+<h2>All ({{ site.data.o.themes | size }})  <a href="{{ '/all' | relative_url }}">&nbsp;»&nbsp;</a></h2>
+
+{% for theme in site.data.o.themes limit:6 %}
+  {% include theme.html theme=theme %}
+{% endfor %}
+
+<div>
+  <a href="{{ '/all' | relative_url }}">More »</a>
+</div>
+
+
 </div>

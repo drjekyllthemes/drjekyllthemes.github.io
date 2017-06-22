@@ -1,0 +1,49 @@
+
+{% assign theme = include.theme %}
+
+<div class='theme'>
+  <div class='theme-preview'>
+      <a href="{{ theme.home_url }}">
+        <img src="{{site.path}}/themes/thumbnails/{{theme.thumbnail}}">
+       </a>
+    </div>
+    <div class='theme-info'>
+        <!-- note: for now strip et al -->
+        {% assign theme_author = theme.author | replace: ' et al', '' %}
+        <!-- theme_author: {{ theme_author }} -->
+        {% assign known_author = site.data.author_by_name[ theme_author ] %}
+
+        <a href="{{ theme.home_url }}"><b>{{ theme.name }}</b></a>
+        {% if theme.stars %} ★{{ theme.stars }}
+           {% if theme.stars_week and theme.stars_week > 0 %}
+             (⇑{{ theme.stars_week}})
+           {% endif %}
+        {% endif %}
+        by
+        {% if known_author %}
+          {% assign theme_avatar = known_author.github %}
+          <a href="{{ theme_avatar }}">{% avatar user=theme_avatar size=20 %}</a>
+        {% endif %}
+        {{ theme.author }}
+        (License: {% if theme.license %}{{ theme.license }}{% else %}???{% endif %})
+        <br>
+      <!--
+        {% if theme[1].home_url %}
+           <a href="{{ theme[1].home_url }}">[More Info]</a>
+        {% endif %}
+      -->
+        {% if theme.demo_url %}
+           <a href="{{ theme.demo_url }}">[Live Demo]</a>
+        {% endif %}
+        <a href="{{ theme.download_url }}">[Download (.zip)]</a>
+        {% if theme.gem %}
+           <a href="https://rubygems.org/gems/{{ theme.gem }}">[Bundle (.gem)]</a>
+        {% endif %}
+        {% if theme.tags %}
+          <br>
+          {% for tag in theme.tags %}
+            #{{tag}}
+          {% endfor %}
+        {% endif %}
+    </div>
+  </div>

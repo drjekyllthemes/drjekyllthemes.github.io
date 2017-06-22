@@ -1,0 +1,13 @@
+---
+layout: page
+title:  "All"
+---
+
+
+<div class='gallery'>
+
+{% for theme in site.data.o.themes %}
+    {% include theme.html theme=theme %}
+{% endfor %}
+
+</div>
