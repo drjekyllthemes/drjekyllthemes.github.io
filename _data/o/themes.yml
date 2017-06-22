@@ -1629,14 +1629,14 @@
   stars: 105
   stars_week: 15
 - name: Dev Aid
-  home_url: https://github.com/kevit/devaid-jekyll-theme
-  download_url: https://github.com/kevit/devaid-jekyll-theme/archive/master.zip
+  github: kevit/devaid-jekyll-theme
   demo_url: http://themes.3rdwavemedia.com/demo/devaid/
-  author: Xiaoying Riley
+  author: Sergey Karatkevich
   thumbnail: devaid.png
   license: CC BY
   tags: []
-  github: kevit/devaid-jekyll-theme
+  home_url: https://github.com/kevit/devaid-jekyll-theme
+  download_url: https://github.com/kevit/devaid-jekyll-theme/archive/master.zip
   created: 2015-04-16 15:01:33.000000000 Z
   updated: 2016-08-25 13:41:37.000000000 Z
   commit_msg: |-
@@ -2725,6 +2725,16 @@
   commit_msg: Version bump Alembic to 2.1.0 by David Darnes
   stars: 70
   stars_week: 29
+- name: Garth
+  github: daviddarnes/garth
+  demo_url: https://garth.darn.es
+  author: David Darnes
+  thumbnail: garth.png
+  license: MIT
+  gem: garth-jekyll-theme
+  tags: []
+  home_url: https://github.com/daviddarnes/garth
+  download_url: https://github.com/daviddarnes/garth/archive/master.zip
 - name: Clean (Siddhant)
   github: siddhantgoel/clean-jekyll-theme
   demo_url: https://siddhantgoel.github.io/clean-jekyll-theme
@@ -2829,6 +2839,24 @@
   commit_msg: Add files via upload by GitHub
   stars: 2
   stars_week: 0
+- name: Left
+  github: holman/left
+  branch: gh-pages
+  demo_url: http://zachholman.com/left/
+  author: Zach Holman
+  thumbnail: left.png
+  license: MIT
+  tags: []
+  home_url: https://github.com/holman/left
+  download_url: https://github.com/holman/left/archive/gh-pages.zip
+  created: 2012-12-12 00:18:54.000000000 Z
+  updated: 2016-05-25 07:11:48.000000000 Z
+  commit_msg: |-
+    Merge pull request #46 from notwaldorf/started-from-the-bottom-now-we-here
+
+    add some aria-labels for a11y by Zach Holman
+  stars: 467
+  stars_week: 17
 - name: Cause (Cloud Cannon)
   github: CloudCannon/cause-jekyll-template
   demo_url: https://clean-oryx.cloudvent.net
@@ -3420,20 +3448,34 @@
     Jekyll 3 support by Matt Harzewski
   stars: 161
   stars_week: 8
-- name: Left
-  home_url: https://github.com/holman/left
-  download_url: https://github.com/holman/left/archive/gh-pages.zip
-  demo_url: http://zachholman.com/left/
-  author: Zach Holman
-  thumbnail: left.png
+- name: Marat
+  github: JohnCoene/marat
+  demo_url: https://johncoene.github.io/marat/
+  author: John Coene
+  thumbnail: marat.png
   license: MIT
-  tags: []
-  github: holman/left
-  created: 2012-12-12 00:18:54.000000000 Z
-  updated: 2016-05-25 07:11:48.000000000 Z
-  commit_msg: |-
-    Merge pull request #46 from notwaldorf/started-from-the-bottom-now-we-here
-
-    add some aria-labels for a11y by Zach Holman
-  stars: 467
-  stars_week: 17
+  tags:
+  - newspaper
+  - responsive
+  - blog
+  - historical
+  home_url: https://github.com/JohnCoene/marat
+  download_url: https://github.com/JohnCoene/marat/archive/master.zip
+- name: Hydejack
+  github: qwtel/hydejack
+  demo_url: https://qwtel.com/hydejack/
+  author: Florian Klampfer
+  thumbnail: hydejack.jpg
+  license: MIT
+  gem: jekyll-theme-hydejack
+  tags:
+  - webapp
+  - portfolio
+  - resume
+  - responsive
+  - progressive enhancement
+  - rxjs
+  - ajax
+  - pushstate
+  home_url: https://github.com/qwtel/hydejack
+  download_url: https://github.com/qwtel/hydejack/archive/master.zip

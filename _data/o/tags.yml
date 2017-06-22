@@ -1,64 +1,221 @@
 ---
 - name: white
   themes:
+  - Hello, Jekyll!
+  - Hello, Minima!
+  - Hello, Pages!
   - Henry's Starter (Minimal)
   - Henry's Minimal
   - Henry's Bootstrap
   - Henry's Classics Book
+  - Henry's Talks
   - Neo HPSTR
   - Mangan
   - Indigo Minimalist
   - Gravity
   - Thinkspace
-- name: bootstrap
+  - TextLog
+  - Violet
+  - S6 Blank - Slide Show (S9)
+  - Roman's Minimalist
+  - Roman's Newsletter (RSS-to-Email)
+  - Julia
+  - Dunders (Double Underscores)
+  - Alembic
+  - Clean (Siddhant)
+  - Kikofri
+  - Whiteglass
+- name: starter
   themes:
+  - Hello, Jekyll!
+  - Hello, Minima!
+  - Hello, Pages!
+  - Henry's Starter (Minimal)
+  - Henry's Minimal
   - Henry's Bootstrap
-  - Shiori
-- name: scss
+  - Dunders (Double Underscores)
+  - Alembic
+  - Lagrange
+  - Millennial
+  - Portfolio
+- name: minima
   themes:
-  - Henry's Bootstrap
-  - Neo HPSTR
-  - Slender
-- name: books
+  - Hello, Minima!
+- name: pages
   themes:
-  - Henry's Classics Book
-- name: poole
-  themes:
-  - Poole
-  - Poole's Hyde
-  - Poole's Lanyon
+  - Hello, Pages!
 - name: minimal
   themes:
+  - Henry's Minimal
+  - Basically Basic
   - Minimal Mistakes
   - Ink
   - Gravity
   - Dev Journal
   - Safarnama
   - Thinkspace
+  - TextLog
+  - Labrador
+  - Instagram Portfolio
+  - Julia
+  - Alembic
+  - Clean (Siddhant)
+  - Kikofri
+  - Whiteglass
+  - Monochrome
+  - Lagrange
+  - Millennial
+  - Portfolio
+  - Paul's Simple
+  - Paul's Negative
+  - Simple Texture
+  - Darcli (Dark + CLI)
+  - Clyell
+  - Cayman Blog
+  - Sparrow
+  - Wead
+  - Fresh
+  - Monday (Black and White)
+  - Mr. Brown Responsive
+- name: bootstrap
+  themes:
+  - Henry's Bootstrap
+  - Shiori
+  - Octopod's Bootflat
+  - Wead
+- name: scss
+  themes:
+  - Henry's Bootstrap
+  - Neo HPSTR
+  - Slender
+  - Fresh
+  - Monday (Black and White)
+  - Mr. Brown Responsive
+- name: books
+  themes:
+  - Henry's Classics Book
+- name: talks
+  themes:
+  - Henry's Talks
+- name: s6
+  themes:
+  - Henry's Talks
+- name: poole
+  themes:
+  - Poole
+  - Poole's Hyde
+  - Poole's Lanyon
+- name: github
+  themes:
+  - Minima (Built-in v3.2+ Default)
+  - Architect (Pages)
+  - Cayman (Pages)
+  - Dinky (Pages)
+  - Hacker (Pages)
+  - Leap Day (Pages)
+  - Merlot (Pages)
+  - Midnight (Pages)
+  - Minimal (Pages)
+  - Modernist (Pages)
+  - Slate (Pages)
+  - Tactile (Pages)
+  - Time Machine (Pages)
+- name: black
+  themes:
+  - Hacker (Pages)
+  - Midnight (Pages)
+  - Photorama
+  - Surgeon Tux
+  - Surgeon Tux
+- name: timeline
+  themes:
+  - "{ Personal }"
 - name: responsive
   themes:
+  - Basically Basic
   - Minimal Mistakes
+  - Academic Pages
   - Slender
+  - TextLog
+  - Smart Material
+  - Forty (by HTML5 UP)
+  - Whiteglass
+  - Monochrome
+  - Cayman Blog
+  - Sparrow
+  - Wead
+  - Shawn's Material
+  - Fresh
+  - Monday (Black and White)
+  - Mr. Brown Responsive
+  - Materialized
+  - Marat
+  - Hydejack
 - name: blog
   themes:
+  - Basically Basic
   - Minimal Mistakes
+  - Academic Pages
   - Ink
+  - Labrador
+  - Smart Material
+  - Emping
+  - Kikofri
+  - Lagrange
+  - Millennial
+  - Portfolio
+  - Paul's Simple
+  - Paul's Negative
+  - Simple Texture
+  - Darcli (Dark + CLI)
+  - Clyell
+  - Cayman Blog
+  - Sparrow
+  - Wead
+  - Shawn's Material
+  - Fresh
+  - Monday (Black and White)
+  - Mr. Brown Responsive
+  - Marat
+- name: resume
+  themes:
+  - Basically Basic
+  - Academic Pages
+  - Curriculum Vitae (CV) Crafter
+  - Resume Cards
+  - Resume Card
+  - Resume
+  - Researcher
+  - Shawn's Material
+  - Hydejack
 - name: portfolio
   themes:
   - Minimal Mistakes
+  - Academic Pages
+  - Instagram Portfolio
+  - Portfolio
+  - Hydejack
 - name: archive-pages
   themes:
   - Minimal Mistakes
   - Gravity
+- name: academic
+  themes:
+  - Academic Pages
+- name: papers
+  themes:
+  - Academic Pages
+- name: docs
+  themes:
+  - U.S. (Gov) Web Design Standards (Docs, Landing)
+  - Documenation 'n' Help Systems
+- name: landing
+  themes:
+  - U.S. (Gov) Web Design Standards (Docs, Landing)
 - name: cv
   themes:
-  - Jekyll CV Crafter
-- name: resume
-  themes:
-  - Jekyll CV Crafter
-  - Resume Cards
-  - iCard Resume
-  - Resume
+  - Curriculum Vitae (CV) Crafter
+  - Onlince CV
 - name: video
   themes:
   - Video
@@ -68,6 +225,20 @@
   - Ink
   - Decent
   - Thinkspace
+  - TextLog
+  - Instagram Portfolio
+  - Researcher
+  - Julia
+  - Alembic
+  - Clean (Siddhant)
+  - Whiteglass
+  - White Paper
+  - Lagrange
+  - Millennial
+  - Portfolio
+  - Simple Texture
+  - Darcli (Dark + CLI)
+  - Clyell
 - name: content
   themes:
   - Leonids
@@ -83,6 +254,7 @@
 - name: amp
   themes:
   - Immaculate
+  - Emping
 - name: fast
   themes:
   - Immaculate
@@ -98,10 +270,6 @@
 - name: geek
   themes:
   - Mangan
-- name: black
-  themes:
-  - Mangan
-  - Photorama
 - name: dark
   themes:
   - Slender
@@ -109,6 +277,7 @@
   themes:
   - Gravity
   - Dev Journal
+  - TextLog
 - name: archive
   themes:
   - Gravity
@@ -124,12 +293,15 @@
 - name: journal
   themes:
   - Safarnama
+  - Millennial
 - name: decent
   themes:
   - Decent
 - name: html5
   themes:
   - Decent
+  - Fresh
+  - Mr. Brown Responsive
 - name: elegant
   themes:
   - Decent
@@ -139,3 +311,226 @@
 - name: photo
   themes:
   - Decent
+- name: single-page
+  themes:
+  - Labrador
+  - Instagram Portfolio
+  - Highlights (by HTML5 UP)
+- name: multilanguage
+  themes:
+  - Labrador
+- name: instagram
+  themes:
+  - Instagram Portfolio
+- name: material
+  themes:
+  - Smart Material
+  - Shawn's Material
+  - Materialized
+- name: minimalistic
+  themes:
+  - Smart Material
+- name: monospace
+  themes:
+  - Researcher
+  - Surgeon Tux
+  - Surgeon Tux
+- name: slideshow
+  themes:
+  - CSSS - Slide Show (S9)
+  - Deck.js - Slide Show (S9)
+  - Impress.js - Slide Show (S9)
+  - S6 Blank - Slide Show (S9)
+  - Reveal.js - Slide Show (S9)
+- name: s9
+  themes:
+  - CSSS - Slide Show (S9)
+  - Deck.js - Slide Show (S9)
+  - Impress.js - Slide Show (S9)
+  - S6 Blank - Slide Show (S9)
+  - Reveal.js - Slide Show (S9)
+- name: presentation
+  themes:
+  - CSSS - Slide Show (S9)
+  - Deck.js - Slide Show (S9)
+  - Impress.js - Slide Show (S9)
+  - S6 Blank - Slide Show (S9)
+  - Reveal.js - Slide Show (S9)
+- name: 3d
+  themes:
+  - Impress.js - Slide Show (S9)
+- name: help
+  themes:
+  - Documenation 'n' Help Systems
+- name: book
+  themes:
+  - Handbook
+- name: minimalist
+  themes:
+  - Roman's Minimalist
+  - Roman's Newsletter (RSS-to-Email)
+  - Julia
+  - Alembic
+  - Clean (Siddhant)
+  - Lagrange
+  - Millennial
+  - Portfolio
+- name: newsletter
+  themes:
+  - Roman's Newsletter (RSS-to-Email)
+- name: rss-to-email
+  themes:
+  - Roman's Newsletter (RSS-to-Email)
+- name: profile
+  themes:
+  - Highlights (by HTML5 UP)
+  - Identity (by HTML5 UP)
+- name: grid
+  themes:
+  - Forty (by HTML5 UP)
+- name: tiles
+  themes:
+  - Forty (by HTML5 UP)
+- name: events
+  themes:
+  - Evento
+- name: cards
+  themes:
+  - Cards
+- name: ugly
+  themes:
+  - Kikofri
+- name: writer
+  themes:
+  - Kikofri
+- name: red
+  themes:
+  - Kikofri
+- name: terminal
+  themes:
+  - Surgeon Tux
+  - Surgeon Tux
+- name: cause
+  themes:
+  - Cause (Cloud Cannon)
+- name: nonprofit
+  themes:
+  - Cause (Cloud Cannon)
+- name: documentation
+  themes:
+  - Edition (Cloud Cannon)
+  - Schemadoc
+- name: app
+  themes:
+  - Frisco (Cloud Cannon)
+- name: marketing
+  themes:
+  - Frisco (Cloud Cannon)
+  - Hydra (Cloud Cannon)
+  - Malt (Cloud Cannon)
+- name: product
+  themes:
+  - Hydra (Cloud Cannon)
+- name: law
+  themes:
+  - Justice (Cloud Cannon)
+- name: business
+  themes:
+  - Justice (Cloud Cannon)
+- name: event
+  themes:
+  - Malt (Cloud Cannon)
+- name: agency
+  themes:
+  - Urban (Cloud Cannon)
+- name: monochrome
+  themes:
+  - Monochrome
+- name: database
+  themes:
+  - Schemadoc
+- name: schema
+  themes:
+  - Schemadoc
+- name: sql
+  themes:
+  - Schemadoc
+- name: bootflat
+  themes:
+  - Octopod's Bootflat
+- name: fontawesome
+  themes:
+  - Octopod's Bootflat
+- name: guide
+  themes:
+  - "(Museum) Audio Guide"
+- name: audio
+  themes:
+  - "(Museum) Audio Guide"
+- name: museum
+  themes:
+  - "(Museum) Audio Guide"
+- name: simple
+  themes:
+  - White Paper
+  - Lagrange
+  - Millennial
+  - Portfolio
+  - Paul's Simple
+  - Paul's Negative
+  - Simple Texture
+  - Darcli (Dark + CLI)
+  - Clyell
+- name: developer
+  themes:
+  - White Paper
+- name: photographer
+  themes:
+  - Photography
+- name: photography
+  themes:
+  - Photography
+- name: photos
+  themes:
+  - Photography
+- name: pictures
+  themes:
+  - Photography
+- name: gallery
+  themes:
+  - Photography
+- name: publication
+  themes:
+  - Millennial
+- name: texture
+  themes:
+  - Simple Texture
+- name: sass
+  themes:
+  - Cayman Blog
+  - Sparrow
+  - Wead
+- name: angular
+  themes:
+  - Materialized
+- name: newspaper
+  themes:
+  - Marat
+- name: historical
+  themes:
+  - Marat
+- name: webapp
+  themes:
+  - Hydejack
+- name: progressive enhancement
+  themes:
+  - Hydejack
+- name: rxjs
+  themes:
+  - Hydejack
+- name: ajax
+  themes:
+  - Hydejack
+- name: pushstate
+  themes:
+  - Hydejack

@@ -263,10 +263,9 @@
 - name: Jacopo Rabolini
   themes:
   - Emerald
-- name: Xiaoying Riley
+- name: Sergey Karatkevich
   themes:
   - Dev Aid
-  - Onlince CV
 - name: Jacob Tomlinson
   themes:
   - Carte Noire
@@ -398,6 +397,9 @@
 - name: David Boyne
   themes:
   - Evento
+- name: Xiaoying Riley
+  themes:
+  - Onlince CV
 - name: William Oliveira
   themes:
   - Dunders (Double Underscores)
@@ -416,6 +418,7 @@
 - name: David Darnes
   themes:
   - Alembic
+  - Garth
 - name: Siddhant Goel
   themes:
   - Clean (Siddhant)
@@ -436,6 +439,9 @@
 - name: Viet Anh Nguyen
   themes:
   - Be Nice 17
+- name: Zach Holman
+  themes:
+  - Left
 - name: Mike Neumegen
   themes:
   - Cause (Cloud Cannon)
@@ -504,6 +510,9 @@
 - name: Matt Harzewski
   themes:
   - Solar
-- name: Zach Holman
+- name: John Coene
   themes:
-  - Left
+  - Marat
+- name: Florian Klampfer
+  themes:
+  - Hydejack
