@@ -1,9 +1,9 @@
 ---
 layout: debug
-title:  "Themes by Author (Sorted by Stars)"
+title:  "Themes by Author (Sorted by Themes Count)"
 ---
 
-{% assign sorted_authors = site.data.o.authors | sort: 'stars' | reverse  %}
+{% assign sorted_authors = site.data.o.authors | sort: 'themes_count' | reverse  %}
 
 
 {% for author in sorted_authors %}
