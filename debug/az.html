@@ -1,0 +1,25 @@
+---
+layout: debug
+title:  "Themes A-Z"
+---
+
+<!-- for debugging:
+      list o/themes.yml
+  -->
+
+{% assign sorted_themes = site.data.o.themes | sort:"name" %}
+
+{% for theme in sorted_themes %}
+
+<p>
+  <b>{{ theme.name }}</b>
+
+  {% if theme.stars %} ★{{ theme.stars }}
+     {% if theme.stars_week and theme.stars_week > 0 %}
+        (⇑{{ theme.stars_week}})
+     {% endif %}
+  {% endif %}
+
+  by {{ theme.author }}
+</p>
+{% endfor %}

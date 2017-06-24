@@ -7,8 +7,15 @@ title:  "Themes by Author"
 {% for author in site.data.o.authors %}
 <p>
   <b>{{ author.name }}</b> ({{ author.themes | size }}) -
-  {% for theme in author.themes %}
-    {{ theme }}
+  {% for theme_name in author.themes %}
+    {% assign theme = site.data.o.theme_by_name[ theme_name ] %}
+    {{ theme.name }}
+    {% if theme.stars %} ★{{ theme.stars }}
+       {% if theme.stars_week and theme.stars_week > 0 %}
+         (⇑{{ theme.stars_week}})
+       {% endif %}
+    {% endif %}
+
     {% if forloop.last %} {% else %} • {% endif %}
   {% endfor %}
 </p>
