@@ -1,0 +1,30 @@
+---
+layout: debug
+title:  "Themes by Author (Sorted by Stars)"
+---
+
+{% assign sorted_authors = site.data.o.authors | sort: 'stars' %}
+
+
+{% for author in sorted_authors %}
+<p>
+  <b>{{ author.name }}</b>
+   ★{{ author.stars }} (⇑{{ author.stars_week}}) -
+
+   {{ author.themes | size }}:
+
+  {% for theme_name in author.themes %}
+    {% assign theme = site.data.o.theme_by_name[ theme_name ] %}
+    {{ theme.name }}
+    <span style="font-size: 80%; color: silver;">
+    {% if theme.stars %} ★{{ theme.stars }}
+       {% if theme.stars_week and theme.stars_week > 0 %}
+         (⇑{{ theme.stars_week}})
+       {% endif %}
+    {% endif %}
+    </span>
+
+    {% if forloop.last %} {% else %} • {% endif %}
+  {% endfor %}
+</p>
+{% endfor %}

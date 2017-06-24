@@ -5,6 +5,7 @@ title:  "Debug Pages"
 
 
 - [Themes by Author](authors)
+- [Themes by Author (Sorted by Stars)](authors-by-stars)
 - [Themes](themes)
 - [Themes A-Z](az)
 - [Themes Listing](list)

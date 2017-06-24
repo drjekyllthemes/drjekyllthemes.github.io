@@ -6,7 +6,10 @@ title:  "Themes by Author"
 
 {% for author in site.data.o.authors %}
 <p>
-  <b>{{ author.name }}</b> ({{ author.themes | size }}) -
+  <b>{{ author.name }}</b>
+
+  {{ author.themes | size }}:
+
   {% for theme_name in author.themes %}
     {% assign theme = site.data.o.theme_by_name[ theme_name ] %}
     {{ theme.name }}
