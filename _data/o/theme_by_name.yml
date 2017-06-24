@@ -1,6 +1,7 @@
 ---
 Hello, Jekyll!:
   name: Hello, Jekyll!
+  series: Henry's
   github: henrythemes/hello-jekyll-theme
   demo_url: https://henrythemes.github.io/hello-jekyll-theme/
   thumbnail: hello-jekyll.png
@@ -18,6 +19,7 @@ Hello, Jekyll!:
   stars_week: 0
 Hello, Minima!:
   name: Hello, Minima!
+  series: Henry's
   github: henrythemes/hello-minima-theme
   demo_url: http://henrythemes.github.io/hello-minima-theme/
   thumbnail: hello-minima.png
@@ -36,6 +38,7 @@ Hello, Minima!:
   stars_week: 0
 Hello, Pages!:
   name: Hello, Pages!
+  series: Henry's
   github: henrythemes/hello-pages-theme-v2
   demo_url: https://henrythemes.github.io/hello-pages-theme-v2/
   thumbnail: hello-pages.png
@@ -54,6 +57,7 @@ Hello, Pages!:
   stars_week: 0
 Henry's Starter (Minimal):
   name: Henry's Starter (Minimal)
+  series: Henry's
   github: henrythemes/jekyll-starter-theme
   demo_url: http://henrythemes.github.io/jekyll-starter-theme/
   thumbnail: henry-starter.png
@@ -71,6 +75,7 @@ Henry's Starter (Minimal):
   stars_week: 4
 Henry's Minimal:
   name: Henry's Minimal
+  series: Henry's
   github: henrythemes/jekyll-minimal-theme
   demo_url: http://henrythemes.github.io/jekyll-minimal-theme/
   thumbnail: henry-minimal.png
@@ -89,6 +94,7 @@ Henry's Minimal:
   stars_week: 1
 Henry's Bootstrap:
   name: Henry's Bootstrap
+  series: Henry's
   github: henrythemes/jekyll-bootstrap-theme
   demo_url: http://henrythemes.github.io/jekyll-bootstrap-theme/
   author: Gerald Bauer
@@ -108,6 +114,7 @@ Henry's Bootstrap:
   stars_week: 6
 Henry's Classics Book:
   name: Henry's Classics Book
+  series: Henry's
   github: henrythemes/jekyll-book-theme
   demo_url: http://henrythemes.github.io/jekyll-book-theme/
   author: Gerald Bauer
@@ -125,6 +132,7 @@ Henry's Classics Book:
   stars_week: 1
 Henry's Talks:
   name: Henry's Talks
+  series: Henry's
   github: henrythemes/jekyll-talks-theme
   demo_url: https://henrythemes.github.io/jekyll-talks-theme/
   thumbnail: henry-talks.png
@@ -143,6 +151,7 @@ Henry's Talks:
   stars_week: 0
 Poole:
   name: Poole
+  series: Poole's
   github: poole/poole
   demo_url: http://demo.getpoole.com/
   author: Mark Otto
@@ -159,6 +168,7 @@ Poole:
   stars_week: 77
 Poole's Hyde:
   name: Poole's Hyde
+  series: Poole's
   github: poole/hyde
   demo_url: http://hyde.getpoole.com/
   author: Mark Otto
@@ -178,6 +188,7 @@ Poole's Hyde:
   stars_week: 126
 Poole's Lanyon:
   name: Poole's Lanyon
+  series: Poole's
   github: poole/lanyon
   demo_url: http://lanyon.getpoole.com/
   author: Mark Otto
@@ -213,6 +224,7 @@ Minima (Built-in v3.2+ Default):
   stars_week: 140
 Architect (Pages):
   name: Architect (Pages)
+  series: Pages
   github: pages-themes/architect
   demo_url: https://pages-themes.github.io/architect
   thumbnail: pages-architect.png
@@ -230,6 +242,7 @@ Architect (Pages):
   stars_week: 14
 Cayman (Pages):
   name: Cayman (Pages)
+  series: Pages
   github: pages-themes/cayman
   demo_url: https://pages-themes.github.io/cayman/
   thumbnail: pages-cayman.png
@@ -250,6 +263,7 @@ Cayman (Pages):
   stars_week: 62
 Dinky (Pages):
   name: Dinky (Pages)
+  series: Pages
   github: pages-themes/dinky
   demo_url: https://pages-themes.github.io/dinky/
   thumbnail: pages-dinky.png
@@ -267,6 +281,7 @@ Dinky (Pages):
   stars_week: 6
 Hacker (Pages):
   name: Hacker (Pages)
+  series: Pages
   github: pages-themes/hacker
   demo_url: https://pages-themes.github.io/hacker/
   thumbnail: pages-hacker.png
@@ -288,6 +303,7 @@ Hacker (Pages):
   stars_week: 27
 Leap Day (Pages):
   name: Leap Day (Pages)
+  series: Pages
   github: pages-themes/leap-day
   demo_url: https://pages-themes.github.io/leap-day/
   thumbnail: pages-leapday.png
@@ -305,6 +321,7 @@ Leap Day (Pages):
   stars_week: 9
 Merlot (Pages):
   name: Merlot (Pages)
+  series: Pages
   github: pages-themes/merlot
   demo_url: https://pages-themes.github.io/merlot/
   thumbnail: pages-merlot.png
@@ -322,6 +339,7 @@ Merlot (Pages):
   stars_week: 4
 Midnight (Pages):
   name: Midnight (Pages)
+  series: Pages
   github: pages-themes/midnight
   demo_url: https://pages-themes.github.io/midnight/
   thumbnail: pages-midnight.png
@@ -340,6 +358,7 @@ Midnight (Pages):
   stars_week: 19
 Minimal (Pages):
   name: Minimal (Pages)
+  series: Pages
   github: pages-themes/minimal
   demo_url: https://pages-themes.github.io/minimal/
   thumbnail: pages-minimal.png
@@ -357,6 +376,7 @@ Minimal (Pages):
   stars_week: 42
 Modernist (Pages):
   name: Modernist (Pages)
+  series: Pages
   github: pages-themes/modernist
   demo_url: https://pages-themes.github.io/modernist/
   thumbnail: pages-modernist.png
@@ -374,6 +394,7 @@ Modernist (Pages):
   stars_week: 8
 Slate (Pages):
   name: Slate (Pages)
+  series: Pages
   github: pages-themes/slate
   demo_url: https://pages-themes.github.io/slate/
   thumbnail: pages-slate.png
@@ -394,6 +415,7 @@ Slate (Pages):
   stars_week: 21
 Tactile (Pages):
   name: Tactile (Pages)
+  series: Pages
   github: pages-themes/tactile
   demo_url: https://pages-themes.github.io/tactile/
   thumbnail: pages-tactile.png
@@ -411,6 +433,7 @@ Tactile (Pages):
   stars_week: 7
 Time Machine (Pages):
   name: Time Machine (Pages)
+  series: Pages
   github: pages-themes/time-machine
   demo_url: https://pages-themes.github.io/time-machine/
   thumbnail: pages-timemachine.png
@@ -997,31 +1020,29 @@ Noita:
   commit_msg: Remove relative permalinks by Anatol Broder
   stars: 38
   stars_week: 1
-Library:
-  name: Library
-  github: alexcarpenter/library-jekyll-theme
-  demo_url: http://alexcarpenter.github.io/library-jekyll-theme/
-  author: Alex Carpenter
-  thumbnail: library.jpg
-  license: MIT
+Lucas' Library:
+  name: Lucas' Library
+  github: SpaceG/Library
+  author: Lucas Gatsas
+  thumbnail: cleanmagicmedium.png
+  license: Apache
   tags: []
-  home_url: https://github.com/alexcarpenter/library-jekyll-theme
-  download_url: https://github.com/alexcarpenter/library-jekyll-theme/archive/master.zip
-  created: 2016-01-24 15:20:15.000000000 Z
-  updated: 2017-03-26 14:19:07.000000000 Z
-  commit_msg: Push example domain by Alex Carpenter
-  stars: 26
-  stars_week: 3
-Glas:
-  name: Glas
-  home_url: https://github.com/SpaceG/glas
-  download_url: https://github.com/SpaceG/glas/archive/master.zip
-  demo_url: http://lucasgatsas.ch
+  home_url: https://github.com/SpaceG/Library
+  download_url: https://github.com/SpaceG/Library/archive/master.zip
+  created: 2015-01-01 12:21:34.000000000 Z
+  updated: 2017-06-11 22:44:17.000000000 Z
+  commit_msg: Update README.md by GitHub
+  stars: 31
+  stars_week: 2
+Lucas' Glas:
+  name: Lucas' Glas
+  github: SpaceG/glas
   author: Lucas Gatsas
   thumbnail: ice-and-fire.png
   license: Apache
   tags: []
-  github: SpaceG/glas
+  home_url: https://github.com/SpaceG/glas
+  download_url: https://github.com/SpaceG/glas/archive/master.zip
   created: 2015-03-01 23:39:41.000000000 Z
   updated: 2016-04-08 23:18:37.000000000 Z
   commit_msg: Update by Lucas Gatsas
@@ -1076,8 +1097,9 @@ Typewriter:
 White Paper:
   name: White Paper
   github: vinitkumar/white-paper
+  branch: gh-pages
   demo_url: http://vinitkumar.me/white-paper
-  thumbnail: whitepaper.png
+  thumbnail: white-paper.png
   author: Vinit Kumar
   license: MIT
   tags:
@@ -1085,7 +1107,7 @@ White Paper:
   - developer
   - clean
   home_url: https://github.com/vinitkumar/white-paper
-  download_url: https://github.com/vinitkumar/white-paper/archive/master.zip
+  download_url: https://github.com/vinitkumar/white-paper/archive/gh-pages.zip
   created: 2014-06-30 14:56:52.000000000 Z
   updated: 2017-02-24 06:42:10.000000000 Z
   commit_msg: Update footer.html by GitHub
@@ -2509,6 +2531,7 @@ Ed:
   stars_week: 15
 CSSS - Slide Show (S9):
   name: CSSS - Slide Show (S9)
+  series: Slide Show (S9)
   thumbnail: slideshow-csss.png
   github: slideshow-templates/slideshow-csss
   demo_url: http://slideshow-templates.github.io/slideshow-csss/slides.html
@@ -2527,6 +2550,7 @@ CSSS - Slide Show (S9):
   stars_week: 2
 Deck.js - Slide Show (S9):
   name: Deck.js - Slide Show (S9)
+  series: Slide Show (S9)
   thumbnail: slideshow-deck.js.png
   github: slideshow-templates/slideshow-deck.js
   demo_url: http://slideshow-templates.github.io/slideshow-deck.js/slides.html
@@ -2545,6 +2569,7 @@ Deck.js - Slide Show (S9):
   stars_week: 1
 Impress.js - Slide Show (S9):
   name: Impress.js - Slide Show (S9)
+  series: Slide Show (S9)
   thumbnail: slideshow-impress.js.png
   github: slideshow-templates/slideshow-impress.js
   demo_url: http://slideshow-templates.github.io/slideshow-impress.js/slides.html
@@ -2564,6 +2589,7 @@ Impress.js - Slide Show (S9):
   stars_week: 2
 S6 Blank - Slide Show (S9):
   name: S6 Blank - Slide Show (S9)
+  series: Slide Show (S9)
   thumbnail: slideshow-s6-blank.png
   github: slideshow-templates/slideshow-s6-blank
   demo_url: http://slideshow-templates.github.io/slideshow-s6-blank/slides.html
@@ -2583,6 +2609,7 @@ S6 Blank - Slide Show (S9):
   stars_week: 2
 Reveal.js - Slide Show (S9):
   name: Reveal.js - Slide Show (S9)
+  series: Slide Show (S9)
   thumbnail: slideshow-revealjs.png
   github: slideshow-templates/slideshow-reveal.js
   demo_url: http://slideshow-templates.github.io/slideshow-reveal.js/slides.html
@@ -2741,6 +2768,21 @@ Forty (by HTML5 UP):
   commit_msg: fixes images not resizing by Andrew Banchich
   stars: 123
   stars_week: 51
+Alex's Library:
+  name: Alex's Library
+  github: alexcarpenter/library-jekyll-theme
+  demo_url: http://alexcarpenter.github.io/library-jekyll-theme/
+  author: Alex Carpenter
+  thumbnail: library.jpg
+  license: MIT
+  tags: []
+  home_url: https://github.com/alexcarpenter/library-jekyll-theme
+  download_url: https://github.com/alexcarpenter/library-jekyll-theme/archive/master.zip
+  created: 2016-01-24 15:20:15.000000000 Z
+  updated: 2017-03-26 14:19:07.000000000 Z
+  commit_msg: Push example domain by Alex Carpenter
+  stars: 26
+  stars_week: 3
 Evento:
   name: Evento
   github: boyney123/evento
@@ -2976,7 +3018,7 @@ Surgeon Tux:
   demo_url: http://lahiru.site/surgeon-tux
   author: Lahiru Pathirage
   thumbnail: surgeon-tux.png
-  license: GPLv3
+  license: GNU GPL
   tags:
   - terminal
   - monospace
@@ -3024,6 +3066,7 @@ Left:
   stars_week: 17
 Cause (Cloud Cannon):
   name: Cause (Cloud Cannon)
+  series: Cloud Cannon
   github: CloudCannon/cause-jekyll-template
   demo_url: https://clean-oryx.cloudvent.net
   thumbnail: cloudcannon-cause.png
@@ -3041,6 +3084,7 @@ Cause (Cloud Cannon):
   stars_week: 8
 Edition (Cloud Cannon):
   name: Edition (Cloud Cannon)
+  series: Cloud Cannon
   github: CloudCannon/edition-jekyll-template
   demo_url: https://long-pig.cloudvent.net
   thumbnail: cloudcannon-edition.png
@@ -3057,6 +3101,7 @@ Edition (Cloud Cannon):
   stars_week: 39
 Frisco (Cloud Cannon):
   name: Frisco (Cloud Cannon)
+  series: Cloud Cannon
   github: CloudCannon/frisco-jekyll-template
   demo_url: https://brave-submarine.cloudvent.net
   thumbnail: cloudcannon-frisco.png
@@ -3074,6 +3119,7 @@ Frisco (Cloud Cannon):
   stars_week: 13
 Hydra (Cloud Cannon):
   name: Hydra (Cloud Cannon)
+  series: Cloud Cannon
   github: CloudCannon/hydra-jekyll-template
   demo_url: https://proud-alligator.cloudvent.net
   thumbnail: cloudcannon-hydra.png
@@ -3094,6 +3140,7 @@ Hydra (Cloud Cannon):
   stars_week: 16
 Justice (Cloud Cannon):
   name: Justice (Cloud Cannon)
+  series: Cloud Cannon
   github: CloudCannon/justice-jekyll-template
   demo_url: https://grey-grouse.cloudvent.net
   thumbnail: cloudcannon-justice.png
@@ -3111,6 +3158,7 @@ Justice (Cloud Cannon):
   stars_week: 7
 Malt (Cloud Cannon):
   name: Malt (Cloud Cannon)
+  series: Cloud Cannon
   github: CloudCannon/malt-jekyll-template
   demo_url: https://whispering-boat.cloudvent.net
   thumbnail: cloudcannon-malt.png
@@ -3128,6 +3176,7 @@ Malt (Cloud Cannon):
   stars_week: 3
 Urban (Cloud Cannon):
   name: Urban (Cloud Cannon)
+  series: Cloud Cannon
   github: CloudCannon/urban-jekyll-template
   demo_url: https://teal-worm.cloudvent.net
   thumbnail: cloudcannon-urban.png

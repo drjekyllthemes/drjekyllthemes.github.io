@@ -1,6 +1,6 @@
 ---
 name: Lucas Gatsas
 themes:
-- Library
-- Glas
+- Lucas' Library
+- Lucas' Glas
 ---
