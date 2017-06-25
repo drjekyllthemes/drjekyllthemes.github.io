@@ -20,7 +20,7 @@ title:  "Authors"
     {% endif %}
   {% endif %}
 
-   - {{ author.themes | size }}:
+   - Themes ({{ author.themes | size }}):
 
   {% for theme_name in author.themes %}
     {% assign theme = site.data.o.theme_by_name[ theme_name ] %}

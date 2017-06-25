@@ -1,12 +1,34 @@
-{% assign size   = include.size | default: 20 %}
+
+{% comment %}
+<!--
+   note:  include.size | default: 20  is NOT working
+     if no value passed in; returns 1
+-->
+{% endcomment %}
+
+<!-- include.size: {{ include.size }} -->
+{% if include.size < 5 %}
+   {% assign size = 20 %}  <!-- default to 20px -->
+{% else %}
+   {% assign size = include.size %}
+{% endif %}
+<!-- size after: {{ size }} -->
+
+
+<!-- include.style: {{ include.style }} -->
+{% assign style  = include.style | default: '' %}
+<!-- style after: {{ style }} -->
 
 
 <!-- note: for now strip et al if present -->
 <!-- include.author before: {{ include.author }} -->
 {% comment %}
+<!--
  note:  assign author = include.author | replace   was NOT working
     renamed author to author_name  for now
+  -->
 {% endcomment %}
+
 
 {% assign author_name = include.author | replace: ' et al', '' %}
 <!-- author_name after: {{ author_name }} -->
@@ -18,5 +40,18 @@
   <a href="{{ '/' | relative_url }}~{{ known_author.github }}">
     {% avatar user=known_author.github size=size %}
   </a>
+
+  <span style="{{ style }}">
+    <a href="{{ '/' | relative_url }}~{{ known_author.github }}">
+      {{ author_name }}
+    </a>
+
+  {% if include.author contains ' et al' %}
+     et al
+  {% endif %}
+  </span>
+{% else %}
+  <span style="{{ style }}">
+   {{ include.author }}
+  </span>
 {% endif %}
-{{ author_name }}
