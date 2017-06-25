@@ -2,13 +2,40 @@
 layout: default
 ---
 
-{% assign author_github = site.data.author_by_name[page.name].github %}
+{% assign author = site.data.author_by_name[page.name] %}
 
 <div id="page">
 
+  <div class="author-box" style="float: right; width: 250px;">
+    <div>
+      {% avatar user=author.github size=230 %}
+    </div>
+    <div>
+      <h2>{{ page.name }}</h2>
+
+      <ul class="links">
+        <li><a href="https://github.com/{{author.github}}">@{{author.github}}</a> on GitHub
+        </li>
+
+      {% if author.rubygems %}
+        <li>
+          <a href="https://rubygems.org/profiles/{{author.rubygems}}">@{{author.rubygems}}</a> on RubyGems
+        </li>
+      {% endif %}
+
+      {% if author.twitter %}
+        <li>
+          <a href="https://twitter.com/{{author.twitter}}">@{{author.twitter}}</a> on Twitter
+        </li>
+      {% endif %}
+
+      </ul>
+    </div>
+  </div>
+
+
   <h1>
-   {% avatar user=author_github size=64 %}
-   <a href="https://github.com/{{author_github}}">{{ page.name }}</a>
+   {{ page.name }}
   </h1>
 
   <h2>Themes ({{ page.themes | size }})</h2>

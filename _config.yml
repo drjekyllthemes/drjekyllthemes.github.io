@@ -47,6 +47,7 @@ gems:
 
 exclude:
 - README.md
+- LICENSE.md
 - NOTES.md
 - Gemfile
 - Gemfile.lock

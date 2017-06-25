@@ -116,6 +116,21 @@ pre,
 }
 
 
+
+/* used in author.html layout for github, rubygems, etc. links */
+
+ul.links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding-top: 4px;
+  }
+}
+
+
+
 @import 'gallery';
 
 @import 'banner';

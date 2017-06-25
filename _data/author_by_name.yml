@@ -5,6 +5,12 @@
 ##  note: ALWAYS use lowercase for github handle  (mixed letters WILL BREAK pages!!!)
 ##
 
+
+##
+##  change filename to profile(s)_by_name  or
+##                       accounts_by_name or ??? - why? why not?
+
+
 Gerald Bauer:
   github: geraldb
 
@@ -13,6 +19,7 @@ Mark Otto:
 
 Joel Glovier:
   github: jglovier
+
 
 Jason Long:
   github: jasonlong
@@ -57,7 +64,9 @@ Zach Holman:
   github: holman
 
 Michael Rose:
-  github: mmistakes
+  github:   mmistakes
+  rubygems: mmistakes
+  twitter:  mmistakes
 
 Cole Townsend:
   github: coletownsend
@@ -103,8 +112,9 @@ Mike Neumegen:
   github: mneumegen
 
 Stefan Haslinger:
-  github: haslinger
-
+  github:   haslinger
+  twitter:  informatom
+  rubygems: informatom
 
 
 Richard Bray:

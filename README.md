@@ -7,6 +7,33 @@ Dr. Jekyll's Themes Directory - [`drjekyllthemes.github.io`](http://drjekyllthem
 
 
 
+## Local Build
+
+Add a Gemfile e.g.:
+
+```
+source 'https://rubygems.org'
+
+gem 'github-pages', :group => :jekyll_plugins
+```
+
+or with "plain" Jekyll:
+
+```
+source 'https://rubygems.org'
+
+gem 'jekyll'
+gem 'jekyll-avatar', :group => :jekyll_plugins
+```
+
+Install (one time) and run:
+
+```
+$ bundle Install
+
+$ bundle exec jekyll build
+```
+
 
 **License**
 
