@@ -1,0 +1,12 @@
+{% assign theme = include.theme %}
+
+
+<!-- note: for now strip et al -->
+{% assign theme_author = theme.author | replace: ' et al', '' %}
+<!-- theme_author: {{ theme_author }} -->
+{% assign known_author = site.data.author_by_name[ theme_author ] %}
+
+{% if known_author %}
+  <a href="{{ known_author.github }}">{% avatar user=known_author.github size=20 %}</a>
+{% endif %}
+{{ theme.author }}

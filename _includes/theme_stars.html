@@ -1,0 +1,8 @@
+{% assign theme = include.theme %}
+
+{% if theme.stars %}
+  ★{{ theme.stars }}
+  {% if theme.stars_week and theme.stars_week > 0 %}
+     (⇑{{ theme.stars_week}})
+  {% endif %}
+{% endif %}

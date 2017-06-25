@@ -1,0 +1,441 @@
+---
+- name: minima
+  theme:
+    name: Minima (Built-in v3.2+ Default)
+    github: jekyll/minima
+    thumbnail: minima.png
+    author: Joel Glovier et al
+    license: MIT
+    gem: minima
+    tags:
+    - github
+    home_url: https://github.com/jekyll/minima
+    download_url: https://github.com/jekyll/minima/archive/master.zip
+    created: 2016-05-20 23:07:56.000000000 Z
+    updated: 2017-04-13 15:09:32.000000000 Z
+    commit_msg: Release 2.1.1 by GitHub
+    stars: 425
+    stars_week: 140
+- name: jekyll-theme-architect
+  theme:
+    name: Architect (Pages)
+    series: Pages
+    github: pages-themes/architect
+    demo_url: https://pages-themes.github.io/architect
+    thumbnail: pages-architect.png
+    author: Jason Long et al
+    gem: jekyll-theme-architect
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/architect
+    download_url: https://github.com/pages-themes/architect/archive/master.zip
+    created: 2016-10-06 22:55:49.000000000 Z
+    updated: 2017-04-21 17:34:32.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 23
+    stars_week: 14
+- name: jekyll-theme-cayman
+  theme:
+    name: Cayman (Pages)
+    series: Pages
+    github: pages-themes/cayman
+    demo_url: https://pages-themes.github.io/cayman/
+    thumbnail: pages-cayman.png
+    author: Jason Long et al
+    gem: jekyll-theme-cayman
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/cayman
+    download_url: https://github.com/pages-themes/cayman/archive/master.zip
+    created: 2016-09-20 21:36:46.000000000 Z
+    updated: 2017-05-24 16:56:18.000000000 Z
+    commit_msg: |-
+      Merge pull request #2 from sethjackson/fix-title
+
+      Fix default page titles. by GitHub
+    stars: 90
+    stars_week: 62
+- name: jekyll-theme-dinky
+  theme:
+    name: Dinky (Pages)
+    series: Pages
+    github: pages-themes/dinky
+    demo_url: https://pages-themes.github.io/dinky/
+    thumbnail: pages-dinky.png
+    author: Diana Mounter et al
+    gem: jekyll-theme-dinky
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/dinky
+    download_url: https://github.com/pages-themes/dinky/archive/master.zip
+    created: 2016-10-06 23:00:23.000000000 Z
+    updated: 2017-04-21 17:34:37.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 12
+    stars_week: 6
+- name: jekyll-theme-hacker
+  theme:
+    name: Hacker (Pages)
+    series: Pages
+    github: pages-themes/hacker
+    demo_url: https://pages-themes.github.io/hacker/
+    thumbnail: pages-hacker.png
+    author: Jason Costello et al
+    gem: jekyll-theme-hacker
+    license: CC0 - Public Domain
+    tags:
+    - github
+    - black
+    home_url: https://github.com/pages-themes/hacker
+    download_url: https://github.com/pages-themes/hacker/archive/master.zip
+    created: 2016-10-06 23:02:10.000000000 Z
+    updated: 2017-05-08 18:56:03.000000000 Z
+    commit_msg: |-
+      Merge pull request #13 from not-unpleased/patch-1
+
+      Add viewport by GitHub
+    stars: 39
+    stars_week: 27
+- name: jekyll-theme-leap-day
+  theme:
+    name: Leap Day (Pages)
+    series: Pages
+    github: pages-themes/leap-day
+    demo_url: https://pages-themes.github.io/leap-day/
+    thumbnail: pages-leapday.png
+    author: Matt Graham et al
+    gem: jekyll-theme-leap-day
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/leap-day
+    download_url: https://github.com/pages-themes/leap-day/archive/master.zip
+    created: 2016-10-06 23:02:49.000000000 Z
+    updated: 2017-04-21 17:34:41.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 12
+    stars_week: 9
+- name: jekyll-theme-merlot
+  theme:
+    name: Merlot (Pages)
+    series: Pages
+    github: pages-themes/merlot
+    demo_url: https://pages-themes.github.io/merlot/
+    thumbnail: pages-merlot.png
+    author: Cameron McEfee et al
+    gem: jekyll-theme-merlot
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/merlot
+    download_url: https://github.com/pages-themes/merlot/archive/master.zip
+    created: 2016-10-06 23:04:26.000000000 Z
+    updated: 2017-04-21 17:34:44.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 7
+    stars_week: 4
+- name: jekyll-theme-midnight
+  theme:
+    name: Midnight (Pages)
+    series: Pages
+    github: pages-themes/midnight
+    demo_url: https://pages-themes.github.io/midnight/
+    thumbnail: pages-midnight.png
+    author: Matt Graham et al
+    gem: jekyll-theme-midnight
+    license: CC0 - Public Domain
+    tags:
+    - github
+    - black
+    home_url: https://github.com/pages-themes/midnight
+    download_url: https://github.com/pages-themes/midnight/archive/master.zip
+    created: 2016-10-06 23:04:54.000000000 Z
+    updated: 2017-04-21 17:34:47.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 29
+    stars_week: 19
+- name: jekyll-theme-minimal
+  theme:
+    name: Minimal (Pages)
+    series: Pages
+    github: pages-themes/minimal
+    demo_url: https://pages-themes.github.io/minimal/
+    thumbnail: pages-minimal.png
+    author: Steve Smith et al
+    gem: jekyll-theme-minimal
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/minimal
+    download_url: https://github.com/pages-themes/minimal/archive/master.zip
+    created: 2016-10-06 23:07:49.000000000 Z
+    updated: 2017-04-21 17:34:49.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 73
+    stars_week: 42
+- name: jekyll-theme-modernist
+  theme:
+    name: Modernist (Pages)
+    series: Pages
+    github: pages-themes/modernist
+    demo_url: https://pages-themes.github.io/modernist/
+    thumbnail: pages-modernist.png
+    author: Steve Smith et al
+    gem: jekyll-theme-modernist
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/modernist
+    download_url: https://github.com/pages-themes/modernist/archive/master.zip
+    created: 2016-10-06 23:08:28.000000000 Z
+    updated: 2017-04-21 17:34:52.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 10
+    stars_week: 8
+- name: jekyll-theme-slate
+  theme:
+    name: Slate (Pages)
+    series: Pages
+    github: pages-themes/slate
+    demo_url: https://pages-themes.github.io/slate/
+    thumbnail: pages-slate.png
+    author: Jason Costello et al
+    gem: jekyll-theme-slate
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/slate
+    download_url: https://github.com/pages-themes/slate/archive/master.zip
+    created: 2016-10-06 23:10:40.000000000 Z
+    updated: 2017-05-10 19:36:44.000000000 Z
+    commit_msg: |-
+      Merge pull request #10 from pat-laugh/code-overflow
+
+      Fix code overflow by GitHub
+    stars: 29
+    stars_week: 21
+- name: jekyll-theme-tactile
+  theme:
+    name: Tactile (Pages)
+    series: Pages
+    github: pages-themes/tactile
+    demo_url: https://pages-themes.github.io/tactile/
+    thumbnail: pages-tactile.png
+    author: Jason Long et al
+    gem: jekyll-theme-tactile
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/tactile
+    download_url: https://github.com/pages-themes/tactile/archive/master.zip
+    created: 2016-10-06 23:11:46.000000000 Z
+    updated: 2017-04-21 17:34:57.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 10
+    stars_week: 7
+- name: jekyll-theme-time-machine
+  theme:
+    name: Time Machine (Pages)
+    series: Pages
+    github: pages-themes/time-machine
+    demo_url: https://pages-themes.github.io/time-machine/
+    thumbnail: pages-timemachine.png
+    author: Jon Rohan et al
+    gem: jekyll-theme-time-machine
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/time-machine
+    download_url: https://github.com/pages-themes/time-machine/archive/master.zip
+    created: 2016-10-06 23:12:17.000000000 Z
+    updated: 2017-04-21 17:35:00.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 5
+    stars_week: 4
+- name: jekyll-theme-basically-basic
+  theme:
+    name: Basically Basic
+    github: mmistakes/jekyll-theme-basically-basic
+    demo_url: https://mmistakes.github.io/jekyll-theme-basically-basic
+    author: Michael Rose
+    gem: jekyll-theme-basically-basic
+    thumbnail: basicallybasic.png
+    license: MIT
+    tags:
+    - minimal
+    - responsive
+    - blog
+    - resume
+    home_url: https://github.com/mmistakes/jekyll-theme-basically-basic
+    download_url: https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip
+    created: 2017-03-07 21:08:01.000000000 Z
+    updated: 2017-03-31 12:15:24.000000000 Z
+    commit_msg: |-
+      fixed typos (#17)
+
+      want you want --> what you want by Michael Rose
+    stars: 60
+    stars_week: 0
+- name: minimal-mistakes-jekyll
+  theme:
+    name: Minimal Mistakes
+    github: mmistakes/minimal-mistakes
+    demo_url: https://mmistakes.github.io/minimal-mistakes/
+    author: Michael Rose
+    gem: minimal-mistakes-jekyll
+    thumbnail: minimal-mistakes.png
+    license: MIT
+    tags:
+    - minimal
+    - responsive
+    - blog
+    - portfolio
+    - archive-pages
+    home_url: https://github.com/mmistakes/minimal-mistakes
+    download_url: https://github.com/mmistakes/minimal-mistakes/archive/master.zip
+    created: 2013-05-24 14:13:30.000000000 Z
+    updated: 2017-06-14 14:09:25.000000000 Z
+    commit_msg: Fixed MD link to docs in the 'Helpers' page. (#1066) by Michael Rose
+    stars: 2068
+    stars_week: 377
+- name: alembic-jekyll-theme
+  theme:
+    name: Alembic
+    github: daviddarnes/alembic
+    demo_url: https://alembic.darn.es
+    author: David Darnes
+    thumbnail: alembic.png
+    license: MIT
+    gem: alembic-jekyll-theme
+    tags:
+    - white
+    - minimal
+    - minimalist
+    - clean
+    - starter
+    home_url: https://github.com/daviddarnes/alembic
+    download_url: https://github.com/daviddarnes/alembic/archive/master.zip
+    created: 2016-08-27 15:50:21.000000000 Z
+    updated: 2017-06-04 15:01:29.000000000 Z
+    commit_msg: Version bump Alembic to 2.1.0 by David Darnes
+    stars: 70
+    stars_week: 29
+- name: garth-jekyll-theme
+  theme:
+    name: Garth
+    github: daviddarnes/garth
+    demo_url: https://garth.darn.es
+    author: David Darnes
+    thumbnail: garth.png
+    license: MIT
+    gem: garth-jekyll-theme
+    tags: []
+    home_url: https://github.com/daviddarnes/garth
+    download_url: https://github.com/daviddarnes/garth/archive/master.zip
+- name: jekyll-bootflat
+  theme:
+    name: Octopod's Bootflat
+    github: jekyll-octopod/jekyll-bootflat
+    thumbnail: bootflat.png
+    author: Stefan Haslinger
+    gem: jekyll-bootflat
+    license: MIT
+    tags:
+    - bootstrap
+    - bootflat
+    - fontawesome
+    home_url: https://github.com/jekyll-octopod/jekyll-bootflat
+    download_url: https://github.com/jekyll-octopod/jekyll-bootflat/archive/master.zip
+    created: 2016-12-07 08:51:38.000000000 Z
+    updated: 2017-01-14 21:58:54.000000000 Z
+    commit_msg: version bump by Stefan Haslinger
+    stars: 3
+    stars_week: 0
+- name: jekyll-theme-simple-texture
+  theme:
+    name: Simple Texture
+    github: yizeng/jekyll-theme-simple-texture
+    demo_url: https://yizeng.github.io/jekyll-theme-simple-texture/
+    author: Yi Zeng
+    thumbnail: simple-texture.png
+    license: MIT
+    gem: jekyll-theme-simple-texture
+    tags:
+    - blog
+    - minimal
+    - clean
+    - simple
+    - texture
+    home_url: https://github.com/yizeng/jekyll-theme-simple-texture
+    download_url: https://github.com/yizeng/jekyll-theme-simple-texture/archive/master.zip
+    created: 2017-05-27 10:52:29.000000000 Z
+    updated: 2017-05-30 06:32:39.000000000 Z
+    commit_msg: Add instructions to replace default Gemfile for installations via
+      forking repo by Yi Zeng
+    stars: 2
+    stars_week: 0
+- name: jekyll-theme-cayman-blog
+  theme:
+    name: Cayman Blog
+    github: lorepirri/cayman-blog
+    demo_url: https://lorepirri.github.io/cayman-blog/
+    author: Lorenzo Pirritano
+    thumbnail: thumbnail-cayman-blog-250.png
+    license: CC0 - Public Domain
+    gem: jekyll-theme-cayman-blog
+    tags:
+    - blog
+    - responsive
+    - sass
+    - minimal
+    home_url: https://github.com/lorepirri/cayman-blog
+    download_url: https://github.com/lorepirri/cayman-blog/archive/master.zip
+    created: 2017-04-28 21:55:31.000000000 Z
+    updated: 2017-05-21 17:06:37.000000000 Z
+    commit_msg: Merge first pull request for broken link by lorepirri
+    stars: 2
+    stars_week: 0
+- name: sparrow-jekyll-theme
+  theme:
+    name: Sparrow
+    github: lingxz/sparrow
+    demo_url: https://theconfused.me/sparrow
+    author: Lingyi Hu
+    thumbnail: sparrow.png
+    license: MIT
+    gem: sparrow-jekyll-theme
+    tags:
+    - blog
+    - responsive
+    - sass
+    - minimal
+    home_url: https://github.com/lingxz/sparrow
+    download_url: https://github.com/lingxz/sparrow/archive/master.zip
+    created: 2017-04-11 12:48:40.000000000 Z
+    updated: 2017-04-13 23:04:29.000000000 Z
+    commit_msg: change heading font in posts to heebo by lingxz
+    stars: 5
+    stars_week: 0
+- name: jekyll-theme-hydejack
+  theme:
+    name: Hydejack
+    github: qwtel/hydejack
+    demo_url: https://qwtel.com/hydejack/
+    author: Florian Klampfer
+    thumbnail: hydejack.jpg
+    license: MIT
+    gem: jekyll-theme-hydejack
+    tags:
+    - webapp
+    - portfolio
+    - resume
+    - responsive
+    - progressive enhancement
+    - rxjs
+    - ajax
+    - pushstate
+    home_url: https://github.com/qwtel/hydejack
+    download_url: https://github.com/qwtel/hydejack/archive/master.zip

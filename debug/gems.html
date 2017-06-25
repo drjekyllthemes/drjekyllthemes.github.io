@@ -1,0 +1,23 @@
+---
+layout: debug
+title:  "Gems - Gem-Packaged Themes"
+---
+
+{% assign sorted_gems = site.data.o.gems | sort: 'theme.stars' | reverse %}
+
+{% for gem in sorted_gems %}
+  {% assign theme = gem.theme %}
+<p>
+  <b><a href="https://rubygems.org/gems/{{ gem.name }}"></a>{{ gem.name }}</b>
+
+
+  {% include theme_stars.html theme=theme %}
+
+  by
+  {% include theme_author.html theme=theme %}
+
+  <br>
+
+  {{ gem | inspect }}
+</p>
+{% endfor %}

@@ -8,23 +8,14 @@
        </a>
     </div>
     <div class='theme-info'>
-        <!-- note: for now strip et al -->
-        {% assign theme_author = theme.author | replace: ' et al', '' %}
-        <!-- theme_author: {{ theme_author }} -->
-        {% assign known_author = site.data.author_by_name[ theme_author ] %}
 
         <a href="{{ theme.home_url }}"><b>{{ theme.name }}</b></a>
-        {% if theme.stars %} ★{{ theme.stars }}
-           {% if theme.stars_week and theme.stars_week > 0 %}
-             (⇑{{ theme.stars_week}})
-           {% endif %}
-        {% endif %}
+
+        {% include theme_stars.html theme=theme %}
+
         by
-        {% if known_author %}
-          {% assign theme_avatar = known_author.github %}
-          <a href="{{ theme_avatar }}">{% avatar user=theme_avatar size=20 %}</a>
-        {% endif %}
-        {{ theme.author }}
+        {% include theme_author.html theme=theme %}
+
         (License: {% if theme.license %}{{ theme.license }}{% else %}???{% endif %})
         <br>
       <!--

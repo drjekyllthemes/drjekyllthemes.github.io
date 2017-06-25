@@ -16,6 +16,11 @@ title:  "Debug Pages"
 - [Themes Listing](list)
 - [Themes by Tags](tags)
 
+<!-- break -->
+
+- [Gems - Gem-Packaged Themes](gems)
+
+
 
 
 Add more debug pages here.
