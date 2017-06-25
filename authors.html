@@ -1,0 +1,36 @@
+---
+layout: page
+title:  "Authors"
+---
+
+
+{% assign sorted_authors = site.data.o.authors | sort: 'stars' | reverse  %}
+
+
+{% for author in sorted_authors %}
+
+<p>
+
+  {% include author.html author=author.name size=32 %}
+
+  {% if author.stars and author.stars > 0 %}
+    ★{{ author.stars }}
+    {% if author.stars_week and author.stars_week > 0 %}
+      (⇑{{ author.stars_week}})
+    {% endif %}
+  {% endif %}
+
+   - {{ author.themes | size }}:
+
+  {% for theme_name in author.themes %}
+    {% assign theme = site.data.o.theme_by_name[ theme_name ] %}
+
+    <a href="{{ theme.home_url }}">{{ theme.name }}</a>
+    <span style="font-size: 80%">
+      {% include theme_stars.html theme=theme %}
+    </span>
+
+    {% if forloop.last %} {% else %} • {% endif %}
+  {% endfor %}
+</p>
+{% endfor %}

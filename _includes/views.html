@@ -1,10 +1,11 @@
 
 <div style="margin-bottom: 10px; margin-top: 10px;">
-   <a href="{{site.path}}/">Overview</a>  •
-   <a href="{{site.path}}/top">Top (22)</a>  •
-   <a href="{{site.path}}/trending">Trending (22)</a>  •
-   <a href="{{site.path}}/new">Newest (11)</a>  •
-   <a href="{{site.path}}/updated">Latest Updates (33)</a>  •
-   <a href="{{site.path}}/all">All ({{ site.data.o.themes | size }})</a> •
-   <a href="{{site.path}}/gems">Gems ({{ site.data.o.gems | size }})</a>
+   <a href="{{ '/'         | relative_url }}">Overview</a>  •
+   <a href="{{ '/top'      | relative_url }}">Top (22)</a>  •
+   <a href="{{ '/trending' | relative_url }}">Trending (22)</a>  •
+   <a href="{{ '/new'      | relative_url }}">Newest (11)</a>  •
+   <a href="{{ '/updated'  | relative_url }}">Latest Updates (33)</a>  •
+   <a href="{{ '/all'      | relative_url }}">All ({{ site.data.o.themes | size }})</a> ||
+   <a href="{{ '/gems'     | relative_url }}">Gems ({{ site.data.o.gems | size }})</a> •
+   <a href="{{ '/authors'  | relative_url }}">Authors ({{ site.data.o.authors | size }})</a>
 </div>

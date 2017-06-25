@@ -1,0 +1,22 @@
+{% assign size   = include.size | default: 20 %}
+
+
+<!-- note: for now strip et al if present -->
+<!-- include.author before: {{ include.author }} -->
+{% comment %}
+ note:  assign author = include.author | replace   was NOT working
+    renamed author to author_name  for now
+{% endcomment %}
+
+{% assign author_name = include.author | replace: ' et al', '' %}
+<!-- author_name after: {{ author_name }} -->
+
+
+{% assign known_author = site.data.author_by_name[ author_name ] %}
+
+{% if known_author %}
+  <a href="{{ '/' | relative_url }}~{{ known_author.github }}">
+    {% avatar user=known_author.github size=size %}
+  </a>
+{% endif %}
+{{ author_name }}
