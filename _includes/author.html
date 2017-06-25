@@ -8,9 +8,9 @@
 
 <!-- include.size: {{ include.size }} -->
 {% if include.size < 5 %}
-   {% assign size = 20 %}  <!-- default to 20px -->
+   {% assign avatar_size = 20 %}  <!-- default to 20px -->
 {% else %}
-   {% assign size = include.size %}
+   {% assign avatar_size = include.size %}
 {% endif %}
 <!-- size after: {{ size }} -->
 
@@ -36,13 +36,25 @@
 
 {% assign known_author = site.data.author_by_name[ author_name ] %}
 
+
 {% if known_author %}
   <a href="{{ '/' | relative_url }}~{{ known_author.github }}">
-    {% avatar user=known_author.github size=size %}
+    {% assign avatar_user = known_author.github %}
+    {% if avatar_size <= 20 %}
+      <!-- use avatar size=20;  hard-code w/ variable not working -why? -->
+      {% avatar user=avatar_user size=20 %}
+    {% elsif avatar_size == 32 %}
+      <!-- use avatar size=32;  hard-code w/ variable not working -why? -->
+      {% avatar user=avatar_user size=32 %}
+    {% else %}
+      <!-- use avatar size={{ avatar_size }} -->
+      {% avatar user=avatar_user size=avatar_size %}
+    {% endif %}
   </a>
 
+
   <span style="{{ style }}">
-    <a href="{{ '/' | relative_url }}~{{ known_author.github }}">
+    <a class="author" href="{{ '/' | relative_url }}~{{ known_author.github }}">
       {{ author_name }}
     </a>
 

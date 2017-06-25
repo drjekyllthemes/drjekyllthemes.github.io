@@ -129,6 +129,13 @@ ul.links {
   }
 }
 
+/* used for author links */
+a.author, a.author:visited {
+  color: black;   // use "normal" standard text color
+  text-decoration: none;
+}
+
+
 
 
 @import 'gallery';
