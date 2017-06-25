@@ -7,11 +7,11 @@ Dr. Jekyll's Themes Directory - [`drjekyllthemes.github.io`](http://drjekyllthem
 
 
 
-## Local Build
+**Local Build**
 
 Add a Gemfile e.g.:
 
-```
+``` ruby
 source 'https://rubygems.org'
 
 gem 'github-pages', :group => :jekyll_plugins
@@ -19,7 +19,7 @@ gem 'github-pages', :group => :jekyll_plugins
 
 or with "plain" Jekyll:
 
-```
+``` ruby
 source 'https://rubygems.org'
 
 gem 'jekyll'
@@ -28,8 +28,8 @@ gem 'jekyll-avatar', :group => :jekyll_plugins
 
 Install (one time) and run:
 
-```
-$ bundle Install
+``` ruby
+$ bundle install
 
 $ bundle exec jekyll build
 ```

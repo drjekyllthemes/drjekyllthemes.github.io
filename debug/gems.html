@@ -3,7 +3,7 @@ layout: debug
 title:  "Gems - Gem-Packaged Themes"
 ---
 
-{% assign sorted_gems = site.data.o.gems | sort: 'theme.stars' | reverse %}
+{% assign sorted_gems = site.data.o.gems | sort: "theme.stars" | reverse %}
 
 {% for gem in sorted_gems %}
   {% assign theme = gem.theme %}
