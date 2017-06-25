@@ -15,12 +15,9 @@ title:  "Trending"
     </td>
 
     <td>
-      {% if theme.stars %}
-        {% if theme.stars_week and theme.stars_week > 0 %}
-          <b>⇑{{ theme.stars_week}}</b>
+        {% if theme.stars_week %}
+          ⇑{{ theme.stars_week}}
         {% endif %}
-        (★{{ theme.stars }})
-      {% endif %}
     </td>
 
     <td>
@@ -34,15 +31,16 @@ title:  "Trending"
     <td>
           <div>
               <a href="{{ theme.home_url }}"><b>{{ theme.name }}</b></a>
+              {% if theme.stars %}
+                (★{{ theme.stars }})
+              {% endif %}
+
               by
               {% include author.html author=theme.author %}
 
               (License: {{ theme.license }})
               <br>
-              {% if theme.demo_url %}
-                 <a href="{{ theme.demo_url }}">[Live Demo]</a>
-              {% endif %}
-              <a href="{{ theme.download_url }}">[Download (.zip)]</a>
+              {% include theme_links.html theme=theme %}
           </div>
 
     </td>

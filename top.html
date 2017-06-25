@@ -33,10 +33,7 @@ title:  "Top 22"
 
               (License: {{ theme.license }})
               <br>
-              {% if theme.demo_url %}
-                 <a href="{{ theme.demo_url }}">[Live Demo]</a>
-              {% endif %}
-              <a href="{{ theme.download_url }}">[Download (.zip)]</a>
+              {% include theme_links.html theme=theme %}
           </div>
 
     </td>

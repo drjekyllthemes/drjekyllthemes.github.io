@@ -1,0 +1,9 @@
+{% assign theme = include.theme %}
+
+{% if theme.demo_url %}
+   <a href="{{ theme.demo_url }}">[Live Demo]</a>
+{% endif %}
+<a href="{{ theme.download_url }}">[Download (.zip)]</a>
+{% if theme.gem %}
+   <a href="https://rubygems.org/gems/{{ theme.gem }}">[Bundle (.gem)]</a>
+{% endif %}

@@ -23,13 +23,8 @@
            <a href="{{ theme[1].home_url }}">[More Info]</a>
         {% endif %}
       -->
-        {% if theme.demo_url %}
-           <a href="{{ theme.demo_url }}">[Live Demo]</a>
-        {% endif %}
-        <a href="{{ theme.download_url }}">[Download (.zip)]</a>
-        {% if theme.gem %}
-           <a href="https://rubygems.org/gems/{{ theme.gem }}">[Bundle (.gem)]</a>
-        {% endif %}
+        {% include theme_links.html theme=theme %}
+
         {% if theme.tags %}
           <br>
           {% for tag in theme.tags %}
