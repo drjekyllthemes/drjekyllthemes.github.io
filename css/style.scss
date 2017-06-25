@@ -134,7 +134,9 @@ a.author, a.author:visited {
   color: black;   // use "normal" standard text color
   text-decoration: none;
 }
-
+a.author:hover {
+  text-decoration: underline;
+}
 
 
 

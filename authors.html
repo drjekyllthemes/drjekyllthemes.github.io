@@ -7,21 +7,25 @@ title:  "Authors"
 {% assign sorted_authors = site.data.o.authors | sort: 'stars' | reverse  %}
 
 
+<table>
+
 {% for author in sorted_authors %}
 
-<p>
 
-  {% include author.html author=author.name size=32 %}
-
-  {% if author.stars and author.stars > 0 %}
-    ★{{ author.stars }}
-    {% if author.stars_week and author.stars_week > 0 %}
-      (⇑{{ author.stars_week}})
+<tr>
+  <td>
+    {% if author.stars and author.stars > 0 %}
+      ★{{ author.stars }}
+      {% if author.stars_week and author.stars_week > 0 %}
+        (⇑{{ author.stars_week}})
+      {% endif %}
     {% endif %}
-  {% endif %}
-
-   - Themes ({{ author.themes | size }}):
-
+  </td>
+  <td>
+    {% include author.html author=author.name size=32 %}
+    ({{ author.themes | size }})
+  </td>
+  <td>
   {% for theme_name in author.themes %}
     {% assign theme = site.data.o.theme_by_name[ theme_name ] %}
 
@@ -32,5 +36,7 @@ title:  "Authors"
 
     {% if forloop.last %} {% else %} • {% endif %}
   {% endfor %}
-</p>
+</td>
+</tr>
 {% endfor %}
+</table>
