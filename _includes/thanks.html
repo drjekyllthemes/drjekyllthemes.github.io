@@ -9,13 +9,13 @@
   {% assign known_author = site.data.author_by_name[ contrib.name ] %}
 
   {% if known_author %}
-    <a href="https://github.com/{{ known_author.github }}">
-      {% avatar user=known_author.github size=40 %}
+    <a href="https://github.com/{{ known_author.github }}" title="{{ contrib.name }}">
+      {% avatar user=known_author.github size=32 %}
     </a>
   {% else %}
     {{ contrib.name }}
   {% endif %}
 {% endfor %}
 
-... <a href="https://github.com/drjekyllthemes/themes/graphs/contributors">More Contributors</a>
+... <a href="https://github.com/drjekyllthemes/themes/graphs/contributors">more contributors</a>.
 </p>
