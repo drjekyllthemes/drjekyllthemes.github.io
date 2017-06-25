@@ -8,18 +8,19 @@ title:  "Top 22"
 <table>
 {% for theme in top_themes limit:22 %}
   <tr>
-    <td>
-      {% include theme_stars.html theme=theme %}
-    </td>
-    
+
     <td>
         <span style="font-size: 300%">{{ forloop.index }}.</span>
     </td>
 
     <td>
+      {% include theme_stars.html theme=theme %}
+    </td>
+
+    <td>
       <div>
          <a href="{{ theme.home_url }}">
-          <img src="{{site.path}}/themes/thumbnails/{{theme.thumbnail}}">
+          <img height="100" src="{{site.path}}/themes/thumbnails/{{theme.thumbnail}}">
          </a>
       </div>
     </td>

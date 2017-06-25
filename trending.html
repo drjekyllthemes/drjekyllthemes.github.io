@@ -9,18 +9,24 @@ title:  "Trending"
 <table>
 {% for theme in trending_themes limit:22 %}
   <tr>
-    <td>
-      {% include theme_stars.html theme=theme %}
-    </td>
 
     <td>
         <span style="font-size: 300%">{{ forloop.index }}.</span>
     </td>
 
     <td>
+      {% if theme.stars %}
+        {% if theme.stars_week and theme.stars_week > 0 %}
+          <b>⇑{{ theme.stars_week}}</b>
+        {% endif %}
+        (★{{ theme.stars }})
+      {% endif %}
+    </td>
+
+    <td>
       <div>
          <a href="{{ theme.home_url }}">
-          <img src="{{site.path}}/themes/thumbnails/{{theme.thumbnail}}">
+          <img height="100" src="{{site.path}}/themes/thumbnails/{{theme.thumbnail}}">
          </a>
       </div>
     </td>
