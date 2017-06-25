@@ -11,12 +11,9 @@ title:  "Themes A-Z"
 <p>
   <b>{{ theme.name }}</b>
 
-  {% if theme.stars %} ★{{ theme.stars }}
-     {% if theme.stars_week and theme.stars_week > 0 %}
-        (⇑{{ theme.stars_week}})
-     {% endif %}
-  {% endif %}
+  {% include theme_stars.html theme=theme %}
 
-  by {{ theme.author }}
+  by
+  {% include theme_author.html theme=theme %}
 </p>
 {% endfor %}

@@ -19,10 +19,13 @@ defaults:
     values:
       layout: author
 
+
+### use /~geraldb  /~mmistakes etc. for author profile pages (e.g. start with tilde (~))
+
 collections:
   authors:
     output: true
-    permalink: /:name
+    permalink: /~:name
 
 
 ########

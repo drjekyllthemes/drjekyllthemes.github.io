@@ -7,6 +7,8 @@
 {% assign known_author = site.data.author_by_name[ theme_author ] %}
 
 {% if known_author %}
-  <a href="{{ known_author.github }}">{% avatar user=known_author.github size=20 %}</a>
+  <a href="{{ '/' | relative_url }}~{{ known_author.github }}">
+    {% avatar user=known_author.github size=20 %}
+  </a>
 {% endif %}
 {{ theme.author }}

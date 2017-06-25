@@ -25,7 +25,9 @@ Jason Long:
   github: jasonlong
 
 Diana Mounter:
-  github: broccolini
+  github:   broccolini
+  rubygems: broccolini
+
 
 Jason Costello:
   github: jasoncostello
@@ -66,7 +68,7 @@ Zach Holman:
 Michael Rose:
   github:   mmistakes
   rubygems: mmistakes
-  twitter:  mmistakes
+  ## twitter:  mmistakes
 
 Cole Townsend:
   github: coletownsend
@@ -113,8 +115,8 @@ Mike Neumegen:
 
 Stefan Haslinger:
   github:   haslinger
-  twitter:  informatom
   rubygems: informatom
+  ## twitter:  informatom
 
 
 Richard Bray:
@@ -336,7 +338,8 @@ Renyuan Zou:
   github: renyuanz
 
 David Darnes:
-  github: daviddarnes
+  github:   daviddarnes
+  rubygems: DavidDarnes
 
 Lang Liu:
   github: kkninjae
@@ -417,22 +420,29 @@ Gildásio Júnior:
   github: gjuniioor
 
 Lorenzo Pirritano:
-  github: lorepirri
+  github:   lorepirri
+  rubygems: lorepirri
 
 Yi Zeng:
-  github: yizeng
+  github:   yizeng
+  rubygems: yizeng
+
 
 Paul Mostowyj:
   github: paulmostowyj
 
 Florian Klampfer:
-  github: qwtel
+  github:   qwtel
+  rubygems: qwtel
+
 
 John Coene:
   github: johncoene
 
 Lingyi Hu:
-  github: lingxz
+  github:   lingxz
+  rubygems: lingxz
+
 
 Shawn Teoh:
   github: shawnteoh
