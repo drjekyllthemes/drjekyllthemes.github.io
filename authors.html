@@ -23,7 +23,9 @@ title:  "Authors"
   </td>
   <td>
     {% include author.html author=author.name size=32 %}
-    ({{ author.themes | size }})
+    {% if author.themes_count > 1 %}
+      ({{ author.themes_count }})
+    {% endif %}
   </td>
   <td>
   {% for theme_name in author.themes %}

@@ -9,6 +9,10 @@ title:  "Top 22"
 {% for theme in top_themes limit:22 %}
   <tr>
     <td>
+      {% include theme_stars.html theme=theme %}
+    </td>
+    
+    <td>
         <span style="font-size: 300%">{{ forloop.index }}.</span>
     </td>
 
@@ -23,7 +27,6 @@ title:  "Top 22"
     <td>
           <div>
               <a href="{{ theme.home_url }}"><b>{{ theme.name }}</b></a>
-              {% include theme_stars.html theme=theme %}
               by
               {% include author.html author=theme.author %}
 

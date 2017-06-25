@@ -3,12 +3,43 @@ layout: page
 title:  "Trending"
 ---
 
-<div class='gallery'>
 
 {% assign trending_themes = site.data.o.themes | sort: "stars_week" | reverse %}
 
+<table>
 {% for theme in trending_themes limit:22 %}
-    {% include theme.html theme=theme %}
-{% endfor %}
+  <tr>
+    <td>
+      {% include theme_stars.html theme=theme %}
+    </td>
 
-</div>
+    <td>
+        <span style="font-size: 300%">{{ forloop.index }}.</span>
+    </td>
+
+    <td>
+      <div>
+         <a href="{{ theme.home_url }}">
+          <img src="{{site.path}}/themes/thumbnails/{{theme.thumbnail}}">
+         </a>
+      </div>
+    </td>
+
+    <td>
+          <div>
+              <a href="{{ theme.home_url }}"><b>{{ theme.name }}</b></a>
+              by
+              {% include author.html author=theme.author %}
+
+              (License: {{ theme.license }})
+              <br>
+              {% if theme.demo_url %}
+                 <a href="{{ theme.demo_url }}">[Live Demo]</a>
+              {% endif %}
+              <a href="{{ theme.download_url }}">[Download (.zip)]</a>
+          </div>
+
+    </td>
+  </tr>
+{% endfor %}
+</table>
