@@ -57,6 +57,25 @@
       Fix default page titles. by GitHub
     stars: 90
     stars_week: 62
+- name: jekyll-theme-tactile
+  theme:
+    name: Tactile (Pages)
+    series: Pages
+    github: pages-themes/tactile
+    demo_url: https://pages-themes.github.io/tactile/
+    thumbnail: pages-tactile.png
+    author: Jason Long et al
+    gem: jekyll-theme-tactile
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/tactile
+    download_url: https://github.com/pages-themes/tactile/archive/master.zip
+    created: 2016-10-06 23:11:46.000000000 Z
+    updated: 2017-04-21 17:34:57.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 10
+    stars_week: 7
 - name: jekyll-theme-dinky
   theme:
     name: Dinky (Pages)
@@ -99,25 +118,28 @@
       Add viewport by GitHub
     stars: 39
     stars_week: 27
-- name: jekyll-theme-leap-day
+- name: jekyll-theme-slate
   theme:
-    name: Leap Day (Pages)
+    name: Slate (Pages)
     series: Pages
-    github: pages-themes/leap-day
-    demo_url: https://pages-themes.github.io/leap-day/
-    thumbnail: pages-leapday.png
-    author: Matt Graham et al
-    gem: jekyll-theme-leap-day
+    github: pages-themes/slate
+    demo_url: https://pages-themes.github.io/slate/
+    thumbnail: pages-slate.png
+    author: Jason Costello et al
+    gem: jekyll-theme-slate
     license: CC0 - Public Domain
     tags:
     - github
-    home_url: https://github.com/pages-themes/leap-day
-    download_url: https://github.com/pages-themes/leap-day/archive/master.zip
-    created: 2016-10-06 23:02:49.000000000 Z
-    updated: 2017-04-21 17:34:41.000000000 Z
-    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
-    stars: 12
-    stars_week: 9
+    home_url: https://github.com/pages-themes/slate
+    download_url: https://github.com/pages-themes/slate/archive/master.zip
+    created: 2016-10-06 23:10:40.000000000 Z
+    updated: 2017-05-10 19:36:44.000000000 Z
+    commit_msg: |-
+      Merge pull request #10 from pat-laugh/code-overflow
+
+      Fix code overflow by GitHub
+    stars: 29
+    stars_week: 21
 - name: jekyll-theme-merlot
   theme:
     name: Merlot (Pages)
@@ -157,6 +179,25 @@
     commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
     stars: 29
     stars_week: 19
+- name: jekyll-theme-leap-day
+  theme:
+    name: Leap Day (Pages)
+    series: Pages
+    github: pages-themes/leap-day
+    demo_url: https://pages-themes.github.io/leap-day/
+    thumbnail: pages-leapday.png
+    author: Matt Graham et al
+    gem: jekyll-theme-leap-day
+    license: CC0 - Public Domain
+    tags:
+    - github
+    home_url: https://github.com/pages-themes/leap-day
+    download_url: https://github.com/pages-themes/leap-day/archive/master.zip
+    created: 2016-10-06 23:02:49.000000000 Z
+    updated: 2017-04-21 17:34:41.000000000 Z
+    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+    stars: 12
+    stars_week: 9
 - name: jekyll-theme-minimal
   theme:
     name: Minimal (Pages)
@@ -195,47 +236,6 @@
     commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
     stars: 10
     stars_week: 8
-- name: jekyll-theme-slate
-  theme:
-    name: Slate (Pages)
-    series: Pages
-    github: pages-themes/slate
-    demo_url: https://pages-themes.github.io/slate/
-    thumbnail: pages-slate.png
-    author: Jason Costello et al
-    gem: jekyll-theme-slate
-    license: CC0 - Public Domain
-    tags:
-    - github
-    home_url: https://github.com/pages-themes/slate
-    download_url: https://github.com/pages-themes/slate/archive/master.zip
-    created: 2016-10-06 23:10:40.000000000 Z
-    updated: 2017-05-10 19:36:44.000000000 Z
-    commit_msg: |-
-      Merge pull request #10 from pat-laugh/code-overflow
-
-      Fix code overflow by GitHub
-    stars: 29
-    stars_week: 21
-- name: jekyll-theme-tactile
-  theme:
-    name: Tactile (Pages)
-    series: Pages
-    github: pages-themes/tactile
-    demo_url: https://pages-themes.github.io/tactile/
-    thumbnail: pages-tactile.png
-    author: Jason Long et al
-    gem: jekyll-theme-tactile
-    license: CC0 - Public Domain
-    tags:
-    - github
-    home_url: https://github.com/pages-themes/tactile
-    download_url: https://github.com/pages-themes/tactile/archive/master.zip
-    created: 2016-10-06 23:11:46.000000000 Z
-    updated: 2017-04-21 17:34:57.000000000 Z
-    commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
-    stars: 10
-    stars_week: 7
 - name: jekyll-theme-time-machine
   theme:
     name: Time Machine (Pages)

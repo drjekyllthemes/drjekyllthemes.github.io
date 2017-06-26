@@ -54,19 +54,19 @@
   themes_count: 2
   stars: 68
   stars_week: 48
-- name: Matt Graham
-  themes:
-  - Leap Day (Pages)
-  - Midnight (Pages)
-  themes_count: 2
-  stars: 41
-  stars_week: 28
 - name: Cameron McEfee
   themes:
   - Merlot (Pages)
   themes_count: 1
   stars: 7
   stars_week: 4
+- name: Matt Graham
+  themes:
+  - Midnight (Pages)
+  - Leap Day (Pages)
+  themes_count: 2
+  stars: 41
+  stars_week: 28
 - name: Steve Smith
   themes:
   - Minimal (Pages)
@@ -162,13 +162,6 @@
   themes_count: 1
   stars: 20
   stars_week: 1
-- name: Tyler Benziger
-  themes:
-  - Exemplar
-  - Otter Pop
-  themes_count: 2
-  stars: 68
-  stars_week: 2
 - name: Rosario Rascuna
   themes:
   - Kasper
@@ -263,6 +256,13 @@
   themes_count: 2
   stars: 81
   stars_week: 7
+- name: Tyler Benziger
+  themes:
+  - Exemplar
+  - Otter Pop
+  themes_count: 2
+  stars: 68
+  stars_week: 2
 - name: Anandu B Ajith
   themes:
   - Block Log
@@ -351,13 +351,6 @@
   themes_count: 2
   stars: 844
   stars_week: 30
-- name: Gayan Virajith
-  themes:
-  - Harmony
-  - Gaya
-  themes_count: 2
-  stars: 321
-  stars_week: 28
 - name: Niklas Buschmann
   themes:
   - Contrast
@@ -436,6 +429,13 @@
   themes_count: 1
   stars: 297
   stars_week: 22
+- name: Gayan Virajith
+  themes:
+  - Gaya
+  - Harmony
+  themes_count: 2
+  stars: 321
+  stars_week: 28
 - name: Salvatore Gentile
   themes:
   - Travelogue
@@ -576,14 +576,6 @@
   themes_count: 1
   stars: 71
   stars_week: 13
-- name: Heiswayi Nrird
-  themes:
-  - The Plain
-  - Thinkspace
-  - TextLog
-  themes_count: 3
-  stars: 324
-  stars_week: 85
 - name: Motaquillah Maddane
   themes:
   - Daktilo
@@ -632,7 +624,7 @@
   themes_count: 1
   stars: 32
   stars_week: 3
-- name: Sérgio Kopplin
+- name: Sérgio A. Kopplin
   themes:
   - Indigo Minimalist
   - Violet
@@ -665,6 +657,14 @@
   themes_count: 1
   stars: 45
   stars_week: 8
+- name: Heiswayi Nrird
+  themes:
+  - The Plain
+  - Thinkspace
+  - TextLog
+  themes_count: 3
+  stars: 324
+  stars_week: 85
 - name: Dennis Rohner
   themes:
   - Urban
@@ -747,9 +747,9 @@
   themes_count: 1
   stars: 28
   stars_week: 4
-- name: Xiaoying Riley
+- name: Sharath Kumar
   themes:
-  - Onlince CV
+  - Online CV
   themes_count: 1
   stars: 185
   stars_week: 89
@@ -816,8 +816,8 @@
   stars_week: 0
 - name: Lahiru Pathirage
   themes:
-  - Surgeon Tux
   - Materialized
+  - Surgeon Tux
   themes_count: 2
   stars: 7
   stars_week: 2

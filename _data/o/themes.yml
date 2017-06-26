@@ -210,6 +210,22 @@
   commit_msg: Release 2.1.1 by GitHub
   stars: 425
   stars_week: 140
+- name: Resume
+  github: jglovier/resume-template
+  branch: gh-pages
+  demo_url: http://resume-template.joelglovier.com
+  author: Joel Glovier
+  thumbnail: jglovier-resume.png
+  license: MIT
+  tags:
+  - resume
+  home_url: https://github.com/jglovier/resume-template
+  download_url: https://github.com/jglovier/resume-template/archive/gh-pages.zip
+  created: 2015-07-18 12:59:13.000000000 Z
+  updated: 2017-06-15 10:35:43.000000000 Z
+  commit_msg: fix spelling in one more spot by GitHub
+  stars: 439
+  stars_week: 77
 - name: Architect (Pages)
   series: Pages
   github: pages-themes/architect
@@ -247,6 +263,23 @@
     Fix default page titles. by GitHub
   stars: 90
   stars_week: 62
+- name: Tactile (Pages)
+  series: Pages
+  github: pages-themes/tactile
+  demo_url: https://pages-themes.github.io/tactile/
+  thumbnail: pages-tactile.png
+  author: Jason Long et al
+  gem: jekyll-theme-tactile
+  license: CC0 - Public Domain
+  tags:
+  - github
+  home_url: https://github.com/pages-themes/tactile
+  download_url: https://github.com/pages-themes/tactile/archive/master.zip
+  created: 2016-10-06 23:11:46.000000000 Z
+  updated: 2017-04-21 17:34:57.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 10
+  stars_week: 7
 - name: Dinky (Pages)
   series: Pages
   github: pages-themes/dinky
@@ -285,23 +318,26 @@
     Add viewport by GitHub
   stars: 39
   stars_week: 27
-- name: Leap Day (Pages)
+- name: Slate (Pages)
   series: Pages
-  github: pages-themes/leap-day
-  demo_url: https://pages-themes.github.io/leap-day/
-  thumbnail: pages-leapday.png
-  author: Matt Graham et al
-  gem: jekyll-theme-leap-day
+  github: pages-themes/slate
+  demo_url: https://pages-themes.github.io/slate/
+  thumbnail: pages-slate.png
+  author: Jason Costello et al
+  gem: jekyll-theme-slate
   license: CC0 - Public Domain
   tags:
   - github
-  home_url: https://github.com/pages-themes/leap-day
-  download_url: https://github.com/pages-themes/leap-day/archive/master.zip
-  created: 2016-10-06 23:02:49.000000000 Z
-  updated: 2017-04-21 17:34:41.000000000 Z
-  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
-  stars: 12
-  stars_week: 9
+  home_url: https://github.com/pages-themes/slate
+  download_url: https://github.com/pages-themes/slate/archive/master.zip
+  created: 2016-10-06 23:10:40.000000000 Z
+  updated: 2017-05-10 19:36:44.000000000 Z
+  commit_msg: |-
+    Merge pull request #10 from pat-laugh/code-overflow
+
+    Fix code overflow by GitHub
+  stars: 29
+  stars_week: 21
 - name: Merlot (Pages)
   series: Pages
   github: pages-themes/merlot
@@ -337,6 +373,23 @@
   commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
   stars: 29
   stars_week: 19
+- name: Leap Day (Pages)
+  series: Pages
+  github: pages-themes/leap-day
+  demo_url: https://pages-themes.github.io/leap-day/
+  thumbnail: pages-leapday.png
+  author: Matt Graham et al
+  gem: jekyll-theme-leap-day
+  license: CC0 - Public Domain
+  tags:
+  - github
+  home_url: https://github.com/pages-themes/leap-day
+  download_url: https://github.com/pages-themes/leap-day/archive/master.zip
+  created: 2016-10-06 23:02:49.000000000 Z
+  updated: 2017-04-21 17:34:41.000000000 Z
+  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
+  stars: 12
+  stars_week: 9
 - name: Minimal (Pages)
   series: Pages
   github: pages-themes/minimal
@@ -371,43 +424,6 @@
   commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
   stars: 10
   stars_week: 8
-- name: Slate (Pages)
-  series: Pages
-  github: pages-themes/slate
-  demo_url: https://pages-themes.github.io/slate/
-  thumbnail: pages-slate.png
-  author: Jason Costello et al
-  gem: jekyll-theme-slate
-  license: CC0 - Public Domain
-  tags:
-  - github
-  home_url: https://github.com/pages-themes/slate
-  download_url: https://github.com/pages-themes/slate/archive/master.zip
-  created: 2016-10-06 23:10:40.000000000 Z
-  updated: 2017-05-10 19:36:44.000000000 Z
-  commit_msg: |-
-    Merge pull request #10 from pat-laugh/code-overflow
-
-    Fix code overflow by GitHub
-  stars: 29
-  stars_week: 21
-- name: Tactile (Pages)
-  series: Pages
-  github: pages-themes/tactile
-  demo_url: https://pages-themes.github.io/tactile/
-  thumbnail: pages-tactile.png
-  author: Jason Long et al
-  gem: jekyll-theme-tactile
-  license: CC0 - Public Domain
-  tags:
-  - github
-  home_url: https://github.com/pages-themes/tactile
-  download_url: https://github.com/pages-themes/tactile/archive/master.zip
-  created: 2016-10-06 23:11:46.000000000 Z
-  updated: 2017-04-21 17:34:57.000000000 Z
-  commit_msg: Add lang property to <html> tag, h/t @mgifford by Ben Balter
-  stars: 10
-  stars_week: 7
 - name: Time Machine (Pages)
   series: Pages
   github: pages-themes/time-machine
@@ -705,20 +721,6 @@
   commit_msg: Update default.html by GitHub
   stars: 20
   stars_week: 1
-- name: Exemplar
-  home_url: https://github.com/tybenz/exemplar
-  download_url: https://github.com/tybenz/exemplar/archive/master.zip
-  demo_url: http://exemplar.tybenz.com
-  author: Tyler Benziger
-  thumbnail: exemplar.png
-  license: MIT
-  tags: []
-  github: tybenz/exemplar
-  created: 2013-02-20 21:38:22.000000000 Z
-  updated: 2016-08-09 16:03:22.000000000 Z
-  commit_msg: Remove CNAME by Tyler Benziger
-  stars: 52
-  stars_week: 2
 - name: Kasper
   home_url: https://github.com/rosario/kasper
   download_url: https://github.com/rosario/kasper/archive/master.zip
@@ -987,15 +989,30 @@
   commit_msg: Update by Lucas Gatsas
   stars: 50
   stars_week: 5
+- name: Exemplar
+  github: tybenz/exemplar
+  demo_url: http://exemplar.tybenz.com
+  author: Tyler Benziger
+  thumbnail: exemplar.png
+  license: MIT
+  tags: []
+  home_url: https://github.com/tybenz/exemplar
+  download_url: https://github.com/tybenz/exemplar/archive/master.zip
+  created: 2013-02-20 21:38:22.000000000 Z
+  updated: 2016-08-09 16:03:22.000000000 Z
+  commit_msg: Remove CNAME by Tyler Benziger
+  stars: 52
+  stars_week: 2
 - name: Otter Pop
-  home_url: https://github.com/tybenz/otter-pop
-  download_url: https://github.com/tybenz/otter-pop/archive/gh-pages.zip
+  github: tybenz/otter-pop
+  branch: gh-pages
   demo_url: http://tybenz.com/otter-pop
   author: Tyler Benziger
   thumbnail: otter-pop.png
   license: MIT
   tags: []
-  github: tybenz/otter-pop
+  home_url: https://github.com/tybenz/otter-pop
+  download_url: https://github.com/tybenz/otter-pop/archive/gh-pages.zip
   created: 2014-05-10 16:43:23.000000000 Z
   updated: 2014-09-03 15:35:19.000000000 Z
   commit_msg: Merge branch 'gh-pages' of github.com:tybenz/otter-pop into gh-pages
@@ -1078,14 +1095,14 @@
   stars: 15
   stars_week: 3
 - name: Freelancer
-  home_url: https://github.com/jeromelachaud/freelancer-theme
-  download_url: https://github.com/jeromelachaud/freelancer-theme/archive/master.zip
+  github: jeromelachaud/freelancer-theme
   demo_url: https://jeromelachaud.github.io/freelancer-theme
   author: Jerome Lachaud
   thumbnail: freelancer.png
   license: Apache
   tags: []
-  github: jeromelachaud/freelancer-theme
+  home_url: https://github.com/jeromelachaud/freelancer-theme
+  download_url: https://github.com/jeromelachaud/freelancer-theme/archive/master.zip
   created: 2014-07-19 15:13:08.000000000 Z
   updated: 2017-06-18 15:21:37.000000000 Z
   commit_msg: |-
@@ -1094,6 +1111,23 @@
     Fix email variable issue. by GitHub
   stars: 685
   stars_week: 67
+- name: Grayscale
+  github: jeromelachaud/grayscale-theme
+  demo_url: https://jeromelachaud.github.io/grayscale-theme
+  author: Jerome Lachaud
+  thumbnail: grayscale.jpg
+  license: Apache
+  tags: []
+  home_url: https://github.com/jeromelachaud/grayscale-theme
+  download_url: https://github.com/jeromelachaud/grayscale-theme/archive/master.zip
+  created: 2015-02-02 14:45:08.000000000 Z
+  updated: 2016-05-27 10:16:21.000000000 Z
+  commit_msg: |-
+    Merge pull request #11 from kylesferrazza/patch-3
+
+    Title and Description from config by Jerome Lachaud
+  stars: 160
+  stars_week: 12
 - name: Metro
   home_url: https://github.com/olakara/JekyllMetro
   download_url: https://github.com/olakara/JekyllMetro/archive/master.zip
@@ -1266,23 +1300,6 @@
   commit_msg: Add New Post and Remove Twitter by Elle Kasai
   stars: 591
   stars_week: 31
-- name: Harmony
-  home_url: https://github.com/gayanvirajith/harmony
-  download_url: https://github.com/gayanvirajith/harmony/archive/master.zip
-  demo_url: http://gayan.me/harmony/
-  author: Gayan Virajith
-  thumbnail: harmony.jpg
-  license: MIT
-  tags: []
-  github: gayanvirajith/harmony
-  created: 2014-07-28 06:02:43.000000000 Z
-  updated: 2017-06-07 06:47:58.000000000 Z
-  commit_msg: |-
-    Merge pull request #24 from jonnydark/liquid-warning-fix
-
-    Remove errant parenthesis to fix liquid syntax error thantks to @jonnydark by GitHub
-  stars: 224
-  stars_week: 17
 - name: Contrast
   home_url: https://github.com/niklasbuschmann/contrast
   download_url: https://github.com/niklasbuschmann/contrast/archive/gh-pages.zip
@@ -1480,14 +1497,14 @@
   stars: 297
   stars_week: 22
 - name: Gaya
-  home_url: https://github.com/gayanvirajith/gaya
-  download_url: https://github.com/gayanvirajith/gaya/archive/master.zip
+  github: gayanvirajith/gaya
   demo_url: http://gayan.me/gaya/
   author: Gayan Virajith
   thumbnail: gaya.jpg
   license: MIT
   tags: []
-  github: gayanvirajith/gaya
+  home_url: https://github.com/gayanvirajith/gaya
+  download_url: https://github.com/gayanvirajith/gaya/archive/master.zip
   created: 2015-01-13 17:15:59.000000000 Z
   updated: 2015-09-12 16:32:51.000000000 Z
   commit_msg: |-
@@ -1496,6 +1513,23 @@
     Fix typo thanks to @ianbrunelli by Gayan Virajith
   stars: 97
   stars_week: 11
+- name: Harmony
+  github: gayanvirajith/harmony
+  demo_url: http://gayan.me/harmony/
+  author: Gayan Virajith
+  thumbnail: harmony.jpg
+  license: MIT
+  tags: []
+  home_url: https://github.com/gayanvirajith/harmony
+  download_url: https://github.com/gayanvirajith/harmony/archive/master.zip
+  created: 2014-07-28 06:02:43.000000000 Z
+  updated: 2017-06-07 06:47:58.000000000 Z
+  commit_msg: |-
+    Merge pull request #24 from jonnydark/liquid-warning-fix
+
+    Remove errant parenthesis to fix liquid syntax error thantks to @jonnydark by GitHub
+  stars: 224
+  stars_week: 17
 - name: Travelogue
   home_url: https://github.com/SalGnt/Travelogue
   download_url: https://github.com/SalGnt/Travelogue/archive/master.zip
@@ -1555,23 +1589,6 @@
   commit_msg: Update _config.yml by GitHub
   stars: 10
   stars_week: 1
-- name: Grayscale
-  home_url: https://github.com/jeromelachaud/grayscale-theme
-  download_url: https://github.com/jeromelachaud/grayscale-theme/archive/master.zip
-  demo_url: https://jeromelachaud.github.io/grayscale-theme
-  author: Jerome Lachaud
-  thumbnail: grayscale.jpg
-  license: Apache
-  tags: []
-  github: jeromelachaud/grayscale-theme
-  created: 2015-02-02 14:45:08.000000000 Z
-  updated: 2016-05-27 10:16:21.000000000 Z
-  commit_msg: |-
-    Merge pull request #11 from kylesferrazza/patch-3
-
-    Title and Description from config by Jerome Lachaud
-  stars: 160
-  stars_week: 12
 - name: Metaphor
   home_url: https://github.com/prio101/metaphor-jekyll
   download_url: https://github.com/prio101/metaphor-jekyll/archive/master.zip
@@ -1843,22 +1860,6 @@
     Dependency update & Replace gulp-ruby-sass with gulp-sass by Vincent Chan
   stars: 233
   stars_week: 18
-- name: Resume
-  github: jglovier/resume-template
-  branch: gh-pages
-  demo_url: http://resume-template.joelglovier.com
-  author: Joel Glovier
-  thumbnail: jglovier-resume.png
-  license: MIT
-  tags:
-  - resume
-  home_url: https://github.com/jglovier/resume-template
-  download_url: https://github.com/jglovier/resume-template/archive/gh-pages.zip
-  created: 2015-07-18 12:59:13.000000000 Z
-  updated: 2017-06-15 10:35:43.000000000 Z
-  commit_msg: fix spelling in one more spot by GitHub
-  stars: 439
-  stars_week: 77
 - name: Video
   github: mushishi78/jekyll-video
   branch: gh-pages
@@ -1925,24 +1926,6 @@
   commit_msg: fix missing links by Lang Liu
   stars: 71
   stars_week: 13
-- name: The Plain
-  github: heiswayi/the-plain
-  branch: gh-pages
-  demo_url: http://heiswayi.github.io/the-plain
-  author: Heiswayi Nrird
-  thumbnail: the-plain.png
-  license: MIT
-  tags: []
-  home_url: https://github.com/heiswayi/the-plain
-  download_url: https://github.com/heiswayi/the-plain/archive/gh-pages.zip
-  created: 2015-09-08 16:09:41.000000000 Z
-  updated: 2017-05-08 06:32:10.000000000 Z
-  commit_msg: |-
-    Merge pull request #24 from facundofarias/master
-
-    Fixing bug when pointing to another blog post by GitHub
-  stars: 190
-  stars_week: 35
 - name: Daktilo
   github: kronik3r/daktilo
   demo_url: http://hitchhiker.ma/daktilo/
@@ -2082,7 +2065,7 @@
   branch: gh-pages
   demo_url: http://koppl.in/indigo
   thumbnail: indigo.png
-  author: Sérgio Kopplin
+  author: Sérgio A. Kopplin
   license: Public Domain
   tags:
   - white
@@ -2096,6 +2079,22 @@
     Fix social link issue (#232) on mobile versions by GitHub
   stars: 515
   stars_week: 136
+- name: Violet
+  github: sergiokopplin/violet
+  branch: gh-pages
+  demo_url: http://koppl.in/violet
+  thumbnail: violet.png
+  author: Sérgio A. Kopplin
+  license: Public Domain
+  tags:
+  - white
+  home_url: https://github.com/sergiokopplin/violet
+  download_url: https://github.com/sergiokopplin/violet/archive/gh-pages.zip
+  created: 2016-07-06 02:09:17.000000000 Z
+  updated: 2017-02-12 02:07:40.000000000 Z
+  commit_msg: updating header margins by Sérgio Kopplin
+  stars: 13
+  stars_week: 2
 - name: Photorama
   github: sunbliss/photorama
   branch: gh-pages
@@ -2210,6 +2209,24 @@
     Close #35 by GitHub
   stars: 45
   stars_week: 8
+- name: The Plain
+  github: heiswayi/the-plain
+  branch: gh-pages
+  demo_url: http://heiswayi.github.io/the-plain
+  author: Heiswayi Nrird
+  thumbnail: the-plain.png
+  license: MIT
+  tags: []
+  home_url: https://github.com/heiswayi/the-plain
+  download_url: https://github.com/heiswayi/the-plain/archive/gh-pages.zip
+  created: 2015-09-08 16:09:41.000000000 Z
+  updated: 2017-05-08 06:32:10.000000000 Z
+  commit_msg: |-
+    Merge pull request #24 from facundofarias/master
+
+    Fixing bug when pointing to another blog post by GitHub
+  stars: 190
+  stars_week: 35
 - name: Thinkspace
   github: heiswayi/thinkspace
   branch: master
@@ -2351,22 +2368,6 @@
   commit_msg: updated readme | remove https by bk2dcradle
   stars: 58
   stars_week: 19
-- name: Violet
-  github: sergiokopplin/violet
-  branch: gh-pages
-  demo_url: http://koppl.in/violet
-  thumbnail: violet.png
-  author: Sérgio Kopplin
-  license: Public Domain
-  tags:
-  - white
-  home_url: https://github.com/sergiokopplin/violet
-  download_url: https://github.com/sergiokopplin/violet/archive/gh-pages.zip
-  created: 2016-07-06 02:09:17.000000000 Z
-  updated: 2017-02-12 02:07:40.000000000 Z
-  commit_msg: updating header margins by Sérgio Kopplin
-  stars: 13
-  stars_week: 2
 - name: Ed
   github: elotroalex/ed
   branch: gh-pages
@@ -2640,10 +2641,10 @@
     Update README.md by David Boyne
   stars: 28
   stars_week: 4
-- name: Onlince CV
+- name: Online CV
   github: sharu725/online-cv
   demo_url: http://webjeda.com/online-cv/
-  author: Xiaoying Riley
+  author: Sharath Kumar
   thumbnail: online-cv.png
   license: CC BY
   tags:
@@ -2838,6 +2839,23 @@
   commit_msg: Adicionando screenshot 590x300 by Mateus Medeiros
   stars: 1
   stars_week: 0
+- name: Materialized
+  github: lpsandaruwan/materialized
+  demo_url: http://lahiru.site/materialized
+  author: Lahiru Pathirage
+  thumbnail: materialized.png
+  license: GNU GPL
+  tags:
+  - angular
+  - material
+  - responsive
+  home_url: https://github.com/lpsandaruwan/materialized
+  download_url: https://github.com/lpsandaruwan/materialized/archive/master.zip
+  created: 2017-02-24 20:36:38.000000000 Z
+  updated: 2017-03-19 12:19:21.000000000 Z
+  commit_msg: responsive header fixes by Lahiru Pathirage
+  stars: 3
+  stars_week: 0
 - name: Surgeon Tux
   github: lpsandaruwan/surgeon-tux
   demo_url: http://lahiru.site/surgeon-tux
@@ -2904,22 +2922,6 @@
   commit_msg: Initial commit by Mike Neumegen
   stars: 14
   stars_week: 8
-- name: Edition (Cloud Cannon)
-  series: Cloud Cannon
-  github: CloudCannon/edition-jekyll-template
-  demo_url: https://long-pig.cloudvent.net
-  thumbnail: cloudcannon-edition.png
-  author: Ross Phillips et al
-  license: MIT
-  tags:
-  - documentation
-  home_url: https://github.com/CloudCannon/edition-jekyll-template
-  download_url: https://github.com/CloudCannon/edition-jekyll-template/archive/master.zip
-  created: 2016-07-14 03:38:28.000000000 Z
-  updated: 2016-12-09 00:47:14.000000000 Z
-  commit_msg: Initial commit by Ross Phillips
-  stars: 68
-  stars_week: 39
 - name: Frisco (Cloud Cannon)
   series: Cloud Cannon
   github: CloudCannon/frisco-jekyll-template
@@ -2957,6 +2959,22 @@
     Fixed Typo by GitHub
   stars: 30
   stars_week: 16
+- name: Edition (Cloud Cannon)
+  series: Cloud Cannon
+  github: CloudCannon/edition-jekyll-template
+  demo_url: https://long-pig.cloudvent.net
+  thumbnail: cloudcannon-edition.png
+  author: Ross Phillips et al
+  license: MIT
+  tags:
+  - documentation
+  home_url: https://github.com/CloudCannon/edition-jekyll-template
+  download_url: https://github.com/CloudCannon/edition-jekyll-template/archive/master.zip
+  created: 2016-07-14 03:38:28.000000000 Z
+  updated: 2016-12-09 00:47:14.000000000 Z
+  commit_msg: Initial commit by Ross Phillips
+  stars: 68
+  stars_week: 39
 - name: Justice (Cloud Cannon)
   series: Cloud Cannon
   github: CloudCannon/justice-jekyll-template
@@ -3400,23 +3418,6 @@
   updated: 2017-05-06 11:59:51.000000000 Z
   commit_msg: Update txtpen.html by GitHub
   stars: 9
-  stars_week: 0
-- name: Materialized
-  github: lpsandaruwan/materialized
-  demo_url: http://lahiru.site/materialized
-  author: Lahiru Pathirage
-  thumbnail: materialized.png
-  license: GNU GPL
-  tags:
-  - angular
-  - material
-  - responsive
-  home_url: https://github.com/lpsandaruwan/materialized
-  download_url: https://github.com/lpsandaruwan/materialized/archive/master.zip
-  created: 2017-02-24 20:36:38.000000000 Z
-  updated: 2017-03-19 12:19:21.000000000 Z
-  commit_msg: responsive header fixes by Lahiru Pathirage
-  stars: 3
   stars_week: 0
 - name: Green Tea
   home_url: http://richbray.me/frap/

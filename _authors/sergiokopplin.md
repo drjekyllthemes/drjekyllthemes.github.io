@@ -1,5 +1,5 @@
 ---
-name: Sérgio Kopplin
+name: Sérgio A. Kopplin
 themes:
 - Indigo Minimalist
 - Violet

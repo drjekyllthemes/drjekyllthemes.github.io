@@ -12,10 +12,10 @@
   - Neo HPSTR
   - Mangan
   - Indigo Minimalist
+  - Violet
   - Gravity
   - Thinkspace
   - TextLog
-  - Violet
   - S6 Blank - Slide Show (S9)
   - Roman's Minimalist
   - Roman's Newsletter (RSS-to-Email)
@@ -110,22 +110,32 @@
   - Minima (Built-in v3.2+ Default)
   - Architect (Pages)
   - Cayman (Pages)
+  - Tactile (Pages)
   - Dinky (Pages)
   - Hacker (Pages)
-  - Leap Day (Pages)
+  - Slate (Pages)
   - Merlot (Pages)
   - Midnight (Pages)
+  - Leap Day (Pages)
   - Minimal (Pages)
   - Modernist (Pages)
-  - Slate (Pages)
-  - Tactile (Pages)
   - Time Machine (Pages)
+- name: resume
+  themes:
+  - Resume
+  - Basically Basic
+  - Academic Pages
+  - Curriculum Vitae (CV) Crafter
+  - Resume Cards
+  - Resume Card
+  - Researcher
+  - Shawn's Material
+  - Hydejack
 - name: black
   themes:
   - Hacker (Pages)
   - Midnight (Pages)
   - Photorama
-  - Surgeon Tux
   - Surgeon Tux
 - name: timeline
   themes:
@@ -140,6 +150,7 @@
   - Smart Material
   - Forty (by HTML5 UP)
   - Whiteglass
+  - Materialized
   - Monochrome
   - Cayman Blog
   - Sparrow
@@ -148,7 +159,6 @@
   - Fresh
   - Monday (Black and White)
   - Mr. Brown Responsive
-  - Materialized
   - Marat
   - Hydejack
 - name: blog
@@ -177,17 +187,6 @@
   - Monday (Black and White)
   - Mr. Brown Responsive
   - Marat
-- name: resume
-  themes:
-  - Basically Basic
-  - Academic Pages
-  - Curriculum Vitae (CV) Crafter
-  - Resume Cards
-  - Resume Card
-  - Resume
-  - Researcher
-  - Shawn's Material
-  - Hydejack
 - name: portfolio
   themes:
   - Minimal Mistakes
@@ -212,15 +211,23 @@
 - name: landing
   themes:
   - U.S. (Gov) Web Design Standards (Docs, Landing)
-- name: cv
+- name: simple
   themes:
-  - Curriculum Vitae (CV) Crafter
-  - Onlince CV
-- name: video
+  - White Paper
+  - Lagrange
+  - Millennial
+  - Portfolio
+  - Paul's Simple
+  - Paul's Negative
+  - Simple Texture
+  - Darcli (Dark + CLI)
+  - Clyell
+- name: developer
   themes:
-  - Video
+  - White Paper
 - name: clean
   themes:
+  - White Paper
   - Leonids
   - Ink
   - Decent
@@ -232,13 +239,19 @@
   - Alembic
   - Clean (Siddhant)
   - Whiteglass
-  - White Paper
   - Lagrange
   - Millennial
   - Portfolio
   - Simple Texture
   - Darcli (Dark + CLI)
   - Clyell
+- name: cv
+  themes:
+  - Curriculum Vitae (CV) Crafter
+  - Online CV
+- name: video
+  themes:
+  - Video
 - name: content
   themes:
   - Leonids
@@ -325,15 +338,14 @@
 - name: material
   themes:
   - Smart Material
-  - Shawn's Material
   - Materialized
+  - Shawn's Material
 - name: minimalistic
   themes:
   - Smart Material
 - name: monospace
   themes:
   - Researcher
-  - Surgeon Tux
   - Surgeon Tux
 - name: slideshow
   themes:
@@ -406,9 +418,11 @@
 - name: red
   themes:
   - Kikofri
+- name: angular
+  themes:
+  - Materialized
 - name: terminal
   themes:
-  - Surgeon Tux
   - Surgeon Tux
 - name: cause
   themes:
@@ -416,10 +430,6 @@
 - name: nonprofit
   themes:
   - Cause (Cloud Cannon)
-- name: documentation
-  themes:
-  - Edition (Cloud Cannon)
-  - Schemadoc
 - name: app
   themes:
   - Frisco (Cloud Cannon)
@@ -431,6 +441,10 @@
 - name: product
   themes:
   - Hydra (Cloud Cannon)
+- name: documentation
+  themes:
+  - Edition (Cloud Cannon)
+  - Schemadoc
 - name: law
   themes:
   - Justice (Cloud Cannon)
@@ -470,20 +484,6 @@
 - name: museum
   themes:
   - "(Museum) Audio Guide"
-- name: simple
-  themes:
-  - White Paper
-  - Lagrange
-  - Millennial
-  - Portfolio
-  - Paul's Simple
-  - Paul's Negative
-  - Simple Texture
-  - Darcli (Dark + CLI)
-  - Clyell
-- name: developer
-  themes:
-  - White Paper
 - name: photographer
   themes:
   - Photography
@@ -510,9 +510,6 @@
   - Cayman Blog
   - Sparrow
   - Wead
-- name: angular
-  themes:
-  - Materialized
 - name: newspaper
   themes:
   - Marat
