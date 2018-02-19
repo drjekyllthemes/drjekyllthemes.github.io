@@ -16,106 +16,106 @@
   - Reveal.js - Slide Show (S9)
   - Schemadoc
   themes_count: 14
-  stars: 273
-  stars_week: 24
+  stars: 312
+  stars_week: 5.2250000000000005
 - name: Mark Otto
   themes:
   - Poole
   - Poole's Hyde
   - Poole's Lanyon
   themes_count: 3
-  stars: 5998
-  stars_week: 331
+  stars: 6536
+  stars_week: 71.033
 - name: Joel Glovier
   themes:
   - Minima (Built-in v3.2+ Default)
   - Resume
   themes_count: 2
-  stars: 864
-  stars_week: 217
+  stars: 1328
+  stars_week: 55.667
 - name: Jason Long
   themes:
   - Architect (Pages)
   - Cayman (Pages)
   - Tactile (Pages)
   themes_count: 3
-  stars: 123
-  stars_week: 83
+  stars: 309
+  stars_week: 21.987000000000002
 - name: Diana Mounter
   themes:
   - Dinky (Pages)
   themes_count: 1
-  stars: 12
-  stars_week: 6
+  stars: 23
+  stars_week: 1.389
 - name: Jason Costello
   themes:
   - Hacker (Pages)
   - Slate (Pages)
   themes_count: 2
-  stars: 68
-  stars_week: 48
+  stars: 162
+  stars_week: 11.606
 - name: Cameron McEfee
   themes:
   - Merlot (Pages)
   themes_count: 1
-  stars: 7
-  stars_week: 4
+  stars: 18
+  stars_week: 1.226
 - name: Matt Graham
   themes:
   - Midnight (Pages)
   - Leap Day (Pages)
   themes_count: 2
-  stars: 41
-  stars_week: 28
+  stars: 78
+  stars_week: 5.312
 - name: Steve Smith
   themes:
   - Minimal (Pages)
   - Modernist (Pages)
   themes_count: 2
-  stars: 83
-  stars_week: 50
+  stars: 188
+  stars_week: 12.668999999999999
 - name: Jon Rohan
   themes:
   - Time Machine (Pages)
   themes_count: 1
-  stars: 5
-  stars_week: 4
+  stars: 11
+  stars_week: 0.817
 - name: Barry Clark
   themes:
   - Now
   themes_count: 1
-  stars: 3653
-  stars_week: 317
+  stars: 4542
+  stars_week: 98.583
 - name: Dean Attali
   themes:
   - Beautiful
   themes_count: 1
-  stars: 678
-  stars_week: 167
+  stars: 983
+  stars_week: 38.583
 - name: Stijn van Cuijk
   themes:
   - Holo Alfa
   themes_count: 1
-  stars: 66
-  stars_week: 12
+  stars: 80
+  stars_week: 2.125
 - name: Panos Sakkos
   themes:
   - "{ Personal }"
   themes_count: 1
-  stars: 402
-  stars_week: 54
+  stars: 453
+  stars_week: 0.0
 - name: Oscar Cortez
   themes:
   - Material Design Lite (MDL)
   themes_count: 1
-  stars: 169
-  stars_week: 12
+  stars: 187
+  stars_week: 2.452
 - name: Mu-An Chiou
   themes:
   - Scribble
   themes_count: 1
-  stars: 564
-  stars_week: 29
+  stars: 630
+  stars_week: 7.765
 - name: Michael Rose
   themes:
   - Basically Basic
@@ -124,715 +124,715 @@
   - Skinny Bones
   - HiPSTeR (HPSTR)
   themes_count: 5
-  stars: 4254
-  stars_week: 532
+  stars: 5673
+  stars_week: 163.651
 - name: Stuart Geiger
   themes:
   - Academic Pages
   themes_count: 1
-  stars: 210
-  stars_week: 0
+  stars: 499
+  stars_week: 35.679
 - name: Shawn Allen
   themes:
   - U.S. (Gov) Web Design Standards (Docs, Landing)
   themes_count: 1
-  stars: 26
-  stars_week: 0
+  stars: 44
+  stars_week: 2.222
 - name: Cole Townsend
   themes:
   - Balzac
   themes_count: 1
-  stars: 361
-  stars_week: 19
+  stars: 371
+  stars_week: 2.37
 - name: Matt Swanson
   themes:
   - Lagom
   themes_count: 1
-  stars: 366
-  stars_week: 38
+  stars: 431
+  stars_week: 8.419
 - name: Ismail Demirbilek
   themes:
   - Dbyll
   themes_count: 1
-  stars: 385
-  stars_week: 23
+  stars: 432
+  stars_week: 5.722
 - name: Ankan Biswas
   themes:
-  - Uno Dbyll
+  - Uno  Dbyll
   themes_count: 1
-  stars: 20
-  stars_week: 1
+  stars: 24
+  stars_week: 0.408
 - name: Rosario Rascuna
   themes:
   - Kasper
   themes_count: 1
-  stars: 780
-  stars_week: 40
+  stars: 826
+  stars_week: 7.029
 - name: Pranav Raj S
   themes:
   - Swift
   themes_count: 1
-  stars: 13
-  stars_week: 2
+  stars: 19
+  stars_week: 0.653
 - name: Jeff Martin
   themes:
   - Flex
   themes_count: 1
-  stars: 93
-  stars_week: 15
+  stars: 102
+  stars_week: 1.961
 - name: Hossain Mohd Faysal
   themes:
   - H M Faysal's Omega
   - H M Faysal's Notepad
   themes_count: 2
-  stars: 527
-  stars_week: 31
+  stars: 559
+  stars_week: 5.149
 - name: Ravi Patel
   themes:
   - Herring Cove
   themes_count: 1
-  stars: 105
-  stars_week: 7
+  stars: 113
+  stars_week: 1.226
 - name: Nii Adjetey Sowah
   themes:
   - Red Cup
   - Wangana
   - Grid Gallery
   themes_count: 3
-  stars: 120
-  stars_week: 1
+  stars: 124
+  stars_week: 0.0
 - name: Shu Uesugi
   themes:
   - Solo
   themes_count: 1
-  stars: 300
-  stars_week: 20
+  stars: 301
+  stars_week: 1.716
 - name: Ian Camporez Brunelli
   themes:
   - Thinny
   themes_count: 1
-  stars: 276
-  stars_week: 4
+  stars: 290
+  stars_week: 1.471
 - name: Mathieu Mayer-Mazzoli
   themes:
   - Hikari
   themes_count: 1
-  stars: 164
-  stars_week: 4
+  stars: 166
+  stars_week: 0.49
 - name: Aigars Dzerviniks
   themes:
   - Brume
   themes_count: 1
-  stars: 88
-  stars_week: 3
+  stars: 91
+  stars_week: 0.49
 - name: Karri Saarinen
   themes:
   - Incorporated
   themes_count: 1
-  stars: 1034
-  stars_week: 25
+  stars: 1070
+  stars_week: 4.986
 - name: Berk Özbalcı
   themes:
   - Gereksiz
   themes_count: 1
-  stars: 39
-  stars_week: 1
+  stars: 48
+  stars_week: 0.817
 - name: Yitao Yao
   themes:
   - Simpleyyt
   themes_count: 1
-  stars: 20
-  stars_week: 4
+  stars: 29
+  stars_week: 1.062
 - name: Anatol Broder
   themes:
   - Noita
   themes_count: 1
-  stars: 38
-  stars_week: 1
+  stars: 39
+  stars_week: 0.163
 - name: Lucas Gatsas
   themes:
   - Lucas' Library
   - Lucas' Glas
   themes_count: 2
-  stars: 81
-  stars_week: 7
+  stars: 89
+  stars_week: 1.2249999999999999
 - name: Tyler Benziger
   themes:
   - Exemplar
   - Otter Pop
   themes_count: 2
-  stars: 68
-  stars_week: 2
+  stars: 70
+  stars_week: 0.326
 - name: Anandu B Ajith
   themes:
   - Block Log
   themes_count: 1
-  stars: 12
-  stars_week: -1
+  stars: 14
+  stars_week: 0.081
 - name: Ali Zaidi
   themes:
   - Typewriter
   themes_count: 1
-  stars: 36
-  stars_week: 3
+  stars: 39
+  stars_week: 0.49
 - name: Vinit Kumar
   themes:
   - White Paper
   themes_count: 1
-  stars: 66
-  stars_week: 17
+  stars: 92
+  stars_week: 3.514
 - name: Brijesh Bittu
   themes:
   - Bitwiser
   - Bitwiser Material
   themes_count: 2
-  stars: 40
-  stars_week: 6
+  stars: 44
+  stars_week: 0.817
 - name: Jerome Lachaud
   themes:
   - Freelancer
   - Grayscale
   themes_count: 2
-  stars: 845
-  stars_week: 79
+  stars: 969
+  stars_week: 16.593
 - name: Abdel Raoof Olakara
   themes:
   - Metro
   themes_count: 1
-  stars: 46
-  stars_week: 8
+  stars: 50
+  stars_week: 0.98
 - name: John Otander
   themes:
   - Pixyll
   themes_count: 1
-  stars: 1379
-  stars_week: 107
+  stars: 1520
+  stars_week: 20.272
 - name: Rowan Oulton
   themes:
   - Travelog
   themes_count: 1
-  stars: 84
-  stars_week: 4
+  stars: 90
+  stars_week: 0.817
 - name: Rick Kim
   themes:
   - Agency
   themes_count: 1
-  stars: 411
-  stars_week: 37
+  stars: 461
+  stars_week: 7.111
 - name: Oliver Stapleton
   themes:
   - Solid
   themes_count: 1
-  stars: 289
-  stars_week: 19
+  stars: 308
+  stars_week: 3.106
 - name: Scott Emmons
   themes:
   - Clean
   themes_count: 1
-  stars: 109
-  stars_week: 7
+  stars: 124
+  stars_week: 1.798
 - name: Pavel Makhov
   themes:
   - Clean Dark
   - Curriculum Vitae (CV) Crafter
   themes_count: 2
-  stars: 101
-  stars_week: 20
+  stars: 146
+  stars_week: 5.313000000000001
 - name: Dirk Fabisch
   themes:
   - Mediator
   themes_count: 1
-  stars: 617
-  stars_week: 31
+  stars: 664
+  stars_week: 6.376
 - name: Elle Kasai
   themes:
   - Shiori
   - Resume Cards
   themes_count: 2
-  stars: 844
-  stars_week: 30
+  stars: 890
+  stars_week: 6.211
 - name: Niklas Buschmann
   themes:
   - Contrast
   themes_count: 1
-  stars: 41
-  stars_week: 3
+  stars: 1
+  stars_week: -3.025
 - name: Tim O'Brien
   themes:
   - Single Paged
   themes_count: 1
-  stars: 548
-  stars_week: 46
+  stars: 610
+  stars_week: 8.828
 - name: David Miller
   themes:
   - Clean Blog
   themes_count: 1
-  stars: 865
-  stars_week: 86
+  stars: 1023
+  stars_week: 19.945
 - name: Shane Weng
   themes:
   - Landing Page
   themes_count: 1
-  stars: 221
-  stars_week: 20
+  stars: 250
+  stars_week: 4.005
 - name: Kirill Beletskiy
   themes:
   - Autm.rb
   themes_count: 1
-  stars: 58
-  stars_week: 7
+  stars: 61
+  stars_week: 0.817
 - name: Tunghsiao Liu
   themes:
   - Almace Scaffolding
   themes_count: 1
-  stars: 129
-  stars_week: 11
+  stars: 146
+  stars_week: 2.288
 - name: Pasindu De Silva
   themes:
   - Masonry
   themes_count: 1
-  stars: 25
-  stars_week: 1
+  stars: 30
+  stars_week: 0.49
 - name: Kelley Gibson
   themes:
   - Strange Case
   themes_count: 1
-  stars: 45
-  stars_week: 1
+  stars: 50
+  stars_week: 0.49
 - name: Manav Sehgal
   themes:
   - Open Theme
   themes_count: 1
-  stars: 88
-  stars_week: 5
+  stars: 107
+  stars_week: 1.961
 - name: Lijia Yu
   themes:
   - Freshman 21
   themes_count: 1
-  stars: 65
-  stars_week: 1
+  stars: 73
+  stars_week: 0.735
 - name: Dragomir Yordanov
   themes:
   - Minimal Block
   themes_count: 1
-  stars: 24
-  stars_week: 2
+  stars: 27
+  stars_week: 0.408
 - name: Eduardo Rubio
   themes:
   - Compass
   themes_count: 1
-  stars: 85
-  stars_week: 13
+  stars: 96
+  stars_week: 1.961
 - name: Rohan Chandra
   themes:
   - Type
   themes_count: 1
-  stars: 297
-  stars_week: 22
+  stars: 408
+  stars_week: 10.871
 - name: Gayan Virajith
   themes:
   - Gaya
   - Harmony
   themes_count: 2
-  stars: 321
-  stars_week: 28
+  stars: 330
+  stars_week: 3.023
 - name: Salvatore Gentile
   themes:
   - Travelogue
   themes_count: 1
   stars: 152
-  stars_week: -1
+  stars_week: -0.082
 - name: Brian Maier Jr.
   themes:
   - Long Haul
   themes_count: 1
-  stars: 271
-  stars_week: 30
+  stars: 329
+  stars_week: 7.193
 - name: Takashi Kanemoto
   themes:
   - Ttskch
   themes_count: 1
-  stars: 19
-  stars_week: 4
+  stars: 24
+  stars_week: 0.735
 - name: Moinul Hossain
   themes:
   - Rifyll
   themes_count: 1
-  stars: 10
-  stars_week: 1
+  stars: 11
+  stars_week: 0.163
 - name: Mahabub Islam Prio
   themes:
   - Metaphor
   themes_count: 1
   stars: 2
-  stars_week: 1
+  stars_week: 0.081
 - name: Rizky Ariestiyansyah
   themes:
   - Naringu
   themes_count: 1
-  stars: 31
-  stars_week: 5
+  stars: 38
+  stars_week: 0.98
 - name: Clay Harmon
   themes:
   - Tufte
   themes_count: 1
-  stars: 226
-  stars_week: 40
+  stars: 255
+  stars_week: 5.64
 - name: Moritz Sauer
   themes:
   - Feeling Responsive
   themes_count: 1
-  stars: 337
-  stars_week: 33
+  stars: 416
+  stars_week: 9.155
 - name: Jacopo Rabolini
   themes:
   - Emerald
   themes_count: 1
-  stars: 105
-  stars_week: 15
+  stars: 115
+  stars_week: 2.043
 - name: Sergey Karatkevich
   themes:
   - Dev Aid
   themes_count: 1
-  stars: 32
-  stars_week: 0
+  stars: 34
+  stars_week: 0.163
 - name: Jacob Tomlinson
   themes:
   - Carte Noire
   themes_count: 1
-  stars: 151
-  stars_week: 10
+  stars: 183
+  stars_week: 3.433
 - name: Daniel Baur
   themes:
   - Twister
   themes_count: 1
-  stars: 49
-  stars_week: 2
+  stars: 59
+  stars_week: 0.98
 - name: Karlo Espiritu
   themes:
   - Black Doc
   themes_count: 1
-  stars: 61
-  stars_week: 12
+  stars: 71
+  stars_week: 1.798
 - name: Camille Diez
   themes:
   - Polar Bear
   - Arctic Fox
   themes_count: 2
-  stars: 69
-  stars_week: 7
+  stars: 78
+  stars_week: 1.307
 - name: Gao Haoyang
   themes:
   - Cool Concise
   themes_count: 1
-  stars: 807
-  stars_week: 138
+  stars: 1019
+  stars_week: 28.61
 - name: Dong Liang
   themes:
   - Resume Card
   themes_count: 1
-  stars: 132
-  stars_week: 12
+  stars: 153
+  stars_week: 2.697
 - name: Nick Balestra
   themes:
   - Kactus
   themes_count: 1
-  stars: 313
-  stars_week: 26
+  stars: 339
+  stars_week: 4.25
 - name: Wakeless Dragon
   themes:
   - Tiffany
   themes_count: 1
-  stars: 67
-  stars_week: 1
+  stars: 71
+  stars_week: 0.408
 - name: Ben Centra
   themes:
   - Centrarium
   themes_count: 1
-  stars: 144
-  stars_week: 21
+  stars: 185
+  stars_week: 5.068
 - name: Vincent Chan
   themes:
   - Mickey
   themes_count: 1
-  stars: 233
-  stars_week: 18
+  stars: 259
+  stars_week: 3.596
 - name: Max White
   themes:
   - Video
   - One Page Wonder
   themes_count: 2
-  stars: 21
-  stars_week: 1
+  stars: 26
+  stars_week: 0.489
 - name: Renyuan Zou
   themes:
   - Leonids
   themes_count: 1
-  stars: 295
-  stars_week: 91
+  stars: 441
+  stars_week: 19.373
 - name: Lang Liu
   themes:
   - Book
   themes_count: 1
-  stars: 71
-  stars_week: 13
+  stars: 80
+  stars_week: 1.798
 - name: Motaquillah Maddane
   themes:
   - Daktilo
   themes_count: 1
-  stars: 150
-  stars_week: 10
+  stars: 181
+  stars_week: 3.351
 - name: Gandara Fajar Umbara
   themes:
   - Kiko
   themes_count: 1
-  stars: 139
-  stars_week: 4
+  stars: 153
+  stars_week: 1.471
 - name: Aron Barreira Bordin
   themes:
   - Neo HPSTR
   themes_count: 1
-  stars: 113
-  stars_week: 25
+  stars: 143
+  stars_week: 4.495
 - name: Christos Alatzas
   themes:
   - Yellowblue
   themes_count: 1
   stars: 13
-  stars_week: 1
+  stars_week: 0.081
 - name: Ashish Gupta
   themes:
   - Ink
   themes_count: 1
-  stars: 15
-  stars_week: 5
+  stars: 18
+  stars_week: 0.653
 - name: Akshay Agarwal
   themes:
   - Mono
   themes_count: 1
-  stars: 86
-  stars_week: 21
+  stars: 103
+  stars_week: 3.106
 - name: Lau Siaw Young
   themes:
   - Immaculate
   themes_count: 1
-  stars: 61
-  stars_week: 9
+  stars: 69
+  stars_week: 1.389
 - name: Diki Ananta
   themes:
   - Mangan
   themes_count: 1
-  stars: 32
-  stars_week: 3
+  stars: 33
+  stars_week: 0.326
 - name: Sérgio A. Kopplin
   themes:
   - Indigo Minimalist
   - Violet
   themes_count: 2
-  stars: 528
-  stars_week: 138
+  stars: 854
+  stars_week: 37.928000000000004
 - name: Anna Prigkipaki
   themes:
   - Photorama
   themes_count: 1
-  stars: 77
-  stars_week: 27
+  stars: 103
+  stars_week: 4.332
 - name: Jannik Richter
   themes:
   - Slender
   themes_count: 1
-  stars: 25
-  stars_week: 3
+  stars: 29
+  stars_week: 0.572
 - name: Hemang Kumar
   themes:
   - Gravity
   - Dev Journal
   - Safarnama
   themes_count: 3
-  stars: 283
-  stars_week: 96
+  stars: 344
+  stars_week: 12.831999999999999
 - name: Jens Willmer
   themes:
   - Decent
   themes_count: 1
-  stars: 45
-  stars_week: 8
+  stars: 64
+  stars_week: 2.207
 - name: Heiswayi Nrird
   themes:
   - The Plain
   - Thinkspace
   - TextLog
   themes_count: 3
-  stars: 324
-  stars_week: 85
+  stars: 435
+  stars_week: 16.020000000000003
 - name: Dennis Rohner
   themes:
   - Urban
   themes_count: 1
-  stars: 25
-  stars_week: 7
+  stars: 32
+  stars_week: 1.144
 - name: Rodrigo Donini
   themes:
   - Labrador
   themes_count: 1
-  stars: 2
-  stars_week: 0
+  stars: 4
+  stars_week: 0.163
 - name: Sergey Sokurenko
   themes:
   - Instagram Portfolio
   - Smart Material
   themes_count: 2
-  stars: 27
-  stars_week: 9
+  stars: 42
+  stars_week: 1.96
 - name: Henrique Ferrolho
   themes:
   - Libretto
   themes_count: 1
-  stars: 24
-  stars_week: 7
+  stars: 28
+  stars_week: 0.899
 - name: Ankit Sultana
   themes:
   - Researcher
   themes_count: 1
-  stars: 58
-  stars_week: 19
+  stars: 98
+  stars_week: 4.822
 - name: Alex Gil
   themes:
   - Ed
   themes_count: 1
-  stars: 103
-  stars_week: 15
+  stars: 110
+  stars_week: 1.798
 - name: Tom Johnson
   themes:
   - Documenation 'n' Help Systems
   themes_count: 1
-  stars: 455
-  stars_week: 68
+  stars: 563
+  stars_week: 0.0
 - name: Shu Higashi, Sam Smith,
   themes:
   - Handbook
   themes_count: 1
   stars: 11
-  stars_week: 1
+  stars_week: 0.081
 - name: Roman Zolotarev
   themes:
   - Roman's Minimalist
-  - Roman's Newsletter (RSS-to-Email)
-  themes_count: 2
+  themes_count: 1
   stars: 8
-  stars_week: 2
+  stars_week: 0.326
 - name: Alexandru al II-lea
   themes:
   - Julia
   themes_count: 1
-  stars: 18
-  stars_week: 11
+  stars: 21
+  stars_week: 1.144
 - name: Andrew Banchich
   themes:
   - Highlights (by HTML5 UP)
   - Identity (by HTML5 UP)
   - Forty (by HTML5 UP)
   themes_count: 3
-  stars: 129
-  stars_week: 53
+  stars: 240
+  stars_week: 13.405000000000001
 - name: Alex Carpenter
   themes:
   - Alex's Library
   themes_count: 1
-  stars: 26
-  stars_week: 3
+  stars: 36
+  stars_week: 1.062
 - name: David Boyne
   themes:
   - Evento
   themes_count: 1
-  stars: 28
-  stars_week: 4
+  stars: 30
+  stars_week: 0.49
 - name: Sharath Kumar
   themes:
   - Online CV
-  themes_count: 1
-  stars: 185
-  stars_week: 89
+  - Hagura
+  themes_count: 2
+  stars: 457
+  stars_week: 19.782
 - name: William Oliveira
   themes:
   - Dunders (Double Underscores)
   themes_count: 1
-  stars: 32
-  stars_week: 8
+  stars: 36
+  stars_week: 0.98
 - name: Willian Justen
   themes:
   - Cards
   themes_count: 1
-  stars: 153
-  stars_week: 27
+  stars: 198
+  stars_week: 5.885
 - name: Rahmat Subekti
   themes:
   - Emping
   themes_count: 1
-  stars: 12
-  stars_week: 8
+  stars: 22
+  stars_week: 1.471
 - name: Nielsen Ramon
   themes:
   - Chalk
   themes_count: 1
-  stars: 309
-  stars_week: 104
+  stars: 493
+  stars_week: 23.542
 - name: Hugo Sereno Ferreira
   themes:
   - Papyrus
   themes_count: 1
-  stars: 33
-  stars_week: 10
+  stars: 49
+  stars_week: 2.125
 - name: David Darnes
   themes:
   - Alembic
   - Garth
   themes_count: 2
-  stars: 70
-  stars_week: 29
+  stars: 140
+  stars_week: 5.967
 - name: Siddhant Goel
   themes:
-  - Clean (Siddhant)
+  - Siddhant's Clean
   themes_count: 1
-  stars: 5
-  stars_week: 2
+  stars: 6
+  stars_week: 0.245
 - name: Johan T Katiska
   themes:
   - Kikofri
   themes_count: 1
-  stars: 2
-  stars_week: 0
+  stars: 3
+  stars_week: 0.081
 - name: Chayoung You
   themes:
   - Whiteglass
   themes_count: 1
-  stars: 71
-  stars_week: 57
+  stars: 194
+  stars_week: 14.713
 - name: Mateus Medeiros
   themes:
   - Blade
   themes_count: 1
-  stars: 1
-  stars_week: 0
+  stars: 3
+  stars_week: 0.163
 - name: Lahiru Pathirage
   themes:
   - Materialized
   - Surgeon Tux
   themes_count: 2
-  stars: 7
-  stars_week: 2
+  stars: 11
+  stars_week: 0.5309999999999999
 - name: Viet Anh Nguyen
   themes:
   - Be Nice 17
   themes_count: 1
   stars: 2
-  stars_week: 0
+  stars_week: 0.0
 - name: Zach Holman
   themes:
   - Left
   themes_count: 1
-  stars: 467
-  stars_week: 17
+  stars: 491
+  stars_week: 3.351
 - name: Mike Neumegen
   themes:
   - Cause (Cloud Cannon)
@@ -840,111 +840,115 @@
   - Hydra (Cloud Cannon)
   - Malt (Cloud Cannon)
   themes_count: 4
-  stars: 74
-  stars_week: 40
+  stars: 168
+  stars_week: 10.951
 - name: Ross Phillips
   themes:
   - Edition (Cloud Cannon)
   - Justice (Cloud Cannon)
   themes_count: 2
-  stars: 81
-  stars_week: 46
+  stars: 143
+  stars_week: 8.827
 - name: George Phillips
   themes:
   - Urban (Cloud Cannon)
   themes_count: 1
-  stars: 39
-  stars_week: 20
+  stars: 74
+  stars_week: 4.495
 - name: Jae Hee Lee
   themes:
   - Console
   themes_count: 1
-  stars: 8
-  stars_week: 6
+  stars: 13
+  stars_week: 0.899
 - name: Dyuti Barma
   themes:
   - Monochrome
   themes_count: 1
-  stars: 23
-  stars_week: 0
+  stars: 48
+  stars_week: 3.086
 - name: Stefan Haslinger
   themes:
   - Octopod's Bootflat
   themes_count: 1
   stars: 3
-  stars_week: 0
+  stars_week: 0.0
 - name: Andrew Serong
   themes:
   - "(Museum) Audio Guide"
   themes_count: 1
-  stars: 14
-  stars_week: 0
+  stars: 24
+  stars_week: 1.234
 - name: Ram Patra
   themes:
   - Photography
   themes_count: 1
-  stars: 47
-  stars_week: 0
+  stars: 114
+  stars_week: 8.271
 - name: Paul Le
   themes:
   - Lagrange
   - Millennial
   - Portfolio
   themes_count: 3
-  stars: 63
-  stars_week: 46
+  stars: 207
+  stars_week: 18.784
 - name: Paul Mostowyj
   themes:
   - Paul's Simple
   - Paul's Negative
   themes_count: 2
-  stars: 2
-  stars_week: 0
+  stars: 1
+  stars_week: -0.124
 - name: Yi Zeng
   themes:
   - Simple Texture
   themes_count: 1
-  stars: 2
-  stars_week: 0
+  stars: 64
+  stars_week: 7.654
 - name: Gildásio Júnior
   themes:
   - Darcli (Dark + CLI)
   - Clyell
   themes_count: 2
-  stars: 22
-  stars_week: 0
+  stars: 45
+  stars_week: 2.8390000000000004
 - name: Lorenzo Pirritano
   themes:
   - Cayman Blog
-  themes_count: 1
-  stars: 2
-  stars_week: 0
+  - Simple Blog
+  themes_count: 2
+  stars: 32
+  stars_week: 3.456
 - name: Lingyi Hu
   themes:
   - Sparrow
   themes_count: 1
-  stars: 5
-  stars_week: 0
+  stars: 26
+  stars_week: 2.592
 - name: Kevin Rodríguez
   themes:
   - Wead
   themes_count: 1
-  stars: 11
-  stars_week: 0
+  stars: 14
+  stars_week: 0.37
 - name: Shawn Teoh
   themes:
   - Shawn's Material
   themes_count: 1
-  stars: 2
-  stars_week: 0
+  stars: 23
+  stars_week: 2.592
 - name: Artem Sheludko
   themes:
   - Fresh
   - Monday (Black and White)
   - Mr. Brown Responsive
-  themes_count: 3
-  stars: 13
-  stars_week: 0
+  - Flexible
+  - Adam Blog
+  - BEF (Blog Enjoy Freedom)
+  themes_count: 6
+  stars: 225
+  stars_week: 3.5789999999999997
 - name: Richard Bray
   themes:
   - Green Tea
@@ -954,13 +958,66 @@
   themes:
   - Solar
   themes_count: 1
-  stars: 161
-  stars_week: 8
+  stars: 175
+  stars_week: 1.798
 - name: John Coene
   themes:
   - Marat
   themes_count: 1
+  stars: 11
+  stars_week: 0.0
 - name: Florian Klampfer
   themes:
   - Hydejack
   themes_count: 1
+  stars: 164
+  stars_week: 0.0
+- name: Konstantinos Chorianopoulos
+  themes:
+  - Cover Card
+  themes_count: 1
+  stars: 3
+  stars_week: 0.0
+- name: Chester How
+  themes:
+  - Tale
+  themes_count: 1
+  stars: 171
+  stars_week: 0.0
+- name: Abhishek Nagekar
+  themes:
+  - Wall-E
+  - Elementary
+  themes_count: 2
+  stars: 14
+  stars_week: 0.0
+- name: Bertrand Keller
+  themes:
+  - Overkyll
+  themes_count: 1
+  stars: 29
+  stars_week: 0.0
+- name: Amy Storm Kosman
+  themes:
+  - Conscious Sedation
+  themes_count: 1
+  stars: 5
+  stars_week: 0.0
+- name: Ian W
+  themes:
+  - Massively
+  themes_count: 1
+  stars: 28
+  stars_week: 0.0
+- name: Wow Themes
+  themes:
+  - Mediumish
+  themes_count: 1
+  stars: 6
+  stars_week: 0.0
+- name: H01000110
+  themes:
+  - Windows 95
+  themes_count: 1
+  stars: 38
+  stars_week: 0.0

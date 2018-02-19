@@ -18,13 +18,15 @@
   - TextLog
   - S6 Blank - Slide Show (S9)
   - Roman's Minimalist
-  - Roman's Newsletter (RSS-to-Email)
   - Julia
+  - Hagura
   - Dunders (Double Underscores)
   - Alembic
-  - Clean (Siddhant)
+  - Siddhant's Clean
   - Kikofri
   - Whiteglass
+  - Flexible
+  - Adam Blog
 - name: starter
   themes:
   - Hello, Jekyll!
@@ -38,12 +40,16 @@
   - Lagrange
   - Millennial
   - Portfolio
+  - Overkyll
 - name: minima
   themes:
   - Hello, Minima!
 - name: pages
   themes:
   - Hello, Pages!
+  - Flexible
+  - Adam Blog
+  - BEF (Blog Enjoy Freedom)
 - name: minimal
   themes:
   - Henry's Minimal
@@ -58,8 +64,9 @@
   - Labrador
   - Instagram Portfolio
   - Julia
+  - Hagura
   - Alembic
-  - Clean (Siddhant)
+  - Siddhant's Clean
   - Kikofri
   - Whiteglass
   - Monochrome
@@ -72,11 +79,21 @@
   - Darcli (Dark + CLI)
   - Clyell
   - Cayman Blog
+  - Simple Blog
   - Sparrow
   - Wead
   - Fresh
   - Monday (Black and White)
   - Mr. Brown Responsive
+  - Flexible
+  - Adam Blog
+  - Cover Card
+  - Tale
+  - Elementary
+  - Overkyll
+  - Conscious Sedation
+  - Massively
+  - Mediumish
 - name: bootstrap
   themes:
   - Henry's Bootstrap
@@ -91,6 +108,8 @@
   - Fresh
   - Monday (Black and White)
   - Mr. Brown Responsive
+  - Flexible
+  - Adam Blog
 - name: books
   themes:
   - Henry's Classics Book
@@ -137,6 +156,7 @@
   - Midnight (Pages)
   - Photorama
   - Surgeon Tux
+  - BEF (Blog Enjoy Freedom)
 - name: timeline
   themes:
   - "{ Personal }"
@@ -149,18 +169,31 @@
   - TextLog
   - Smart Material
   - Forty (by HTML5 UP)
+  - Hagura
   - Whiteglass
   - Materialized
   - Monochrome
   - Cayman Blog
+  - Simple Blog
   - Sparrow
   - Wead
   - Shawn's Material
   - Fresh
   - Monday (Black and White)
   - Mr. Brown Responsive
+  - Flexible
+  - Adam Blog
+  - BEF (Blog Enjoy Freedom)
   - Marat
   - Hydejack
+  - Cover Card
+  - Wall-E
+  - Elementary
+  - Overkyll
+  - Conscious Sedation
+  - Massively
+  - Mediumish
+  - Windows 95
 - name: blog
   themes:
   - Basically Basic
@@ -180,13 +213,24 @@
   - Darcli (Dark + CLI)
   - Clyell
   - Cayman Blog
+  - Simple Blog
   - Sparrow
   - Wead
   - Shawn's Material
   - Fresh
   - Monday (Black and White)
   - Mr. Brown Responsive
+  - Flexible
+  - Adam Blog
+  - BEF (Blog Enjoy Freedom)
   - Marat
+  - Wall-E
+  - Elementary
+  - Overkyll
+  - Conscious Sedation
+  - Massively
+  - Mediumish
+  - Windows 95
 - name: portfolio
   themes:
   - Minimal Mistakes
@@ -222,6 +266,7 @@
   - Simple Texture
   - Darcli (Dark + CLI)
   - Clyell
+  - Flexible
 - name: developer
   themes:
   - White Paper
@@ -237,7 +282,7 @@
   - Researcher
   - Julia
   - Alembic
-  - Clean (Siddhant)
+  - Siddhant's Clean
   - Whiteglass
   - Lagrange
   - Millennial
@@ -332,6 +377,7 @@
 - name: multilanguage
   themes:
   - Labrador
+  - Simple Blog
 - name: instagram
   themes:
   - Instagram Portfolio
@@ -380,19 +426,12 @@
 - name: minimalist
   themes:
   - Roman's Minimalist
-  - Roman's Newsletter (RSS-to-Email)
   - Julia
   - Alembic
-  - Clean (Siddhant)
+  - Siddhant's Clean
   - Lagrange
   - Millennial
   - Portfolio
-- name: newsletter
-  themes:
-  - Roman's Newsletter (RSS-to-Email)
-- name: rss-to-email
-  themes:
-  - Roman's Newsletter (RSS-to-Email)
 - name: profile
   themes:
   - Highlights (by HTML5 UP)
@@ -400,6 +439,8 @@
 - name: grid
   themes:
   - Forty (by HTML5 UP)
+  - Wall-E
+  - Mediumish
 - name: tiles
   themes:
   - Forty (by HTML5 UP)
@@ -510,6 +551,20 @@
   - Cayman Blog
   - Sparrow
   - Wead
+  - BEF (Blog Enjoy Freedom)
+- name: seo
+  themes:
+  - Simple Blog
+- name: facebook
+  themes:
+  - Simple Blog
+- name: clear
+  themes:
+  - Flexible
+  - Adam Blog
+- name: travel
+  themes:
+  - BEF (Blog Enjoy Freedom)
 - name: newspaper
   themes:
   - Marat
@@ -531,3 +586,36 @@
 - name: pushstate
   themes:
   - Hydejack
+- name: cover
+  themes:
+  - Cover Card
+- name: card
+  themes:
+  - Cover Card
+- name: social
+  themes:
+  - Cover Card
+- name: magazine
+  themes:
+  - Wall-E
+  - Mediumish
+- name: semantic-ui
+  themes:
+  - Wall-E
+- name: mobile
+  themes:
+  - Wall-E
+  - Elementary
+  - Massively
+- name: lightweight
+  themes:
+  - Elementary
+- name: tags
+  themes:
+  - Conscious Sedation
+- name: categories
+  themes:
+  - Conscious Sedation
+- name: vintage
+  themes:
+  - Windows 95

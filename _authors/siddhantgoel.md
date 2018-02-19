@@ -1,5 +1,5 @@
 ---
 name: Siddhant Goel
 themes:
-- Clean (Siddhant)
+- Siddhant's Clean
 ---
