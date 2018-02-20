@@ -3,21 +3,15 @@
 
 title: "Dr. Jekyll's Themes"
 
-## note:
-#  use site.path in your templates to make it work for both protocols e.g. http and https
-#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
-#    note: for root path use empty string e.g. '' - do NOT include trailing slash e.g. /
-path:    ''
-baseurl: ''
-url:   "http://drjekyllthemes.github.io"
 
 
 defaults:
-  - scope:
-      path: ""
-      type: authors
-    values:
-      layout: author
+- scope:
+    path: ""
+    type: authors
+  values:
+    layout: author
+
 
 
 ### use /~geraldb  /~mmistakes etc. for author profile pages (e.g. start with tilde (~))
