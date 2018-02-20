@@ -38,13 +38,10 @@ kramdown:
   hard_wrap: false
 
 sass:
-  sass_dir: css
   style:    expanded
 
-## plugins:
-## - jekyll-avatar
 
-gems:
+plugins:
 - jekyll-avatar
 
 
