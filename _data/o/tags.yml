@@ -61,6 +61,7 @@
   - Safarnama
   - Thinkspace
   - TextLog
+  - Urban
   - Labrador
   - Instagram Portfolio
   - Julia
@@ -278,6 +279,7 @@
   - Decent
   - Thinkspace
   - TextLog
+  - Urban
   - Instagram Portfolio
   - Researcher
   - Julia
@@ -369,6 +371,10 @@
 - name: photo
   themes:
   - Decent
+- name: gallery
+  themes:
+  - Urban
+  - Photography
 - name: single-page
   themes:
   - Labrador
@@ -535,9 +541,6 @@
   themes:
   - Photography
 - name: pictures
-  themes:
-  - Photography
-- name: gallery
   themes:
   - Photography
 - name: publication
