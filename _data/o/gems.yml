@@ -11,11 +11,6 @@
     - github
     home_url: https://github.com/jekyll/minima
     download_url: https://github.com/jekyll/minima/archive/master.zip
-    created: 2016-05-20 23:07:56.000000000 Z
-    updated: 2018-02-14 04:24:18.000000000 Z
-    commit_msg: 'Update history to reflect merge of #199 [ci skip] by jekyllbot'
-    stars: 724
-    stars_week: 35.885
 - name: jekyll-theme-architect
   theme:
     name: Architect (Pages)
@@ -30,14 +25,6 @@
     - github
     home_url: https://github.com/pages-themes/architect
     download_url: https://github.com/pages-themes/architect/archive/master.zip
-    created: 2016-10-06 22:55:49.000000000 Z
-    updated: 2018-02-05 17:02:35.000000000 Z
-    commit_msg: |-
-      Merge pull request #17 from olestourko/fix-profile-url
-
-      Swapped github user page link to correct URL variable by GitHub
-    stars: 56
-    stars_week: 3.841
 - name: jekyll-theme-cayman
   theme:
     name: Cayman (Pages)
@@ -52,11 +39,6 @@
     - github
     home_url: https://github.com/pages-themes/cayman
     download_url: https://github.com/pages-themes/cayman/archive/master.zip
-    created: 2016-09-20 21:36:46.000000000 Z
-    updated: 2018-01-03 16:49:24.000000000 Z
-    commit_msg: Update README.md by Ben Balter
-    stars: 237
-    stars_week: 17.084
 - name: jekyll-theme-tactile
   theme:
     name: Tactile (Pages)
@@ -71,14 +53,6 @@
     - github
     home_url: https://github.com/pages-themes/tactile
     download_url: https://github.com/pages-themes/tactile/archive/master.zip
-    created: 2016-10-06 23:11:46.000000000 Z
-    updated: 2018-02-14 17:39:52.000000000 Z
-    commit_msg: |-
-      Merge pull request #8 from utdrmac/patch-2
-
-      Add option to hide view on github by GitHub
-    stars: 16
-    stars_week: 1.062
 - name: jekyll-theme-dinky
   theme:
     name: Dinky (Pages)
@@ -93,11 +67,6 @@
     - github
     home_url: https://github.com/pages-themes/dinky
     download_url: https://github.com/pages-themes/dinky/archive/master.zip
-    created: 2016-10-06 23:00:23.000000000 Z
-    updated: 2018-01-03 16:49:35.000000000 Z
-    commit_msg: Update README.md by Ben Balter
-    stars: 23
-    stars_week: 1.389
 - name: jekyll-theme-hacker
   theme:
     name: Hacker (Pages)
@@ -113,14 +82,6 @@
     - black
     home_url: https://github.com/pages-themes/hacker
     download_url: https://github.com/pages-themes/hacker/archive/master.zip
-    created: 2016-10-06 23:02:10.000000000 Z
-    updated: 2018-02-13 15:02:38.000000000 Z
-    commit_msg: |-
-      Merge pull request #22 from JAORMX/increase-width
-
-      Increase overall width to max 1000px by GitHub
-    stars: 98
-    stars_week: 7.029
 - name: jekyll-theme-slate
   theme:
     name: Slate (Pages)
@@ -135,11 +96,6 @@
     - github
     home_url: https://github.com/pages-themes/slate
     download_url: https://github.com/pages-themes/slate/archive/master.zip
-    created: 2016-10-06 23:10:40.000000000 Z
-    updated: 2018-01-03 16:49:19.000000000 Z
-    commit_msg: Update README.md by Ben Balter
-    stars: 64
-    stars_week: 4.577
 - name: jekyll-theme-merlot
   theme:
     name: Merlot (Pages)
@@ -154,11 +110,6 @@
     - github
     home_url: https://github.com/pages-themes/merlot
     download_url: https://github.com/pages-themes/merlot/archive/master.zip
-    created: 2016-10-06 23:04:26.000000000 Z
-    updated: 2018-01-03 16:49:32.000000000 Z
-    commit_msg: Update README.md by Ben Balter
-    stars: 18
-    stars_week: 1.226
 - name: jekyll-theme-midnight
   theme:
     name: Midnight (Pages)
@@ -174,11 +125,6 @@
     - black
     home_url: https://github.com/pages-themes/midnight
     download_url: https://github.com/pages-themes/midnight/archive/master.zip
-    created: 2016-10-06 23:04:54.000000000 Z
-    updated: 2018-01-03 16:49:08.000000000 Z
-    commit_msg: Update README.md by Ben Balter
-    stars: 54
-    stars_week: 3.596
 - name: jekyll-theme-leap-day
   theme:
     name: Leap Day (Pages)
@@ -193,14 +139,6 @@
     - github
     home_url: https://github.com/pages-themes/leap-day
     download_url: https://github.com/pages-themes/leap-day/archive/master.zip
-    created: 2016-10-06 23:02:49.000000000 Z
-    updated: 2018-01-22 15:19:55.000000000 Z
-    commit_msg: |-
-      Merge pull request #13 from JoeBiellik/jquery
-
-      Update jQuery to latest version by GitHub
-    stars: 24
-    stars_week: 1.716
 - name: jekyll-theme-minimal
   theme:
     name: Minimal (Pages)
@@ -215,14 +153,6 @@
     - github
     home_url: https://github.com/pages-themes/minimal
     download_url: https://github.com/pages-themes/minimal/archive/master.zip
-    created: 2016-10-06 23:07:49.000000000 Z
-    updated: 2018-01-02 15:44:47.000000000 Z
-    commit_msg: |-
-      Merge pull request #26 from Jmuccigr/patch-1
-
-      Create post.html by GitHub
-    stars: 169
-    stars_week: 11.28
 - name: jekyll-theme-modernist
   theme:
     name: Modernist (Pages)
@@ -237,11 +167,6 @@
     - github
     home_url: https://github.com/pages-themes/modernist
     download_url: https://github.com/pages-themes/modernist/archive/master.zip
-    created: 2016-10-06 23:08:28.000000000 Z
-    updated: 2018-01-03 16:49:21.000000000 Z
-    commit_msg: Update README.md by Ben Balter
-    stars: 19
-    stars_week: 1.389
 - name: jekyll-theme-time-machine
   theme:
     name: Time Machine (Pages)
@@ -256,11 +181,6 @@
     - github
     home_url: https://github.com/pages-themes/time-machine
     download_url: https://github.com/pages-themes/time-machine/archive/master.zip
-    created: 2016-10-06 23:12:17.000000000 Z
-    updated: 2018-01-03 16:49:14.000000000 Z
-    commit_msg: Update README.md by Ben Balter
-    stars: 11
-    stars_week: 0.817
 - name: jekyll-theme-basically-basic
   theme:
     name: Basically Basic
@@ -277,11 +197,6 @@
     - resume
     home_url: https://github.com/mmistakes/jekyll-theme-basically-basic
     download_url: https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip
-    created: 2017-03-07 21:08:01.000000000 Z
-    updated: 2018-02-16 20:07:48.000000000 Z
-    commit_msg: 'Release 1.3.1 :gem: by Michael Rose'
-    stars: 160
-    stars_week: 12.345
 - name: minimal-mistakes-jekyll
   theme:
     name: Minimal Mistakes
@@ -299,14 +214,6 @@
     - archive-pages
     home_url: https://github.com/mmistakes/minimal-mistakes
     download_url: https://github.com/mmistakes/minimal-mistakes/archive/master.zip
-    created: 2013-05-24 14:13:30.000000000 Z
-    updated: 2018-02-16 20:19:01.000000000 Z
-    commit_msg: |-
-      Update jQuery to v`3.3.1`
-
-      Close #1491 by Michael Rose
-    stars: 3120
-    stars_week: 116.811
 - name: alembic-jekyll-theme
   theme:
     name: Alembic
@@ -324,11 +231,6 @@
     - starter
     home_url: https://github.com/daviddarnes/alembic
     download_url: https://github.com/daviddarnes/alembic/archive/master.zip
-    created: 2016-08-27 15:50:21.000000000 Z
-    updated: 2018-02-14 00:05:55.000000000 Z
-    commit_msg: Version bump 3.0.1 by David Darnes
-    stars: 114
-    stars_week: 5.967
 - name: garth-jekyll-theme
   theme:
     name: Garth
@@ -341,11 +243,6 @@
     tags: []
     home_url: https://github.com/daviddarnes/garth
     download_url: https://github.com/daviddarnes/garth/archive/master.zip
-    created: 2016-06-12 23:30:34.000000000 Z
-    updated: 2018-01-18 22:54:32.000000000 Z
-    commit_msg: Version bump 1.0.2 by David Darnes
-    stars: 26
-    stars_week: 0.0
 - name: jekyll-bootflat
   theme:
     name: Octopod's Bootflat
@@ -360,11 +257,6 @@
     - fontawesome
     home_url: https://github.com/jekyll-octopod/jekyll-bootflat
     download_url: https://github.com/jekyll-octopod/jekyll-bootflat/archive/master.zip
-    created: 2016-12-07 08:51:38.000000000 Z
-    updated: 2017-01-14 21:58:54.000000000 Z
-    commit_msg: version bump by Stefan Haslinger
-    stars: 3
-    stars_week: 0.0
 - name: jekyll-theme-simple-texture
   theme:
     name: Simple Texture
@@ -382,14 +274,6 @@
     - texture
     home_url: https://github.com/yizeng/jekyll-theme-simple-texture
     download_url: https://github.com/yizeng/jekyll-theme-simple-texture/archive/master.zip
-    created: 2017-05-27 10:52:29.000000000 Z
-    updated: 2017-09-29 21:30:37.000000000 Z
-    commit_msg: |-
-      Merge pull request #13 from yizeng/hotfix/#12/fix-disqus-protocols
-
-      Fix Disqus scripts protocols by GitHub
-    stars: 64
-    stars_week: 7.654
 - name: jekyll-theme-cayman-blog
   theme:
     name: Cayman Blog
@@ -406,11 +290,6 @@
     - minimal
     home_url: https://github.com/lorepirri/cayman-blog
     download_url: https://github.com/lorepirri/cayman-blog/archive/master.zip
-    created: 2017-04-28 21:55:31.000000000 Z
-    updated: 2017-08-04 11:14:03.000000000 Z
-    commit_msg: change baseurl to cayma-blog and url to github by lorepirri
-    stars: 30
-    stars_week: 3.456
 - name: sparrow-jekyll-theme
   theme:
     name: Sparrow
@@ -427,11 +306,6 @@
     - minimal
     home_url: https://github.com/lingxz/sparrow
     download_url: https://github.com/lingxz/sparrow/archive/master.zip
-    created: 2017-04-11 12:48:40.000000000 Z
-    updated: 2017-08-09 21:41:53.000000000 Z
-    commit_msg: minor changes by lingxz
-    stars: 26
-    stars_week: 2.592
 - name: jekyll-theme-hydejack
   theme:
     name: Hydejack
@@ -452,14 +326,6 @@
     - pushstate
     home_url: https://github.com/qwtel/hydejack
     download_url: https://github.com/qwtel/hydejack/archive/master.zip
-    created: 2016-02-26 12:45:54.000000000 Z
-    updated: 2018-01-05 09:06:16.000000000 Z
-    commit_msg: |-
-      Merge pull request #58 from imswebra/patch-1
-
-      Spelling fix in "Using the blog layout in a subdirectory" by GitHub
-    stars: 164
-    stars_week: 0.0
 - name: cover-card
   theme:
     name: Cover Card
@@ -478,11 +344,6 @@
     - social
     home_url: https://github.com/epidrome/cover-card
     download_url: https://github.com/epidrome/cover-card/archive/gh-pages.zip
-    created: 2018-01-20 20:32:52.000000000 Z
-    updated: 2018-02-09 16:23:31.000000000 Z
-    commit_msg: updated by epidrome
-    stars: 3
-    stars_week: 0.0
 - name: overkyll-jekyll-theme
   theme:
     name: Overkyll
@@ -499,11 +360,6 @@
     - blog
     home_url: https://github.com/bertrandkeller/overkyll-jekyll-theme
     download_url: https://github.com/bertrandkeller/overkyll-jekyll-theme/archive/master.zip
-    created: 2016-09-22 14:16:54.000000000 Z
-    updated: 2017-10-19 12:53:18.000000000 Z
-    commit_msg: "(fix) nav scroll by bk"
-    stars: 29
-    stars_week: 0.0
 - name: jekyll-theme-conscious-sedation
   theme:
     name: Conscious Sedation
@@ -521,11 +377,3 @@
     - minimal
     home_url: https://github.com/LavenderGrey/jekyll-theme-conscious-sedation
     download_url: https://github.com/LavenderGrey/jekyll-theme-conscious-sedation/archive/master.zip
-    created: 2017-07-09 09:58:53.000000000 Z
-    updated: 2017-07-09 21:47:36.000000000 Z
-    commit_msg: |-
-      Update README.md
-
-      Add demo by GitHub
-    stars: 5
-    stars_week: 0.0
